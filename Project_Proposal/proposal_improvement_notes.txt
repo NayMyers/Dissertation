@@ -1,0 +1,5 @@
+* What does "have a working REST API mean"
+* Provide the application to end users.
+	- What questions to ask,
+		- Look at standard usability questions (SUS)
+* Triple number of risks & break down more formally (likelehood, impact etc ) (For the dissertation)
