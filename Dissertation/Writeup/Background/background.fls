@@ -1,0 +1,6 @@
+PWD C:/Users/Ryan-Syme/Documents/Final_Year/Individual_Project/Dissertation/Writeup/Background
+INPUT g:/LaTeX/texlive/2020/texmf.cnf
+INPUT g:/LaTeX/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT g:/LaTeX/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT background.tex
+OUTPUT background.log

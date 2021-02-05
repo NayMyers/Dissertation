@@ -1,0 +1,55 @@
+% Title page
+\begin{titlepage}
+    \newgeometry{width=165mm, top=20mm, bottom=30mm, bindingoffset=0mm}
+    \thisfancypage{%
+        \setlength{\fboxrule}{5pt}
+        \fbox}{}
+    \includegraphics[width=0.25\textwidth]{Images/unilogo}\par\vspace{0.25cm}
+    \centering
+	{\huge \uppercase{Faculty of Science \& Technology} \par}
+	\vspace{3cm}
+	%TODO: UPDATE YOUR DEGREE TITLE
+    {\huge BSc (Hons) [Degree Title] \par}
+    %TODO: UPDATE Month and Year
+    {\huge [Month Year] \par}
+    \vspace{3cm}
+    %TODO: UPDATE YOUR Project Title
+    {\huge [Project Title] \par}
+    \vspace{1.5cm}
+    {\huge by \par}
+    \vspace{1.5cm}
+    %TODO: UPDATE YOUR NAME
+    {\huge [Author Name] \par}
+    \thispagestyle{fancy}
+    \fancyfoot[C]{Bournemouth University, Department of Computing and Informatics, Final Year Project}
+    \renewcommand{\headrule}{}
+
+\end{titlepage}
+\restoregeometry
+
+\newpage
+
+\pagenumbering{roman}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{Bournemouth University, Department of Computing and Informatics, Final Year Project}
+\renewcommand{\headrule}{}
+
+
+
+\newpage
+\vspace*{\fill}
+\begingroup
+\centering
+{\Large
+Faculty of Science \& Technology
+
+Department of Computing and Informatics
+
+Final Year Project
+
+}
+\endgroup
+\vspace*{\fill}
+\newpage
