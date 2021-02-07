@@ -1,0 +1,6 @@
+PWD C:/Users/Ryan-Syme/Documents/Final_Year/Final_Year_Project/Individual_Project/Dissertation/Writeup/Results_Discussion
+INPUT g:/LaTeX/texlive/2020/texmf.cnf
+INPUT g:/LaTeX/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT g:/LaTeX/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT results.tex
+OUTPUT results.log

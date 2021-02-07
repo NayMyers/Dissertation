@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  5 FEB 2021 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  7 FEB 2021 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -628,7 +628,7 @@ LaTeX Info: Redefining \nameref on input line 42.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Images/unilogo.jpg, id=31, 602.25pt x 620.3175pt>
+<Images/unilogo.jpg, id=135, 602.25pt x 620.3175pt>
 File: Images/unilogo.jpg Graphic file (type jpg)
 <use Images/unilogo.jpg>
 Package pdftex.def Info: Images/unilogo.jpg  used on input line 7.
@@ -646,64 +646,87 @@ Package pdftex.def Info: Images/unilogo.jpg  used on input line 7.
 
 ]) [6
 
-] (./dissertation.toc)
+] (./dissertation.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+ [7
+
+])
 \tf@toc=\write6
 \openout6 = `dissertation.toc'.
 
- [7
-
-] (./dissertation.lof)
+ [8] (./dissertation.lof)
 \tf@lof=\write7
 \openout7 = `dissertation.lof'.
 
- [8
+ [9
 
 ] (./dissertation.lot)
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
 
- [9
+ [10
 
 ] (./Background/background.tex
 Chapter 1.
-) (./dissertation.bblpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+) (./Introduction/introduction.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \begin{thebibliography}{0}
-                               [1
+l.1 \chapter
+            {Introduction} [1
 
+
+]
+Chapter 2.
+) (./Methodology/methodology.tex [2
+
+]
+Chapter 3.
+) (./Results_Discussion/results.tex [3
+
+] [4]
+Chapter 4.
+) (./Conclusion/conclusion.tex [5
+
+]
+Chapter 5.
+) (./dissertation.bbl [6
 
 ]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
-) (./Appendix/appendix.tex [2
+) (./Appendix/appendix.tex [7
 
 ]
 Appendix A.
-[3
+[8
 
 ]
 Appendix B.
-) [4
+) [9
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: E0B6D7018FF00811F44A2BF00684ECA6;315.
+(rerunfilecheck)             Checksum: 66DBE3B1B4C986BFB64A662C640E79C1;1945.
  ) 
 Here is how much of TeX's memory you used:
- 18519 strings out of 479303
- 344853 string characters out of 5868250
- 649241 words of memory out of 5000000
- 35284 multiletter control sequences out of 15000+600000
- 415184 words of font info for 42 fonts, out of 8000000 for 9000
+ 18623 strings out of 479303
+ 346253 string characters out of 5868250
+ 653373 words of memory out of 5000000
+ 35333 multiletter control sequences out of 15000+600000
+ 417791 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,8n,88p,1201b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
-{g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dissertation.pdf (14 pages, 78694 bytes).
+{g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on dissertation.pdf (20 pages, 98360 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
