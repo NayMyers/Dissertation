@@ -2,7 +2,7 @@
 \label{methodology}
 
 \section{Project management methodology}
-I will use an iterative, evolutionary method. This will involve:
+I will use a cyclical, evolutionary method. This will involve:
 \begin{itemize}
   \item Requirements elicitation.
   \begin{itemize}
@@ -10,7 +10,7 @@ I will use an iterative, evolutionary method. This will involve:
   \end{itemize}
   \item Feature design (UI).
   \begin{itemize}
-    \item Features will be designed at first using wireframe models. Then on later iterations, colour and shading will be added alongside further considerations usability such as highlight on hover etc.
+    \item Features will be designed at first using wireframe models. Then on later iterations, colour and shading will be added alongside further usability considerations such as highlight on hover etc.
   \end{itemize}
   \item Feature implementation research.
   \begin{itemize}
@@ -29,7 +29,23 @@ I will use an iterative, evolutionary method. This will involve:
     \item Does the feature meet the requirements and fulfill the needs of the user?
   \end{itemize}
 \end{itemize}
-\includegraphics{Images/Project_Management_Methodology}
+This workflow will consist of a single cyclical workflow, with two nested "sub workflows" whereby upon completion of a step, it is sometimes nececarry to loop back on oneself to perform futher refinement. As illustrated by the diagram below.
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.75]{Images/Project_Management_Methodology}
+    \caption{Development Lifecycle}
+    \label{fig:development lifecycle}
+  \end{center}
+\end{figure}
+Throughout the project the focus of the workflow will shift as illustrated by the diagram below.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.4]{Images/ProjectFocus2}
+    \caption{Project Focus Over Time}
+    \label{fig:project focus}
+  \end{center}
+\end{figure}
 \section{Evaluation Design}
  (what method(s), used how, with what and how many participants?)
 
@@ -37,7 +53,7 @@ I will use an iterative, evolutionary method. This will involve:
   How will requirements of the software be determined.
 
 \section{Feature management}
-  e.g., kanban boards
+  To track the creation and completion of features, a Kanban board will be used. This will include columns for 'To do', 'Doing' and 'Done'.
 
 \section{Design Methods}
    (e.g., wireframes, DFDs, use case diagrams, class diagrams, sequence diagrams, ERDs, etc)
@@ -45,7 +61,14 @@ I will use an iterative, evolutionary method. This will involve:
 \section{Testing methods}
 
 \section{Version control}
-  I will be using git and github
+  I will be using Git and Github. This will allow the creation of branches to explore experimental parts of the soloution space without disrupting the progress of the main branch. If the experimental implementation is successfull it will be merged with the main branch. It also allows the development of features in paralel, with any conflicts in their implementation being resolved at the merge stage. The inclusion of a remote repository allows for work to continue on a seperate machine if nececarry and later be synced with the local main branch.
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.7]{Images/Git_Workflow_Diagram}
+      \caption{Example Workflow To Highlight Branch Usage}
+      \label{fig:Git Workflow}
+    \end{center}
+  \end{figure}
 
 \section{Evaluation methods}
   e.g. SUS (system usability scale)

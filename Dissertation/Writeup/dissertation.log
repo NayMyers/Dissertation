@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  7 FEB 2021 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  8 FEB 2021 15:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,66 +478,73 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip69
+) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count304
+\float@exts=\toks39
+\float@box=\box67
+\@float@everytoks=\toks40
+\@floatcapt=\box68
 ) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
  (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
+\etb@tempcnta=\count305
 )) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 ) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box67
+\ttl@box=\box69
 \beforetitleunit=\skip70
 \aftertitleunit=\skip71
 \ttl@plus=\dimen270
 \ttl@minus=\dimen271
-\ttl@toksa=\toks39
+\ttl@toksa=\toks41
 \titlewidth=\dimen272
 \titlewidthlast=\dimen273
 \titlewidthfirst=\dimen274
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 42.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 43.
  (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
-\l__pdf_internal_box=\box68
+\l__color_backend_stack_int=\count306
+\l__pdf_internal_box=\box70
 ) (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (g:/LaTeX/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
+\scratchcounter=\count307
 \scratchdimen=\dimen275
-\scratchbox=\box69
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count309
+\scratchbox=\box71
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count310
 \MPscratchDim=\dimen276
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks43
 ) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -578,7 +585,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 43.
 (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -586,11 +593,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (g:/LaTeX/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
  (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write5
 \openout5 = `dissertation.out'.
@@ -690,52 +697,75 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7.
 (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-<Images/Project_Management_Methodology.png, id=230, 391.2216pt x 401.5803pt>
+<Images/Project_Management_Methodology.png, id=236, 391.2216pt x 401.5803pt>
 File: Images/Project_Management_Methodology.png Graphic file (type png)
 <use Images/Project_Management_Methodology.png>
-Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 32.
-(pdftex.def)             Requested size: 391.22064pt x 401.57932pt.
+Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 35.
+(pdftex.def)             Requested size: 293.41548pt x 301.18448pt.
+<Images/ProjectFocus2.png, id=237, 947.03813pt x 526.96875pt>
+File: Images/ProjectFocus2.png Graphic file (type png)
+<use Images/ProjectFocus2.png>
+Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
+(pdftex.def)             Requested size: 378.80853pt x 210.78375pt.
  [3
 
-] [4 <./Images/Project_Management_Methodology.png>]) (./Results_Discussion/results.tex [5]
+] [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.52 \section{Requirements Elicitation}
+                                       pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.52 \section{Requirements Elicitation}
+                                        <./Images/Project_Management_Methodology.png> <./Images/ProjectFocus2.png>]
+<Images/Git_Workflow_Diagram.png, id=249, 661.7523pt x 250.7769pt>
+File: Images/Git_Workflow_Diagram.png Graphic file (type png)
+<use Images/Git_Workflow_Diagram.png>
+Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 67.
+(pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.76 \section{Requirements}
+                            <./Images/Git_Workflow_Diagram.png>]) (./Results_Discussion/results.tex [6]
 Chapter 4.
-) (./Conclusion/conclusion.tex [6
+) (./Conclusion/conclusion.tex [7
 
 ]
 Chapter 5.
-) (./dissertation.bbl [7
+) (./dissertation.bbl [8
 
 ]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
-) (./Appendix/appendix.tex [8
+) (./Appendix/appendix.tex [9
 
 ]
 Appendix A.
-[9
+[10
 
 ]
 Appendix B.
-) [10
+) [11
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 66DBE3B1B4C986BFB64A662C640E79C1;1945.
  ) 
 Here is how much of TeX's memory you used:
- 18664 strings out of 479303
- 347047 string characters out of 5868250
- 653373 words of memory out of 5000000
- 35368 multiletter control sequences out of 15000+600000
+ 18744 strings out of 479303
+ 348376 string characters out of 5868250
+ 654983 words of memory out of 5000000
+ 35438 multiletter control sequences out of 15000+600000
  418104 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,8n,88p,1201b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dissertation.pdf (21 pages, 144028 bytes).
+Output written on dissertation.pdf (22 pages, 254769 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
