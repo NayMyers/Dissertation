@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  8 FEB 2021 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  9 FEB 2021 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,16 +718,20 @@ l.52 \section{Requirements Elicitation}
                                                   
 l.52 \section{Requirements Elicitation}
                                         <./Images/Project_Management_Methodology.png> <./Images/ProjectFocus2.png>]
+Overfull \hbox (31.49939pt too wide) in paragraph at lines 69--70
+\OT1/phv/m/n/10.95 be re-fined with the help of ex-ist-ing us-abil-ity re-search, to guide the us-age of font/colour/highlight
+ []
+
 <Images/Git_Workflow_Diagram.png, id=249, 661.7523pt x 250.7769pt>
 File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
-Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 67.
+Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 84.
 (pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
- [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+[5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.87     \item F
-                1 score. This metric tries to find the balance between preci... <./Images/Git_Workflow_Diagram.png>]) (./Results_Discussion/results.tex [7]
+l.102     \item R
+                 ecall. Is the correct number of predictions for a class out... <./Images/Git_Workflow_Diagram.png>]) (./Results_Discussion/results.tex [7]
 Chapter 4.
 ) (./Conclusion/conclusion.tex [8
 
@@ -751,7 +755,7 @@ Appendix B.
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 66DBE3B1B4C986BFB64A662C640E79C1;1945.
+(rerunfilecheck)             Checksum: 1D057482DFBAA5C09BC20D5BD0E10B5D;1946.
  ) 
 Here is how much of TeX's memory you used:
  18745 strings out of 479303
@@ -762,7 +766,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,8n,88p,1201b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dissertation.pdf (23 pages, 316877 bytes).
+Output written on dissertation.pdf (23 pages, 317713 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  298 compressed objects within 3 object streams
