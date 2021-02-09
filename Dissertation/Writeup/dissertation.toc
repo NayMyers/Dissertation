@@ -19,14 +19,14 @@
 \contentsline {section}{\numberline {3.6}Testing methods}{5}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Version control}{5}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Evaluation methods}{6}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Requirements}{6}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Desing and Implementation details}{6}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Justification of Implementation Choices}{6}{section.3.11}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{7}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{8}{section.5.1}%
-\contentsline {chapter}{bibliography}{9}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{10}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{11}{appendix.a.B}%
+\contentsline {section}{\numberline {3.9}Requirements}{7}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Desing and Implementation details}{7}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Justification of Implementation Choices}{7}{section.3.11}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{8}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section One}{9}{section.5.1}%
+\contentsline {chapter}{bibliography}{10}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{11}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{12}{appendix.a.B}%

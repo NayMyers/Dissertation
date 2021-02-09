@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  8 FEB 2021 15:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  8 FEB 2021 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -723,49 +723,49 @@ File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
 Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 67.
 (pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+ [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.76 \section{Requirements}
-                            <./Images/Git_Workflow_Diagram.png>]) (./Results_Discussion/results.tex [6]
+l.87     \item F
+                1 score. This metric tries to find the balance between preci... <./Images/Git_Workflow_Diagram.png>]) (./Results_Discussion/results.tex [7]
 Chapter 4.
-) (./Conclusion/conclusion.tex [7
+) (./Conclusion/conclusion.tex [8
 
 ]
 Chapter 5.
-) (./dissertation.bbl [8
+) (./dissertation.bbl [9
 
 ]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 6.
 
-) (./Appendix/appendix.tex [9
+) (./Appendix/appendix.tex [10
 
 ]
 Appendix A.
-[10
+[11
 
 ]
 Appendix B.
-) [11
+) [12
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 66DBE3B1B4C986BFB64A662C640E79C1;1945.
  ) 
 Here is how much of TeX's memory you used:
- 18744 strings out of 479303
- 348376 string characters out of 5868250
+ 18745 strings out of 479303
+ 348383 string characters out of 5868250
  654983 words of memory out of 5000000
  35438 multiletter control sequences out of 15000+600000
  418104 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,8n,88p,1201b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
-{g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dissertation.pdf (22 pages, 254769 bytes).
+{g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on dissertation.pdf (23 pages, 316877 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
  289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
