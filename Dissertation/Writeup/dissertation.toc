@@ -20,14 +20,15 @@
 \contentsline {section}{\numberline {3.7}Version control}{8}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Evaluation methods}{8}{section.3.8}%
 \contentsline {section}{\numberline {3.9}Initial Designs}{9}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Requirements}{10}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Testing and Implementation details}{11}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Justification of Implementation Choices}{11}{section.3.12}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{12}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{13}{section.5.1}%
-\contentsline {chapter}{bibliography}{14}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{15}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{16}{appendix.a.B}%
+\contentsline {section}{\numberline {3.10}Employed Technologies}{11}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Requirements}{12}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Testing and Implementation details}{12}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{12}{section.3.13}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{13}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section One}{14}{section.5.1}%
+\contentsline {chapter}{bibliography}{15}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{16}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{17}{appendix.a.B}%
