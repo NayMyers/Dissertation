@@ -1,0 +1,18 @@
+* Must Have
+  - Ability for user to upload an image
+  - CNN that is capable of classifying at least 2 different defects
+    across 2 different plant species.
+  - An API that allows communication from the UI to the CNN
+  - API must be able to receive images.
+  - API must return defect information.
+  - API must return recourse information.
+  - API must return relevant images to the detected defect.
+* Should Have
+  - A page to allow users to see a gallery of images sorted by
+    defect type.
+  - A page to allow users to see a gallery of images sorted by
+    crop type.
+* Could Have
+  - Ability for users to add additional information about the crop
+    to determine the defect.
+* Won't Have

@@ -1,0 +1,99 @@
+{
+  "class": "Survey",
+  "id": 708608,
+  "internal_title": "What's_Wrong_With_My_Crop",
+  "l10n": "en_GB",
+  "runs": [
+    {
+      "class": "SurveyRun",
+      "alert_frequency": 0,
+      "alert_last_update": 0,
+      "contact_message": "<p>For questions relating to this survey, <b>please contact</b> [CONTACT-PERSON]</p>",
+      "discourage_search_engines": true,
+      "expected_responses": 100,
+      "external_title": "What's_Wrong_With_My_Crop",
+      "id": 708599,
+      "login_message": "Please sign in below using the credentials supplied to you",
+      "notification_invite_body": "Dear [EMAIL]\nAn online survey has been created for you to complete.\n\n[CUSTOM_URL]\n\n- Online surveys Team",
+      "notification_invite_subject": "You have been sent a survey to complete",
+      "notification_reminder_body": "Dear [EMAIL]\nWe have not yet detected your response to our survey.\n\n[CUSTOM_URL]\n\n- Online surveys Team",
+      "notification_reminder_subject": "Survey completion reminder",
+      "permit_back_forth": true,
+      "permit_finish_later": false,
+      "permit_response_printout": false,
+      "short_name": "whats_wrong_with_my_crop",
+      "show_completion_receipt": false,
+      "show_numbering": true,
+      "show_progress": true,
+      "timezone": 346
+    }
+  ],
+  "top_container": {
+    "class": "Container",
+    "data_question_visibility": "show",
+    "id": 55673431,
+    "label": "b55673431",
+    "mandatory": "False",
+    "children": [
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 55673463,
+        "label": "b55673463",
+        "mandatory": "False",
+        "title": "Privacy Notice",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 55673880,
+            "label": "b55673880",
+            "mandatory": "False",
+            "text": "<p>This survey will not require the collection of any personal data.\u00a0<br>\nFor this reason, once the questionaire has been submitted, answers cannot be withdrawn. As the answers will not be linked with a participant and will be treated as part of an aggregate.\u00a0</p>"
+          },
+          {
+            "class": "MultipleChoice",
+            "data_question_visibility": "show",
+            "displayLegend": false,
+            "displayOptionality": false,
+            "has_logic": false,
+            "has_other": false,
+            "id": 55673959,
+            "label": "b55673959",
+            "layout": "down",
+            "mandatory": "False",
+            "text": "<sup>I understand the above and wish to proceed.</sup>",
+            "q_no": "1",
+            "options": [
+              {
+                "class": "SelectionOption",
+                "id": 135782103,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "YES",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 55673432,
+        "label": "b55673432",
+        "mandatory": "False",
+        "title": "Page 1"
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 55673433,
+        "label": "b55673433",
+        "mandatory": "False",
+        "title": "Final page"
+      }
+    ]
+  }
+}
