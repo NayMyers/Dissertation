@@ -9,7 +9,7 @@ api = Api(app)
 image_upload_args = reqparse.RequestParser()
 image_upload_args.add_argument("imageName", type=str, help="Send Image Name", required=True)
 image_upload_args.add_argument("image", type=werkzeug.datastructures.FileStorage,
-    location='images', help="Send Image", required = True)
+    location='image', help="Send Image")
 
 class HelloWorld(Resource):
     def post(self, name):
@@ -19,8 +19,8 @@ class HelloWorld(Resource):
         return {"data": "Hello World GET " + name}
 
 class Image(Resource):
-    def post(self, image):
-        return{"data": "Image " + image}
+    # def post(self, image):
+    #     return{"data": "Image " + image}
 
     def get(self, image):
         return{"data": "GET TEST SUCCESS " + image}

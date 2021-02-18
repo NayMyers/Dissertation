@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex dissertation"] 1613401723 "dissertation.aux" "dissertation.bbl" "dissertation" 1613585367
+["bibtex dissertation"] 1613401723 "dissertation.aux" "dissertation.bbl" "dissertation" 1613585495
   "./buHarvard.bst" 1612521434 27271 58fa0abb60713c29d6f647b58a36fccc ""
   "bibliography.bib" 1612898701 8993 b1048f5fa3dfd83100e920e61216f484 ""
   "dissertation.aux" 1613401727 7817 c97fd533544c2127a21ba14f5d46052a "pdflatex"
   (generated)
-  "dissertation.blg"
   "dissertation.bbl"
-["pdflatex"] 1613401724 "dissertation.tex" "dissertation.pdf" "dissertation" 1613585367
+  "dissertation.blg"
+["pdflatex"] 1613401724 "dissertation.tex" "dissertation.pdf" "dissertation" 1613585495
   "Abstract/abstract.tex" 1612521569 4282 affdb0b14822582b5904f86a0c2cadd0 ""
   "Appendix/appendix.tex" 1612521500 367 af2be5f2986fe277a18095d8ad33ccc9 ""
   "Background/background.tex" 1612527072 152 b8f90808435f34c2349d279ec0c47f5c ""
@@ -204,10 +204,10 @@
   "g:/LaTeX/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1612446026 2568174 56f78db114a9862539d671e42c9c9ff0 ""
   "g:/LaTeX/texlive/2020/texmf.cnf" 1612445915 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "dissertation.log"
+  "dissertation.lof"
   "dissertation.toc"
   "dissertation.lot"
-  "dissertation.aux"
   "dissertation.pdf"
-  "dissertation.lof"
   "dissertation.out"
+  "dissertation.log"
+  "dissertation.aux"
