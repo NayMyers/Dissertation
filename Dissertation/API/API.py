@@ -19,8 +19,10 @@ class HelloWorld(Resource):
         return {"data": "Hello World GET " + name}
 
 class Image(Resource):
-    # def post(self, image):
-    #     return{"data": "Image " + image}
+    def post(self, image):
+        args = image_upload_args.parse_args()
+        print(args)
+        return{"data": "IMAGE " + args['imageName'] + " UPLOADED"}
 
     def get(self, image):
         return{"data": "GET TEST SUCCESS " + image}
@@ -28,8 +30,6 @@ class Image(Resource):
     def put(self):
         args = image_upload_args.parse_args()
         print(args)
-        # uploaded_image = args['image']
-        # uploaded_image.save(args['imageName'])
         return{"data": "IMAGE " + args['imageName'] + " UPLOADED"}
 
 
