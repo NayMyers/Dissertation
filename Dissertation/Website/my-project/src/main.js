@@ -6,6 +6,7 @@ import Bootstrap from 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import router from './router'
 import { NavbarPlugin } from 'bootstrap-vue'
+// import './styles/style.scss'
 
 Vue.use(NavbarPlugin)
 
