@@ -1,7 +1,8 @@
 <template>
    <div>
      <h1>{{ Homepage }}</h1>
-      <input type="file" name="fileInput" value="Select File" @change="onFileSelected">
+      <input type="file" ref="fileChoose" name="fileInput" value="Select File" @change="onFileSelected" style="display: none">
+      <button @click="$refs.fileChoose.click()"> Choose File </button>
       <div>
         <button @click="onUpload" type="button-basic" name="button">Upload</button>
         <button @click="testAPIRes" type="button" name="button">Test API res</button>
@@ -9,10 +10,7 @@
       <div id="preview">
         <img v-if="imageUrl" :src="imageUrl">
       </div>
-     <!-- <div>
-       <img :src="'../testImages/16Circles.jpg'">
-     </div> -->
-     <!-- TODO:// how to display images. Why isn't the image being sent -->
+     <!-- TODO:// Why isn't the image being sent. Only recieving none at endpoint. -->
    </div>
 </template>
 
@@ -21,21 +19,32 @@
   background-color: var(--cl_background);
   }
 
-  button {
+  /* button {
   background-color: var(--cl_secondary);
   border: 3px solid black;
   color: var(--cl_text);
   padding: 1em 1.5em;
   text-align: center;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.25em;
   display: inline-block;
-  width: 22%; /* to test the test-align property */
+  width: 15%; /* to test the test-align property */
+
+  button{
+  	background:linear-gradient(to bottom, var(--cl_secondary) 5%, #408c99 100%);
+  	background-color:#599bb3;
+  	border-radius:8px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	font-size:20px;
+  	font-weight:bold;
+  	padding:13px 32px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #3d768a;
   }
 
-  file {
-
-  }
 
 #app {
   padding: 20px;
@@ -51,12 +60,6 @@
   max-width: 100%;
   max-height: 500px;
 }
-
-/* #button btn {
-  color: var(--cl_secondary)
-} */
-
-
 </style>
 
 <script>
