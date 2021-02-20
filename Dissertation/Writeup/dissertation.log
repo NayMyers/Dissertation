@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  15 FEB 2021 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  20 FEB 2021 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,32 +708,43 @@ l.1 \chapter
 
 ]
 Chapter 2.
+./Introduction/introduction.tex:9: Misplaced alignment tab character &.
+l.9 ...ectures, namely AlexNet \cite{Krizhevsky} &
+                                                   GoogLeNet. \cite{Szegedy_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 7.
+(Font)              <9> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 15.
-(g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [2
+(Font)              <5> on input line 13.
+[2
 
 ]
-Overfull \hbox (220.1347pt too wide) in paragraph at lines 43--63
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 24.
+ (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Overfull \hbox (220.1347pt too wide) in paragraph at lines 52--72
  [][][] 
  []
 
-) (./Methodology/methodology.tex [3pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
+) (./Methodology/methodology.tex [3] [4pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.1 \chapter
-            {Methodology}] [4]
+            {Methodology}]
 Chapter 3.
-<Images/Project_Management_Methodology.png, id=286, 391.2216pt x 401.5803pt>
+<Images/Project_Management_Methodology.png, id=302, 391.2216pt x 401.5803pt>
 File: Images/Project_Management_Methodology.png Graphic file (type png)
 <use Images/Project_Management_Methodology.png>
 Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 35.
 (pdftex.def)             Requested size: 293.41548pt x 301.18448pt.
-<Images/ProjectFocus2.png, id=287, 947.03813pt x 526.96875pt>
+<Images/ProjectFocus2.png, id=303, 947.03813pt x 526.96875pt>
 File: Images/ProjectFocus2.png Graphic file (type png)
 <use Images/ProjectFocus2.png>
 Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
@@ -753,7 +764,7 @@ Overfull \hbox (31.49939pt too wide) in paragraph at lines 69--70
 \OT1/phv/m/n/10.95 be re-fined with the help of ex-ist-ing us-abil-ity re-search, to guide the us-age of font/colour/highlight
  []
 
-<Images/Git_Workflow_Diagram.png, id=300, 661.7523pt x 250.7769pt>
+<Images/Git_Workflow_Diagram.png, id=316, 661.7523pt x 250.7769pt>
 File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
 Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 84.
@@ -763,17 +774,17 @@ Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 84.
                                                   
 l.102     \item R
                  ecall. Is the correct number of predictions for a class out... <./Images/Git_Workflow_Diagram.png>]
-<Images/Home_Page_Wireframe.png, id=314, 504.9264pt x 381.5856pt>
+<Images/Home_Page_Wireframe.png, id=330, 504.9264pt x 381.5856pt>
 File: Images/Home_Page_Wireframe.png Graphic file (type png)
 <use Images/Home_Page_Wireframe.png>
 Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 110.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/Defect_Information_Wireframe.png, id=315, 504.9264pt x 381.5856pt>
+<Images/Defect_Information_Wireframe.png, id=331, 504.9264pt x 381.5856pt>
 File: Images/Defect_Information_Wireframe.png Graphic file (type png)
 <use Images/Defect_Information_Wireframe.png>
 Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 117.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/System_Overview_v1.png, id=316, 367.1316pt x 307.1475pt>
+<Images/System_Overview_v1.png, id=332, 367.1316pt x 307.1475pt>
 File: Images/System_Overview_v1.png Graphic file (type png)
 <use Images/System_Overview_v1.png>
 Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 124.
@@ -783,12 +794,12 @@ Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 124.
                                                   
 l.128   \end{figure}
                      <./Images/Home_Page_Wireframe.png>]
-<Images/Input_Output_UI.png, id=326, 334.3692pt x 298.2342pt>
+<Images/Input_Output_UI.png, id=342, 334.3692pt x 298.2342pt>
 File: Images/Input_Output_UI.png Graphic file (type png)
 <use Images/Input_Output_UI.png>
 Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 131.
 (pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
-<Images/Data_Augmentation.png, id=327, 379.4175pt x 244.0317pt>
+<Images/Data_Augmentation.png, id=343, 379.4175pt x 244.0317pt>
 File: Images/Data_Augmentation.png Graphic file (type png)
 <use Images/Data_Augmentation.png>
 Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 138.
@@ -820,6 +831,74 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+
+./Methodology/methodology.tex:158: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \item M
+             ust Have
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 158
+[][]
+ []
+
+
+./Methodology/methodology.tex:169: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \item S
+             hould Have
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 169
+[][]
+ []
+
+
+./Methodology/methodology.tex:176: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item C
+             ould Have
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 176
+[][]
+ []
+
+
+./Methodology/methodology.tex:181: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \item W
+             on't Have
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 181
+[][]
+ []
+
 ) (./Results_Discussion/results.tex [12]
 Chapter 4.
 ) (./Conclusion/conclusion.tex [13
@@ -828,7 +907,14 @@ Chapter 4.
 Chapter 5.
 ) (./dissertation.bbl [14
 
-]) (./Appendix/appendix.tex [15
+]
+Underfull \hbox (badness 1442) in paragraph at lines 10--12
+[]\OT1/phv/m/n/10.95 2021. Arab-Sat 5C - In-ter-net by Satel-lite in Africa. URL []$\OT1/cmtt/m/n/10.95 https : / / www . globaltt . com / en /
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 33.
+) (./Appendix/appendix.tex [15
 
 ]
 Appendix A.
@@ -843,18 +929,18 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: A75404A10E3E9A86DD330EFE1788AABC;2078.
  ) 
 Here is how much of TeX's memory you used:
- 18904 strings out of 479303
- 351326 string characters out of 5868250
- 660300 words of memory out of 5000000
- 35562 multiletter control sequences out of 15000+600000
- 424296 words of font info for 61 fonts, out of 8000000 for 9000
+ 18927 strings out of 479303
+ 351748 string characters out of 5868250
+ 658471 words of memory out of 5000000
+ 35579 multiletter control sequences out of 15000+600000
+ 425513 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,88p,1201b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
-{g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dissertation.pdf (28 pages, 473566 bytes).
+{g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on dissertation.pdf (28 pages, 483420 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

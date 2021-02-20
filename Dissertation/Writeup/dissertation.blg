@@ -3,12 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: buHarvard.bst
 Database file #1: bibliography.bib
-I was expecting a `,' or a `}'---line 48 of file bibliography.bib
- : 
- : year = {2013}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in Statista
+Warning--to sort, need author or key in Statista:2021
 Warning--to sort, need author or key in ImarcGroup
 Warning--to sort, need author or key in Wikipedia
 Warning--to sort, need author or key in Globaltt
@@ -129,6 +124,7 @@ Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Sch
 while executing---line 1291 of file buHarvard.bst
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
 while executing---line 1291 of file buHarvard.bst
+Warning--to sort, need author or key in Yandex
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
 while executing---line 1357 of file buHarvard.bst
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
@@ -187,11 +183,8 @@ Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Sch
 while executing---line 1357 of file buHarvard.bst
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
 while executing---line 1357 of file buHarvard.bst
-Warning--empty year in Globaltt; set to ????
-Warning--empty year in Google; set to ????
-Warning--empty year in ImarcGroup; set to ????
-Warning--empty year in Wikipedia; set to ????
-Warning--empty year in Statista; set to ????
+Warning--missing institution in Krizhevsky
+Warning--empty pages in Szegedy_2015_CVPR
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
 while executing---line 1375 of file buHarvard.bst
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
@@ -250,47 +243,46 @@ Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Sch
 while executing---line 1375 of file buHarvard.bst
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
 while executing---line 1375 of file buHarvard.bst
-Warning--empty year in JLIFADSmallHolders; set to ????
 Warning--missing institution in JLIFADSmallHolders
-You've used 6 entries,
+You've used 11 entries,
             2638 wiz_defined-function locations,
-            586 strings with 5647 characters,
-and the built_in function-call counts, 1973 in all, are:
-= -- 208
-> -- 13
-< -- 2
-+ -- 10
-- -- 5
-* -- 147
-:= -- 274
-add.period$ -- 19
-call.type$ -- 6
-change.case$ -- 33
-chr.to.int$ -- 7
-cite$ -- 28
-duplicate$ -- 145
-empty$ -- 171
-format.name$ -- 11
-if$ -- 411
+            620 strings with 6765 characters,
+and the built_in function-call counts, 4726 in all, are:
+= -- 445
+> -- 110
+< -- 4
++ -- 49
+- -- 39
+* -- 344
+:= -- 668
+add.period$ -- 35
+call.type$ -- 11
+change.case$ -- 75
+chr.to.int$ -- 12
+cite$ -- 32
+duplicate$ -- 362
+empty$ -- 390
+format.name$ -- 61
+if$ -- 977
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 23
-newline$ -- 24
-num.names$ -- 4
-pop$ -- 99
+missing$ -- 67
+newline$ -- 39
+num.names$ -- 20
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 63
 quote$ -- 0
-skip$ -- 55
+skip$ -- 176
 stack$ -- 0
-substring$ -- 76
-swap$ -- 38
+substring$ -- 177
+swap$ -- 146
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
-warning$ -- 12
-while$ -- 2
+type$ -- 99
+warning$ -- 9
+while$ -- 14
 width$ -- 0
-write$ -- 67
-(There were 117 error messages)
+write$ -- 124
+(There were 116 error messages)

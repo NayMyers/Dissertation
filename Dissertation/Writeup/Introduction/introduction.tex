@@ -2,9 +2,18 @@
 \label{introduction}
 
 \section{Context}
-  With the increased availability of smartphones \cite{Statista}, digital cameras \cite{ImarcGroup} and Internet access \cite{Wikipedia} \cite{Globaltt}. Coupled with the increased interest in home food cultivation \cite{Google} and the large number of people reliant on food grown in smallholdings \cite{JLIFADSmallHolders}. The ability to identify defects with crops using technology has potential to be impactful to many people.
+  With the increased availability of smartphones \cite{Statista:2021}, digital cameras \cite{ImarcGroup} and Internet access \cite{Wikipedia} \cite{Globaltt}. Coupled with the increased interest in home food cultivation \cite{Google} and the large number of people reliant on food grown in smallholdings \cite{JLIFADSmallHolders}. The ability to identify defects with crops using technology has potential to be impactful to many people.
+  \par
+  In 2009 a study was conducted using deep learning to identify three different disease classes on rice plants. The results showed over 70\% classification accuracy on 50 sample images. \cite{Anthonys2009}
+  \par
+  Seven years later and there have been great successes in identifying crop disease with CNN's. In this study deep learning gave 99.35\% accuracy on a held-out test set over 14 crop species and 26 diseases (or absense thereof). \cite{Mohanty2016}. This study utilized two established CNN architectures, namely AlexNet \cite{Krizhevsky} & GoogLeNet. \cite{Szegedy_2015_CVPR} With GoogLeNet achieving a higher F1 score in almost all cases.
+  \par
+
 \section{Problem Definition}
   As it stands there are currently (09/02/2021) no easily found \footnote[1]{(i.e. not present in the first 3 pages of a google search for 'crop defect identification' and 'What's wrong with my crop')} web interfaces for interacting with a crop defect identification service.
+  \par
+  Although there exists very capable publicly available image classification networks. \cite{Yandex} There is no bespoke application catering soley to crop defect identification, that has the benefit of providing recourse information to the user.
+
 \section{Proposed Solution}
   To provide a web service that interacts with a convolutional neural network (CNN) backend to diagnose crop defects such as, nurturing problems e.g. lack of water/nitrogen/C02, too hot/cold. And external threats such as crop disease/pest infestation. The interface will be simple and intuitive as possible. The UI should minimise points of interaction and streamline the process of uploading a crop image to be analysed.
 	The web service will return information regarding the percentage likelihood of each kind of crop defect, including images that are of similar nature to the one analysed.
