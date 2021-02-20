@@ -1,0 +1,19 @@
+:root {
+  --cl_background : #8db082;
+  --cl_secondary: #82a4b0;
+  --cl_highlights: #a582b0;
+  --cl_text: ##b08e82
+
+
+}
+
+/* button {
+background-color: #4b5052;
+border: 2px solid black;
+color: whitesmoke;
+padding: 1em 1.5em;
+text-align: center;
+text-decoration: none;
+font-size: 1em;
+display: inline-block;
+width: 22%; /* to test the test-align property */

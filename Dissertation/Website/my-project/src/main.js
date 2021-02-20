@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import router from './router'
 import { NavbarPlugin } from 'bootstrap-vue'
 // import './styles/style.scss'
-
+import './assets/css/main.css';
 Vue.use(NavbarPlugin)
 
 Vue.config.productionTip = false
