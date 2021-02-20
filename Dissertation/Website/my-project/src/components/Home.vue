@@ -1,7 +1,6 @@
 <template>
    <div>
      <h1>{{ Homepage }}</h1>
-       Hello {{ $route.params.name }}
       <input type="file" name="fileInput" value="Select File" @change="onFileSelected">
       <div>
         <button @click="onUpload" type="button-basic" name="button">Upload</button>
@@ -32,6 +31,10 @@
   font-size: 2em;
   display: inline-block;
   width: 22%; /* to test the test-align property */
+  }
+
+  file {
+
   }
 
 #app {
