@@ -68,29 +68,31 @@
     name: 'firstroute',
     data () {
       return {
+      apiUrlBase: 'http://127.0.0.1:5000/',
       selectedFile: null,
-      imageUrl: null
+      imageUrl: null,
     }
   },
   methods: {
     onFileSelected(event){
+      const reader = new FileReader()
       console.log(event)
       this.selectedFile = event.target.files[0]
       console.log(this.selectedFile)
       // for the image preview.
       this.imageUrl = URL.createObjectURL(this.selectedFile)
     },
-
     onUpload(){
+      const reader = new FileReader()
       const fd = new FormData();
-      fd.append('imageName', this.selectedFile.name)
       fd.append('image', this.selectedFile)
-      // fd.append(this.selectedFile, this.selectedFile.name)
+      console.log("THIS SELECTED FILE = ")
+      console.log(this.selectedFile)
       console.log(fd)
       for (var value of fd.values()) {
         console.log(value);
       }
-      axios.post('http://127.0.0.1:5000/upload_image', fd,{
+      axios.put('http://127.0.0.1:5000/upload_image', fd,{
           onUploadProgress: uploadEvent => {
             console.log('Upload Progress: ' + Math.round(uploadEvent.loaded / uploadEvent.total * 100) + '%')
           }
@@ -98,8 +100,10 @@
         .then(res =>{
           console.log(res)
         })
+        .catch((err) => {
+          return new Error(err.message)
+        })
     },
-
     testAPIRes(){
       axios.post('http://127.0.0.1:5000/hello_world/helloworld')
           .then(res =>{
