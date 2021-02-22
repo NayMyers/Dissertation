@@ -83,15 +83,12 @@
       this.imageUrl = URL.createObjectURL(this.selectedFile)
     },
     onUpload(){
-      const reader = new FileReader()
       const fd = new FormData();
+      fd.append('imageName', this.selectedFile.name)
       fd.append('image', this.selectedFile)
       console.log("THIS SELECTED FILE = ")
       console.log(this.selectedFile)
       console.log(fd)
-      for (var value of fd.values()) {
-        console.log(value);
-      }
       axios.put('http://127.0.0.1:5000/upload_image', fd,{
           onUploadProgress: uploadEvent => {
             console.log('Upload Progress: ' + Math.round(uploadEvent.loaded / uploadEvent.total * 100) + '%')
