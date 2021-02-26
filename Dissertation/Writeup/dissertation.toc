@@ -5,11 +5,14 @@
 \contentsline {section}{\numberline {1.2}Technological Aspects}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Introduction}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Context}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Problem Definition}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Proposed Solution}{2}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Aims and Objectives}{3}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Risk Table}{3}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Overview}{4}{section.2.6}%
+\contentsline {section}{\numberline {2.2}Literature Review}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Problem Definition}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Proposed Solution}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Aims and Objectives}{3}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Aims}{3}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Objectives}{3}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Risk Table}{4}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Overview}{4}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Methodology}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Project management methodology}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Evaluation Design}{7}{section.3.2}%
@@ -19,16 +22,18 @@
 \contentsline {section}{\numberline {3.6}Testing methods}{8}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Version control}{8}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Evaluation methods}{8}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}User Interface}{8}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{8}{subsection.3.8.2}%
 \contentsline {section}{\numberline {3.9}Initial Designs}{9}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Employed Technologies}{11}{section.3.10}%
+\contentsline {section}{\numberline {3.10}Employed Technologies}{12}{section.3.10}%
 \contentsline {section}{\numberline {3.11}Requirements}{12}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Testing and Implementation details}{12}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{12}{section.3.13}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{13}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{14}{section.5.1}%
-\contentsline {chapter}{bibliography}{15}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{16}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{17}{appendix.a.B}%
+\contentsline {section}{\numberline {3.12}Testing and Implementation details}{14}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{14}{section.3.13}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{15}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section One}{16}{section.5.1}%
+\contentsline {chapter}{bibliography}{17}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{18}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{19}{appendix.a.B}%

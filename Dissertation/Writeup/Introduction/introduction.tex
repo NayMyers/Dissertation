@@ -3,12 +3,17 @@
 
 \section{Context}
   With the increased availability of smartphones \cite{Statista:2021}, digital cameras \cite{ImarcGroup} and Internet access \cite{Wikipedia} \cite{Globaltt}. Coupled with the increased interest in home food cultivation \cite{Google} and the large number of people reliant on food grown in smallholdings \cite{JLIFADSmallHolders}. The ability to identify defects with crops using technology has potential to be impactful to many people.
+\section{Literature Review}
   \par
   In 2009 a study was conducted using deep learning to identify three different disease classes on rice plants. The results showed over 70\% classification accuracy on 50 sample images. \cite{Anthonys2009}
   \par
-  Seven years later and there have been great successes in identifying crop disease with CNN's. In this study deep learning gave 99.35\% accuracy on a held-out test set over 14 crop species and 26 diseases (or absense thereof). \cite{Mohanty2016}. This study utilized two established CNN architectures, namely AlexNet \cite{Krizhevsky} & GoogLeNet. \cite{Szegedy_2015_CVPR} With GoogLeNet achieving a higher F1 score in almost all cases.
+   (14 crop species and 26 diseases). It was found that GoogLeNet performed best, acheiving 99.35\% on held out test set.
   \par
-
+  seven years later and there have been great successes in identifying crop disease with CNN's. In 2016 a paper was published running experiments on a 38 class crop disease
+  dataset over 14 crop species and 26 diseases (or absense thereof). Resulting in 99.35\% accuracy on a held-out test set (using GoogLeNet). \cite{Mohanty2016}. This study utilized two established CNN architectures, namely AlexNet \cite{Krizhevsky} & GoogLeNet. \cite{Szegedy_2015_CVPR} With GoogLeNet achieving a higher F1 score in almost all cases.
+  \par
+  Then in 2018 InceptionNetV3 is used on a very similar if not the same dataset of 38 class crop diseases (this paper cites the number of crop species to be 13 appose to 14) and 26 diseases. Resulting in a slight increase in accuracy of 0.39\%, so increasing to 99.74\% classification accuracy.
+  \par
 \section{Problem Definition}
   As it stands there are currently (09/02/2021) no easily found \footnote[1]{(i.e. not present in the first 3 pages of a google search for 'crop defect identification' and 'What's wrong with my crop')} web interfaces for interacting with a crop defect identification service.
   \par
@@ -20,19 +25,20 @@
 
 \section{Aims and Objectives}
   These should be SMART with clear success criteria defined
-  \begin{itemize}
-  	\item have a working REST API. The API will provide information regarding the likelihood of each kind of crop defect, when served an image via a link to a relational database. In addition to other metrics such as similar images and time to compute. The API will be robust enough to handle the receipt of erroneous requests.
-  	\item A python backend that will handle image classification using a CNN.
-    \item The CNN should be able to classify at least 7 different defects across at least two different plant species.
-    \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class.
-  	\item A UI that will allow the user to upload an image to be analysed.
-  	\item The UI will display information regarding the likelihood of each kind of possible defect.
-  	\item To display the relevant images that fit the description of the most likely defects.
-  	\item To display recourse information to rectify the defect.
-  	\item Collecting, cleaning and pre-processing the image data.
-    \item Artificially grow the dataset by performing translations/rotations/adding noise to the images to make the training data more comprehensive.
-  	\item Include regularisation techniques to the NN to prevent overfitting.
-  \end{itemize}
+  specific, measurable, achievable, realistic, Timebound
+  \subsection{Aims}
+    \begin{itemize}
+      \item To aid gardneners and smallholders in identifying crop defects.
+      \item To aid gardeners and smallholders in taking relevant recourse.
+    \end{itemize}
+  \subsection{Objectives}
+    \begin{itemize}
+      \item Provide a way for a user to upload an image to be analysed.
+      \item Display infomration regarding the likelihood of each kind of defect.
+      \item Display recourse information alongside defect information.
+      \item Have gallery of images filtered by crop and disease type.
+    \end{itemize}
+
 \section{Risk Table}
   % \begin{center}
   % \begin{tabular}{c c c c c}

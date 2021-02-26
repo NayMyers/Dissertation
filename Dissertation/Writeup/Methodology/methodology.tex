@@ -88,10 +88,12 @@ Throughout the project the focus of the workflow will shift as illustrated by th
   \end{figure}
 
 \section{Evaluation methods}
-  The main method that will be utilized to determine the quality of the user interface will be the System Usability Scale (SUS) which can be seen here.
-  The data will be collected via online questionare.
-  % insert reference here
-  Aditional metrics that focus on the evaluation of the CNN will be:
+  \subsection{User Interface}
+  The main method that will be utilized to determine the quality of the user interface will be the System Usability Scale (SUS) which can be seen here. (CITATION) % insert reference here
+  The evaluator will be given remote access to the webservice. They will also be provided with some sample images to test the perfomance of the CNN incase they do not have suitable images of their own.
+  The opinion data will be collected via online questionare.
+  \subsection{Convolutional Neural Network (CNN)}
+  Metrics for the evaluation of the CNN will be:
   \begin{itemize}
     \item Time to train the network on available hardware
     \begin{itemize}
@@ -165,6 +167,14 @@ Firstly I have created a wireframe UI
   \item API must return defect information.
   \item API must return recourse information.
   \item API must return relevant images to the detected defect.
+	\item have a working REST API. The API will provide information regarding the likelihood of each kind of crop defect, when served an image via a link to a relational database. In addition to other metrics such as similar images and time to compute. The API will be robust enough to handle the receipt of erroneous requests.
+	\item A python backend that will handle image classification using a CNN.
+	\item A UI that will allow the user to upload an image to be analysed.
+	\item The UI will display information regarding the likelihood of each kind of possible defect.
+	\item To display the relevant images that fit the description of the most likely defects.
+	\item To display recourse information to rectify the defect.
+	\item Collecting, cleaning and pre-processing the image data.
+  \item Artificially grow the dataset by performing translations/rotations/adding noise to the images to make the training data more comprehensive.
 \end{itemize}
 \item Should Have
 \begin{itemize}
@@ -172,6 +182,9 @@ Firstly I have created a wireframe UI
     defect type.
   \item A page to allow users to see a gallery of images sorted by
     crop type.
+  \item The CNN should be able to classify at least 7 different defects across at least two different plant species.
+  \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class.
+	\item Regularisation techniques to prvent the NN overfitting.
 \end{itemize}
 \item Could Have
 \begin{itemize}
