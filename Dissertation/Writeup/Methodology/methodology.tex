@@ -157,41 +157,43 @@ Firstly I have created a wireframe UI
     \item numpy
   \end{itemize}
 \section{Requirements}
-\item Must Have
 \begin{itemize}
-  \item Ability for user to upload an image
-  \item CNN that is capable of classifying at least 2 different defects
-    across 2 different plant species.
-  \item An API that allows communication from the UI to the CNN
-  \item API must be able to receive images.
-  \item API must return defect information.
-  \item API must return recourse information.
-  \item API must return relevant images to the detected defect.
-	\item have a working REST API. The API will provide information regarding the likelihood of each kind of crop defect, when served an image via a link to a relational database. In addition to other metrics such as similar images and time to compute. The API will be robust enough to handle the receipt of erroneous requests.
-	\item A python backend that will handle image classification using a CNN.
-	\item A UI that will allow the user to upload an image to be analysed.
-	\item The UI will display information regarding the likelihood of each kind of possible defect.
-	\item To display the relevant images that fit the description of the most likely defects.
-	\item To display recourse information to rectify the defect.
-	\item Collecting, cleaning and pre-processing the image data.
-  \item Artificially grow the dataset by performing translations/rotations/adding noise to the images to make the training data more comprehensive.
+  \item Must Have
+  \begin{itemize}
+    \item Ability for user to upload an image
+    \item CNN that is capable of classifying at least 2 different defects
+      across 2 different plant species.
+    \item An API that allows communication from the UI to the CNN
+    \item API must be able to receive images.
+    \item API must return defect information.
+    \item API must return recourse information.
+    \item API must return relevant images to the detected defect.
+  	\item have a working REST API. The API will provide information regarding the likelihood of each kind of crop defect, when served an image via a link to a relational database. In addition to other metrics such as similar images and time to compute. The API will be robust enough to handle the receipt of erroneous requests.
+  	\item A python backend that will handle image classification using a CNN.
+  	\item A UI that will allow the user to upload an image to be analysed.
+  	\item The UI will display information regarding the likelihood of each kind of possible defect.
+  	\item To display the relevant images that fit the description of the most likely defects.
+  	\item To display recourse information to rectify the defect.
+  	\item Collecting, cleaning and pre-processing the image data.
+    \item Artificially grow the dataset by performing translations/rotations/adding noise to the images to make the training data more comprehensive.
+  \end{itemize}
+  \item Should Have
+  \begin{itemize}
+    \item A page to allow users to see a gallery of images sorted by
+      defect type.
+    \item A page to allow users to see a gallery of images sorted by
+      crop type.
+    \item The CNN should be able to classify at least 7 different defects across at least two different plant species.
+    \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class.
+  	\item Regularisation techniques to prvent the NN overfitting.
+  \end{itemize}
+  \item Could Have
+  \begin{itemize}
+    \item Ability for users to add additional information about the crop
+      to determine the defect.
+  \end{itemize}
+  \item Won't Have
 \end{itemize}
-\item Should Have
-\begin{itemize}
-  \item A page to allow users to see a gallery of images sorted by
-    defect type.
-  \item A page to allow users to see a gallery of images sorted by
-    crop type.
-  \item The CNN should be able to classify at least 7 different defects across at least two different plant species.
-  \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class.
-	\item Regularisation techniques to prvent the NN overfitting.
-\end{itemize}
-\item Could Have
-\begin{itemize}
-  \item Ability for users to add additional information about the crop
-    to determine the defect.
-\end{itemize}
-\item Won't Have
 \section{Testing and Implementation details}
 
 \section{Justification of Implementation Choices}
