@@ -28,7 +28,8 @@ Search term = Crop Disease Detection Using Deep Learning
   - 9000 images of tomato leaves 5 different diseases
   - Their own CNN architecture
     - 99.84% accuracy on held out test set.
-
+* Plant Disease Detection Using Image Processing
+  - Using k means clustering and feature detection alongside an ANN
 Search term = Plant identification deep learning
 
 *
