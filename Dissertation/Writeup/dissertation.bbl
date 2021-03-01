@@ -1,61 +1,77 @@
 \begin{thebibliography}{11}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{{\tt #1}}
-\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
 
-\bibitem[\protect\citeauthoryear{Yan}{2021}]{Yandex}
-2021. \urlprefix\url{https://yandex.com/images/}.
+\bibitem[Yan(2021)]{Yandex}
+2021.
+\newblock URL \url{https://yandex.com/images/}.
 
-\bibitem[\protect\citeauthoryear{Glo}{2021}]{Globaltt}
-2021. {ArabSat 5C - Internet by Satellite in Africa}.
-  \urlprefix\url{https://www.globaltt.com/en/coverages-Arabsat 5C_C.html}.
+\bibitem[Glo(2021)]{Globaltt}
+{ArabSat 5C - Internet by Satellite in Africa}, 2021.
+\newblock URL \url{https://www.globaltt.com/en/coverages-Arabsat 5C_C.html}.
 
-\bibitem[\protect\citeauthoryear{Goo}{2021}]{Google}
-2021. {best vegetables to grow - Explore - Google Trends}.
-  \urlprefix\url{https://trends.google.com/trends/explore?q=best vegetables to
-  grow&date=all&geo=US}.
+\bibitem[Goo(2021)]{Google}
+{best vegetables to grow - Explore - Google Trends}, 2021.
+\newblock URL \url{https://trends.google.com/trends/explore?q=best vegetables
+  to grow&date=all&geo=US}.
 
-\bibitem[\protect\citeauthoryear{Ima}{2021}]{ImarcGroup}
-2021. {Digital Camera Market Share, Size, Trends and Forecast 2021-2026}.
-  \urlprefix\url{https://www.imarcgroup.com/digital-camera-market}.
+\bibitem[Ima(2021)]{ImarcGroup}
+{Digital Camera Market Share, Size, Trends and Forecast 2021-2026}, 2021.
+\newblock URL \url{https://www.imarcgroup.com/digital-camera-market}.
 
-\bibitem[\protect\citeauthoryear{Wik}{2021}]{Wikipedia}
-2021. {File:Internet users per 100 inhabitants ITU.svg - Wikipedia}.
-  \urlprefix\url{https://en.wikipedia.org/wiki/File:Internet_users_per_100_inhabitants_ITU.svg}.
+\bibitem[Wik(2021)]{Wikipedia}
+{File:Internet users per 100 inhabitants ITU.svg - Wikipedia}, 2021.
+\newblock URL
+  \url{https://en.wikipedia.org/wiki/File:Internet_users_per_100_inhabitants_ITU.svg}.
 
-\bibitem[\protect\citeauthoryear{Sta}{2021}]{Statista:2021}
-2021. {• Smartphone users 2020 | Statista}.
-  \urlprefix\url{https://www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/}.
+\bibitem[Sta(2021)]{Statista:2021}
+{• Smartphone users 2020 | Statista}, 2021.
+\newblock URL
+  \url{https://www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/}.
 
-\bibitem[\protect\citeauthoryear{Anthonys and
-  Wickramarachchi}{2009}]{Anthonys2009}
-Anthonys, G. and Wickramarachchi, N., 2009. {An image recognition system for
-  crop disease identification of paddy fields in Sri Lanka}. {\em ICIIS 2009 -
-  4th International Conference on Industrial and Information Systems 2009,
-  Conference Proceedings\/}, 403--407.
+\bibitem[Anthonys and Wickramarachchi(2009)]{Anthonys2009}
+G.~Anthonys and N.~Wickramarachchi.
+\newblock {An image recognition system for crop disease identification of paddy
+  fields in Sri Lanka}.
+\newblock In {\em ICIIS 2009 - 4th International Conference on Industrial and
+  Information Systems 2009, Conference Proceedings}, pages 403--407, 2009.
+\newblock ISBN 9781424448371.
 
-\bibitem[\protect\citeauthoryear{Krizhevsky et~al.}{2012}]{Krizhevsky}
-Krizhevsky, A., Sutskever, I. and Hinton, G.~E., 2012. {ImageNet Classification
-  with Deep Convolutional Neural Networks}. Technical report.
-  \urlprefix\url{http://code.google.com/p/cuda-convnet/}.
+\bibitem[Krizhevsky \emph{et~al.}(2012)Krizhevsky, Sutskever and
+  Hinton]{Krizhevsky}
+Alex Krizhevsky, Ilya Sutskever and Geoffrey~E Hinton.
+\newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
+\newblock Technical report, 2012.
+\newblock URL \url{http://code.google.com/p/cuda-convnet/}.
 
-\bibitem[\protect\citeauthoryear{Mohanty et~al.}{2016}]{Mohanty2016}
-Mohanty, S.~P., Hughes, D.~P. and Salath{\'{e}}, M., 2016. {Using Deep Learning
-  for Image-Based Plant Disease Detection}. {\em Frontiers in Plant Science\/},
-  7~(September), 1419.
-  \urlprefix\url{http://journal.frontiersin.org/article/10.3389/fpls.2016.01419/full}.
+\bibitem[Mohanty \emph{et~al.}(2016)Mohanty, Hughes and
+  Salath{\'{e}}]{Mohanty2016}
+Sharada~P. Mohanty, David~P. Hughes and Marcel Salath{\'{e}}.
+\newblock sep 2016.
+\newblock {Using Deep Learning for Image-Based Plant Disease Detection}.
+\newblock {\em Frontiers in Plant Science}, {\bf 7},~\penalty0 1419.
+\newblock ISSN 1664-462X.
+\newblock URL
+  \url{http://journal.frontiersin.org/article/10.3389/fpls.2016.01419/full}.
+\newblock (doi:10.3389/fpls.2016.01419)
 
-\bibitem[\protect\citeauthoryear{Szegedy et~al.}{2015}]{Szegedy_2015_CVPR}
-Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D.,
-  Vanhoucke, V. and Rabinovich, A., 2015. Going deeper with convolutions. {\em
-  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
-  (CVPR)\/}.
+\bibitem[Szegedy \emph{et~al.}(2015)Szegedy, Liu, Jia, Sermanet, Reed,
+  Anguelov, Erhan, Vanhoucke and Rabinovich]{Szegedy_2015_CVPR}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2015.
 
-\bibitem[\protect\citeauthoryear{Walpole and Hutton}{2013}]{JLIFADSmallHolders}
-Walpole, S. J. R. A. B. C. S.-H. B. B. H. S. M. M. A. F. M. B. M. G. S. C. C.
-  N. U. R. L. J. M. G.~M., M. and Hutton, J., 2013. {Enabling poor rural people
-  to overcome poverty Smallholders, food security, and the environment}.
-  Technical report.
-  \urlprefix\url{https://www.ifad.org/documents/38714170/39135645/smallholders_report.pdf/133e8903-0204-4e7d-a780-bca847933f2e}.
+\bibitem[Walpole and Hutton(2013)]{JLIFADSmallHolders}
+Smith J. Rosser A. Brown C. Schulte-Herbruggen B. Booth H. Sassen M. Mapendembe
+  A. Fancourt M. Bieri M. Glaser S. Corrigan C. Narloch U. Runsten L. Jenkins
+  M. Gomera~M. Walpole, M. and J.~Hutton.
+\newblock {Enabling poor rural people to overcome poverty Smallholders, food
+  security, and the environment}.
+\newblock Technical report, 2013.
+\newblock URL
+  \url{https://www.ifad.org/documents/38714170/39135645/smallholders_report.pdf/133e8903-0204-4e7d-a780-bca847933f2e}.
 
 \end{thebibliography}

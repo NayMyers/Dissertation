@@ -32,8 +32,15 @@ Search term = Crop Disease Detection Using Deep Learning
   - Using k means clustering and feature detection alongside an ANN
 Search term = Plant identification deep learning
 
-*
+* Plant identification with deep convolutional neural
+network: SNUMedinfo at LifeCLEF plant identification
+task 2015
+  - used ensemble of CNN'S to good effect
+  - Used GoogLeNet
+  - For performing plant species classificaiton as appose to disease identificaiton.
 
+* Plant identification based on very deep convolutional neural networks (HEYAN ZHU et al)
+  - justified that CNN's are more effective than using hand-crafted features
 # Note
   - I want the back-end to be modular in the sense that I am able to choose from multiple CNN's with different functions. For instance:
     - Crop identification
