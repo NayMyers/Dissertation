@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  1 MAR 2021 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  2 MAR 2021 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,7 @@ LaTeX Info: Redefining \nameref on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Images/unilogo.jpg, id=163, 602.25pt x 620.3175pt>
+<Images/unilogo.jpg, id=167, 602.25pt x 620.3175pt>
 File: Images/unilogo.jpg Graphic file (type jpg)
 <use Images/unilogo.jpg>
 Package pdftex.def Info: Images/unilogo.jpg  used on input line 7.
@@ -709,9 +709,9 @@ l.1 \chapter
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 18.
-./Introduction/introduction.tex:18: Misplaced alignment tab character &.
-l.18 ...ctures, namely AlexNet \cite{Krizhevsky} &
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 17.
+./Introduction/introduction.tex:17: Misplaced alignment tab character &.
+l.17 ...ctures, namely AlexNet \cite{Krizhevsky} &
                                                    GoogLeNet. \cite{Szegedy_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -724,25 +724,25 @@ might try typing `S' now just to see what is salvageable.
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 26.
+(Font)              <9> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 26.
+(Font)              <5> on input line 25.
  [3]
-<Images/FractalNetArchitectureCopy.png, id=329, 643.203pt x 614.295pt>
+<Images/FractalNetArchitectureCopy.png, id=334, 643.203pt x 614.295pt>
 File: Images/FractalNetArchitectureCopy.png Graphic file (type png)
 <use Images/FractalNetArchitectureCopy.png>
-Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input line 39.
+Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input line 38.
 (pdftex.def)             Requested size: 450.23903pt x 430.00356pt.
  [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.46 
+l.45 
       <./Images/FractalNetArchitectureCopy.png>]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 63.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 62.
  (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 ) [5]
-Overfull \hbox (220.1347pt too wide) in paragraph at lines 90--110
+Overfull \hbox (220.1347pt too wide) in paragraph at lines 89--109
  [][][] 
  []
 
@@ -752,12 +752,12 @@ Overfull \hbox (220.1347pt too wide) in paragraph at lines 90--110
 l.1 \chapter
             {Methodology}]
 Chapter 3.
-<Images/Project_Management_Methodology.png, id=350, 391.2216pt x 401.5803pt>
+<Images/Project_Management_Methodology.png, id=355, 391.2216pt x 401.5803pt>
 File: Images/Project_Management_Methodology.png Graphic file (type png)
 <use Images/Project_Management_Methodology.png>
 Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 35.
 (pdftex.def)             Requested size: 293.41548pt x 301.18448pt.
-<Images/ProjectFocus2.png, id=351, 947.03813pt x 526.96875pt>
+<Images/ProjectFocus2.png, id=356, 947.03813pt x 526.96875pt>
 File: Images/ProjectFocus2.png Graphic file (type png)
 <use Images/ProjectFocus2.png>
 Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
@@ -767,72 +767,80 @@ Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
 ] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.52 \section{Requirements Elicitation}
-                                       pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+l.53 \part
+           <./Images/Project_Management_Methodology.png>] [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.52 \section{Requirements Elicitation}
-                                        <./Images/Project_Management_Methodology.png> <./Images/ProjectFocus2.png>]
-Overfull \hbox (31.49939pt too wide) in paragraph at lines 69--70
+l.53 \part
+           <./Images/ProjectFocus2.png>] [10
+
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 55.
+
+
+Overfull \hbox (31.49939pt too wide) in paragraph at lines 75--76
 \OT1/phv/m/n/10.95 be re-fined with the help of ex-ist-ing us-abil-ity re-search, to guide the us-age of font/colour/highlight
  []
 
-<Images/Git_Workflow_Diagram.png, id=363, 661.7523pt x 250.7769pt>
+[11]
+<Images/Git_Workflow_Diagram.png, id=382, 661.7523pt x 250.7769pt>
 File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
-Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 84.
+Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 90.
 (pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
-[9] [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.100     \end{itemize}
-                        <./Images/Git_Workflow_Diagram.png>]
-<Images/Home_Page_Wireframe.png, id=373, 504.9264pt x 381.5856pt>
+l.103     \item T
+                 ime to train the network on available hardware <./Images/Git_Workflow_Diagram.png>]
+<Images/Home_Page_Wireframe.png, id=388, 504.9264pt x 381.5856pt>
 File: Images/Home_Page_Wireframe.png Graphic file (type png)
 <use Images/Home_Page_Wireframe.png>
-Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 111.
+Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 117.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/Defect_Information_Wireframe.png, id=374, 504.9264pt x 381.5856pt>
+<Images/Defect_Information_Wireframe.png, id=389, 504.9264pt x 381.5856pt>
 File: Images/Defect_Information_Wireframe.png Graphic file (type png)
 <use Images/Defect_Information_Wireframe.png>
-Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 118.
+Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 124.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
- [11]
-<Images/System_Overview_v1.png, id=386, 367.1316pt x 307.1475pt>
+ [13]
+<Images/System_Overview_v1.png, id=401, 367.1316pt x 307.1475pt>
 File: Images/System_Overview_v1.png Graphic file (type png)
 <use Images/System_Overview_v1.png>
-Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 125.
+Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 131.
 (pdftex.def)             Requested size: 256.99036pt x 215.00177pt.
-<Images/Input_Output_UI.png, id=387, 334.3692pt x 298.2342pt>
+<Images/Input_Output_UI.png, id=402, 334.3692pt x 298.2342pt>
 File: Images/Input_Output_UI.png Graphic file (type png)
 <use Images/Input_Output_UI.png>
-Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 132.
+Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 138.
 (pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.136     \end{figure}
+l.142     \end{figure}
                       pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.136     \end{figure}
+l.142     \end{figure}
                        <./Images/Home_Page_Wireframe.png> <./Images/Defect_Information_Wireframe.png>]
-<Images/Data_Augmentation.png, id=394, 379.4175pt x 244.0317pt>
+<Images/Data_Augmentation.png, id=410, 379.4175pt x 244.0317pt>
 File: Images/Data_Augmentation.png Graphic file (type png)
 <use Images/Data_Augmentation.png>
-Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 139.
+Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 145.
 (pdftex.def)             Requested size: 265.59042pt x 170.82101pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.144 \section{Employed Technologies}
+l.150 \section{Employed Technologies}
                                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.144 \section{Employed Technologies}
+l.150 \section{Employed Technologies}
                                       <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>]
-./Methodology/methodology.tex:155: Misplaced alignment tab character &.
-l.155     \item Tensorflow &
+./Methodology/methodology.tex:161: Misplaced alignment tab character &.
+l.161     \item Tensorflow &
                              Keras
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -841,45 +849,45 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.168     \item A
-                 PI must return recourse information. <./Images/Data_Augmentation.png>]) (./Results_Discussion/results.tex [15] [16]
+l.174     \item A
+                 PI must return recourse information. <./Images/Data_Augmentation.png>]) (./Results_Discussion/results.tex [17] [18]
 Chapter 4.
-) (./Conclusion/conclusion.tex [17
+) (./Conclusion/conclusion.tex [19
 
 ]
 Chapter 5.
-) (./dissertation.bbl [18
+) (./dissertation.bbl [20
 
-] [19
+] [21
 
-]) (./Appendix/appendix.tex [20]
+]) (./Appendix/appendix.tex [22]
 Appendix A.
-[21
+[23
 
 ]
 Appendix B.
-) [22
+) [24
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 7E0C30F92E2703D562E322DCDD396364;2422.
+(rerunfilecheck)             Checksum: 49BF967457676B4608DAFC25AE09D91E;2508.
  ) 
 Here is how much of TeX's memory you used:
- 18959 strings out of 479303
- 352381 string characters out of 5868250
- 657681 words of memory out of 5000000
- 35596 multiletter control sequences out of 15000+600000
- 427752 words of font info for 65 fonts, out of 8000000 for 9000
+ 18967 strings out of 479303
+ 352453 string characters out of 5868250
+ 657686 words of memory out of 5000000
+ 35599 multiletter control sequences out of 15000+600000
+ 429385 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,88p,1201b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dissertation.pdf (33 pages, 641999 bytes).
+Output written on dissertation.pdf (35 pages, 644116 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 

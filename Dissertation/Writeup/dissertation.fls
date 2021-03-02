@@ -1011,6 +1011,10 @@ INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 OUTPUT dissertation.toc
 INPUT ./dissertation.lof
 INPUT dissertation.lof
@@ -1060,15 +1064,11 @@ INPUT ./Images/FractalNetArchitectureCopy.png
 INPUT Images/FractalNetArchitectureCopy.png
 INPUT ./Images/FractalNetArchitectureCopy.png
 INPUT ./Images/FractalNetArchitectureCopy.png
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
 INPUT ./Methodology/methodology.tex
 INPUT ./Methodology/methodology.tex
@@ -1089,6 +1089,9 @@ INPUT ./Images/ProjectFocus2.png
 INPUT Images/ProjectFocus2.png
 INPUT ./Images/ProjectFocus2.png
 INPUT ./Images/ProjectFocus2.png
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT ./Images/Git_Workflow_Diagram.png
 INPUT Images/Git_Workflow_Diagram.png
 INPUT ./Images/Git_Workflow_Diagram.png
