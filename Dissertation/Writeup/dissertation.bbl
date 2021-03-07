@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -38,12 +38,47 @@ G.~Anthonys and N.~Wickramarachchi.
   Information Systems 2009, Conference Proceedings}, pages 403--407, 2009.
 \newblock ISBN 9781424448371.
 
+\bibitem[Choi()]{Choi}
+Sungbin Choi.
+\newblock {Plant identification with deep convolutional neural network:
+  SNUMedinfo at LifeCLEF plant identification task 2015}.
+\newblock Technical report.
+
+\bibitem[He \emph{et~al.}()He, Zhang, Ren and Sun]{He}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.
+\newblock {Deep Residual Learning for Image Recognition}.
+\newblock Technical report.
+\newblock URL \url{http://image-net.org/challenges/LSVRC/2015/}.
+
+\bibitem[Khirade and Patil(2015)]{Khirade2015}
+Sachin~D. Khirade and A.~B. Patil.
+\newblock {Plant disease detection using image processing}.
+\newblock In {\em Proceedings - 1st International Conference on Computing,
+  Communication, Control and Automation, ICCUBEA 2015}, pages 768--771.
+  Institute of Electrical and Electronics Engineers Inc., jul 2015.
+\newblock ISBN 9781479968923.
+
 \bibitem[Krizhevsky \emph{et~al.}(2012)Krizhevsky, Sutskever and
   Hinton]{Krizhevsky}
 Alex Krizhevsky, Ilya Sutskever and Geoffrey~E Hinton.
 \newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
 \newblock Technical report, 2012.
 \newblock URL \url{http://code.google.com/p/cuda-convnet/}.
+
+\bibitem[Kulkarni(2018)]{Kulkarni2018}
+Omkar Kulkarni.
+\newblock {Crop Disease Detection Using Deep Learning}.
+\newblock In {\em Proceedings - 2018 4th International Conference on Computing,
+  Communication Control and Automation, ICCUBEA 2018}. Institute of Electrical
+  and Electronics Engineers Inc., jul 2018.
+\newblock ISBN 9781538652572.
+
+\bibitem[Larsson \emph{et~al.}(2016)Larsson, Maire and
+  Shakhnarovich]{Larsson2016}
+Gustav Larsson, Michael Maire and Gregory Shakhnarovich.
+\newblock may 2016.
+\newblock {FractalNet: Ultra-Deep Neural Networks without Residuals}.
+\newblock URL \url{http://arxiv.org/abs/1605.07648}.
 
 \bibitem[Mohanty \emph{et~al.}(2016)Mohanty, Hughes and
   Salath{\'{e}}]{Mohanty2016}
@@ -56,13 +91,32 @@ Sharada~P. Mohanty, David~P. Hughes and Marcel Salath{\'{e}}.
   \url{http://journal.frontiersin.org/article/10.3389/fpls.2016.01419/full}.
 \newblock (doi:10.3389/fpls.2016.01419)
 
-\bibitem[Szegedy \emph{et~al.}(2015)Szegedy, Liu, Jia, Sermanet, Reed,
-  Anguelov, Erhan, Vanhoucke and Rabinovich]{Szegedy_2015_CVPR}
+\bibitem[Simonyan and Zisserman(2015)]{Simonyan2015}
+Karen Simonyan and Andrew Zisserman.
+\newblock {VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION}.
+\newblock Technical report, 2015.
+\newblock URL \url{http://www.robots.ox.ac.uk/}.
+
+\bibitem[Srivastava \emph{et~al.}(2014)Srivastava, Hinton, Krizhevsky and
+  Salakhutdinov]{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky and Ruslan Salakhutdinov.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock Technical report, 2014.
+
+\bibitem[Szegedy \emph{et~al.}(2015{\natexlab{a}})Szegedy, Liu, Jia, Sermanet,
+  Reed, Anguelov, Erhan, Vanhoucke and Rabinovich]{Szegedy_2015_CVPR}
 Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
   Anguelov, Dumitru Erhan, Vincent Vanhoucke and Andrew Rabinovich.
 \newblock Going deeper with convolutions.
 \newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
-  Pattern Recognition (CVPR)}, June 2015.
+  Pattern Recognition (CVPR)}, June 2015{\natexlab{a}}.
+
+\bibitem[Szegedy \emph{et~al.}(2015{\natexlab{b}})Szegedy, Liu, Jia, Sermanet,
+  Reed, Anguelov, Erhan, Vanhoucke and Rabinovich]{Szegedy2015}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke and Andrew Rabinovich.
+\newblock {Going Deeper with Convolutions}.
+\newblock Technical report, 2015{\natexlab{b}}.
 
 \bibitem[Walpole and Hutton(2013)]{JLIFADSmallHolders}
 Smith J. Rosser A. Brown C. Schulte-Herbruggen B. Booth H. Sassen M. Mapendembe
@@ -73,5 +127,31 @@ Smith J. Rosser A. Brown C. Schulte-Herbruggen B. Booth H. Sassen M. Mapendembe
 \newblock Technical report, 2013.
 \newblock URL
   \url{https://www.ifad.org/documents/38714170/39135645/smallholders_report.pdf/133e8903-0204-4e7d-a780-bca847933f2e}.
+
+\bibitem[Wu \emph{et~al.}(2019)Wu, Shen and van~den Hengel]{Wu2019}
+Zifeng Wu, Chunhua Shen and Anton van~den Hengel.
+\newblock jun 2019.
+\newblock {Wider or Deeper: Revisiting the ResNet Model for Visual
+  Recognition}.
+\newblock {\em Pattern Recognition}, {\bf 90},~\penalty0 119--133.
+\newblock ISSN 00313203.
+\newblock (doi:10.1016/j.patcog.2019.01.006)
+
+\bibitem[Zagoruyko and Komodakis()]{Zagoruyko}
+Sergey Zagoruyko and Nikos Komodakis.
+\newblock {Wide Residual Networks}.
+\newblock Technical report.
+
+\bibitem[Zhu \emph{et~al.}(2018)Zhu, Liu, Qi, Huang, Jiang and Zhang]{Zhu2018}
+Heyan Zhu, Qinglin Liu, Yuankai Qi, Xinyuan Huang, Feng Jiang and Shengping
+  Zhang.
+\newblock nov 2018.
+\newblock {Plant identification based on very deep convolutional neural
+  networks}.
+\newblock {\em Multimedia Tools and Applications}, {\bf 77},~\penalty0
+  29779--29797.
+\newblock ISSN 15737721.
+\newblock URL \url{https://doi.org/10.1007/s11042-017-5578-9}.
+\newblock (doi:10.1007/s11042-017-5578-9)
 
 \end{thebibliography}

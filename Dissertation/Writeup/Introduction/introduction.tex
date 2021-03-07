@@ -7,42 +7,64 @@
   Firstly, existing research regarding image classification of plants and plant diseases will be
   explored. Secondly, more generalized image classification tasks will be examined and lastly some popular CNN architectures will will be compared.
   \par
-  In 2009 a study was conducted using deep learning to identify three different disease classes on rice plants. The results showed over 70\% classification accuracy on 50 sample images. \cite{Anthonys2009}
+  In 2009 a study was conducted using deep learning to identify three different disease classes on rice plants. The results showed over 70\% classification accuracy on 50 sample images. The method employed used segmentation, followed by image feature extraction using three different algorithms to extract color, shape and texture information from the image. The feature data was input to a classification algorithm whereby the output would be one of the three disease types or no disease present. \cite{Anthonys2009}
   \par
-  In 2015 experiments using an alternative aproach to CNN's was conducted. Which involved image segmentation
-  using using K means clustering and other image processing techniques to find features in the image and create a one dimensional binary feature vector to be processed by an ANN. (CITATION HERE) The accuracy of detecting powdery mildew, yellow rust and aphids on wheat were 86.5\%, 85.2\%, 91.6\% and 93.5\% respectively.
+  In 2015 another experiment (using similar aproach to\cite{Anthonys2009}. Involved using image segmentation
+  using using K means clustering and other image processing techniques, to find features in the image and create a one dimensional binary feature vector, to be processed by an ANN. \cite{Khirade2015} The accuracy of detecting powdery mildew, yellow rust and aphids on wheat were 86.5\%, 85.2\%, 91.6\% and 93.5\% respectively.
   This non CNN teqnique has subsequently been rendered redundant as this method requires a greater number of
   computational processes and acheives results that have been surpassed by CNN's. However, the image segmentation teqnique (with the purpose of isolating the leaf from the background) Is also sometimes used in CNN aproaches.
   \par
-  A year later and there have been great successes in identifying crop disease with CNN's. In 2016 a paper was published running experiments on a 38 class crop disease dataset over 14 crop species and 26 diseases (or absense thereof). Resulting in 99.35\% accuracy on a held-out test set (using GoogLeNet). \cite{Mohanty2016}. This study utilized two established CNN architectures, namely AlexNet \cite{Krizhevsky} & GoogLeNet. \cite{Szegedy_2015_CVPR} With GoogLeNet achieving a higher F1 score in almost all cases.
-  This study also highlighted the effectiveness of using colour images when training the models, in all experiemnts, the color or segmented image models performed better as appose to grey scale images. A suprising aspect of the results is the fact that the segmented image models almost always permed worse than the colour image models, with the best performing model being trained on colour, non-segmented, images. This may be due to some bias being present in backgrounds of the dataset images. Or it may be more effective to not perform segmentation on the images prior to training.
+  A year later and there have been great successes in identifying crop disease with CNN's. In 2016 a paper was published running experiments on a 38 class crop disease dataset over 14 crop species and 26 diseases (or absense thereof). Resulting in 99.35\% accuracy on a held-out test set (using GoogLeNet). \cite{Mohanty2016}. This study utilized two established CNN architectures, namely AlexNet \cite{Krizhevsky} \& GoogLeNet. \cite{Szegedy_2015_CVPR} With GoogLeNet achieving a higher F1 score in almost all cases.
+  This study also highlighted the effectiveness of using colour images when training the models. In all experiemnts, the color or segmented image models performed better as appose to grey scale images. A suprising aspect of the results is the fact that the segmented image models almost always permed worse than the colour image models, with the best performing model being trained on colour, non-segmented images. This may be due to some bias being present in backgrounds of the dataset images. Or it may be more effective to not perform segmentation on the images prior to training.
   \par
-  Then in 2018 InceptionNetV3 (a later iteration on the GoogLeNet i.e. InceptionNetV1 architecture) is used on a very similar if not the same dataset of 38 class crop diseases (this paper cites the number of crop species to be 13 appose to 14) and 26 diseases. Resulting in a slight increase in accuracy of 0.39\%, to 99.74\% classification accuracy. (CITATION HERE) %CITE CDDUDL
+  Then in 2018 InceptionNetV3 (a later iteration on the GoogLeNet i.e. InceptionNetV1 architecture) is used on a very similar if not the same dataset of 38 class crop diseases (this paper cites the number of crop species to be 13 appose to 14) and 26 diseases. Resulting in a slight increase in accuracy of 0.39\%, to 99.74\% classification accuracy. \cite{Kulkarni2018} %CITE CDDUDL
   Prior to training the models, the training images were segmented to give the crop leaves a black background.
   Notably this study began with pre-trained InceptionV3 models and fine tuned them by training a seperate model for each type of crop. This allowed a system whereby the network is fed an image, it determines the crop, then it passes the image to the specific network tailored to that crop species.
-  Unfortunately there are no results available of experiments with non-segmented data to compare with the Mohanty paper. Interestingly the author (Omkar Kulkarni) states 'The pre-processing of image is essential for removing noise and segmentation of the image which helps in improving the accuracy of CNN model'. However, the results table [APPENDIX LINK] produced by \cite{Mohanty2016} show non-segmented images acheiving higher accuracy. The increae in accuracy for this paper when comapared to \cite{Mohanty2016} can be explained by the improved InceptionNet architecture.
+  Unfortunately there are no results available of experiments with non-segmented data to compare with the Mohanty paper. Interestingly the author (Omkar Kulkarni) states 'The pre-processing of image is essential for removing noise and segmentation of the image which helps in improving the accuracy of CNN model'. However, the results table [APPENDIX LINK] produced by \cite{Mohanty2016} show non-segmented images acheiving higher accuracy. The increae in accuracy for this paper when comapared to \cite{Mohanty2016} can be explained by the better performing InceptionNet architecture (FIND CITATION).
   \par
-  A study performed in 2015 by Sungbin Choi (CITE SUNGBIN CHOI) which involved plant species identification from a multi-image observation query. Found that an ensemble of CNN's performed with better classification performance. The study utilized an ensemble of fine-tuned\footnote[2]{meaning pre-trained on generalized data and then improved with domain specific data} GoogLeNet architectures.
+  A study performed in 2015 by Sungbin Choi \cite{Choi} which involved plant species identification from a multi-image observation query. Found that an ensemble of CNN's performed with better classification performance. The study utilized an ensemble of fine-tuned\footnote[2]{meaning pre-trained on generalized data and then improved with domain specific data} GoogLeNet architectures.
   \par
-  This paper [CITE HEYAN ZHU] performed experiments for plant species identification and justified that 'using CNN's can provide better feature representation compared to hand-crafted features.'
+  This paper \cite{Zhu2018} performed experiments for plant species identification and justified that 'using CNN's can provide better feature representation compared to hand-crafted features.'
   \par
-  From the reviewed sources it is aparent that the best performing architectures have employed the Inception [CITE INCEPTION NET] module.
-  which is consistent with the findings of [CITE Wu, Zifeng]. This paper found that when pitted against Resnet and InceptionNet varieties the Inception-ResNet-v2 was the best performing well known architecture\footnote[3]{However the researchers crafted a bespoke model that performed even better}
+  From the reviewed sources it is aparent that the best performing architectures have employed the Inception \cite{Szegedy2015} module.
+  which is consistent with the findings of \cite{Wu2019}. This paper found that when pitted against Resnet and InceptionNet varieties the Inception-ResNet-v2 was the best performing well known architecture. However the researchers crafted a bespoke architecture using inception modules that slightly outperformed the Inception-Resnet-v2.
   \par
-  The feature that sets InceptionNet architectures apart from previous iterations of CNN is the different varieties of Inception Module. An inception module is multiple convoulutional operations occuring in parallel and finally being concatenated together. Aditionally 1x1 convolutions are employed to reduce the input volume to later convolutions and therefore improve training time. [INCERT INCEPTION MODULE DIAGRAM]
+  \begin{wrapfigure}{R}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{InceptionModule}
+    \caption{\label{fig:InceptionModule}Inception Module Example.}
+  \end{wrapfigure}
+  The feature that sets InceptionNet architectures apart from previous iterations of CNN is the different varieties of Inception Module. An inception module is multiple convoulutional operations occuring in parallel and finally being concatenated together. Aditionally 1x1 convolutions are employed to reduce the input volume to later convolutions and therefore improve training time. This aproach is commonly refered to as 'widening' the network.
   \par
-  As it stands, there are few, (if any) papers exploring the efficacy of the novel fractalNet architecture (CITATION HERE) for crop disease detection. As it acts similarly to an ensemble of CNN's.
+  As it stands, there are few, (if any) papers exploring the efficacy of the novel fractalNet architecture \cite{Larsson2016} for crop disease detection or on any other dataset aside from the commonly used CIFAR10 \& 100.
   \par
-  \begin{figure}[H]
-    \begin{center}
-      \includegraphics[scale=0.7]{Images/FractalNetArchitectureCopy}
-      \caption{FractalNet architecture diagram}
-      \label{fig:fractalNet_diagram}
-    \end{center}
-  \end{figure}
+    \begin{wrapfigure}{R}{0.5\textwidth}
+      \centering
+      \includegraphics[width=0.5\textwidth]{Images/FractalNetArchitectureCopy}
+      \caption{\label{fig:FractalNet_arcitecture}FractalNet Architecture.}
+    \end{wrapfigure}
   \par
-  With each column through the network acting as a fully formed CNN in it's own right. It stands to reason that with the perfomance gains found in [SUNGBIN CHOI] using ensembles that a fractalNet architecture coupled with InceptionNet modules could also perfrom as well as or better than existing aproaches. The Inventors of the fractalNet performed experiments that justified their use over ResNets. Demonstrating results that showed improved classification accuracy.
+  The Inventors of the fractalNet performed experiments that justified their use over ResNets. Demonstrating results that showed improved classification accuracy. Another feature of the fractalNet architecture is the ability for the user to choose between speed of prediction and accuracy of prediciton as it is possible to take longer or shorter paths through the network.
+  \par
+  Research has been conducted in 2016 \cite{Zagoruyko} that determined 'wider' networks perform better than their deep narrow counterparts. They found that their 16-layer deep network had the same accuracy as a 1000 layer thin deep network with a comparable number of parameters. With the wider network even being faster to train.
+  \par
+  A key feature of CNN design is size and number of filters. In all examples mentioned (Resnet, InceptionNet, AlexNet etc), filter size is always odd and square. For instance 1x1, 3x3, 5x5 and so on. Size of filter will determine the size of the feature the filter will encode for. Number of filters will determine the depth of the convolution output. It is noteworthy that the Resnet50 architecture \cite{He} uses almost entirely 3x3 size filters. Whereas, the Inception module employs a mixture of 1x1 through to 5x5 convoutions.
+  \par
+  A technique known as dropout is a feature that has been employed in increasingly deep networks to prevent overfitting and was first introduced by \cite{Srivastava2014}. The principle behind its operation is randomly dropping paths between neurons during training. This ensures that predictions do not become overly reliant on a single (or gorup of) neuronal activation(s), that can correlate to some bias in the training data. And prevents neurons from becoming co-adaptive. This teqnique was employed in AlexNet \cite{Krizhevsky} whereby they used dropout in the first two fully connected layers of their model. They found that using dropout prevented overfitting but made training take twice as long. This exact method whereby dropout is used in the first two fully-connected layers is seen again in \cite{Simonyan2015}. Both methods choosing to employ a dropout chance of 50\%.
+  \par
+  Another aspect of CNN's is the process by which they progressively narrow down the possibilities until they arrive at their conclusion. This is done by encoding loose abstract forms that relate to groupings of objects in the early layers and gradually arriving at very generalized forms such as horizontal lines or sine waves in the later layers. So to give an example drawn from the AI microscope [CITE AI MICROSCOPE] . In an early layer  we may find a neuron that encodes for two unrelated objects such as dogs and turnstiles, a middle layer may encode for things under the sea or star shaped objects. Final layers encode for more generic features such as diagonal lines or squares.
+  \begin{landscape}
+    \begin{figure}[H]
+      \begin{center}
+        \includegraphics[scale=0.7]{Images/InceptionLayers/LayerExamples}
+        \caption{InceptionNet Filter Activation Maps}
+        \label{fig:inceptionNet_filter_activation}
+      \end{center}
+    \end{figure}
+  \end{landscape}
+  \par
 
+  \newpage
 
 
 \section{Problem Definition}
@@ -83,31 +105,32 @@
 
 
   % Table generated by Excel2LaTeX from sheet 'Risks_Table'
-\begin{table}[ht]
-  \centering
-  \caption{Risks Table}
-    \begin{tabular}{| c | c | c | c | c |}
-    \toprule
-    ID & Name & Likelihood & Impact & Control Mechanisms \\
-    \midrule
-    1     & Improper Time Management & med/low & high  & \multicolumn{1}{l|}{Follow the Gannt chart} \\
-    \midrule
-    2     & HDD/storage failure & low   & high  & All work will be backed\newline{} up to github \\
-    \midrule
-    3     & Illness/Injury & med   & med   & Should the need arise I\newline{}will apply for an extention\newline{}to the due date. \\
-    \midrule
-    4     & RSI (repetetive strain injury) & med   & low   & Work with proper posture\newline{}and set up workstation properly.\newline{}And take frequent breaks \\
-    \midrule
-    5     & Eye strain & med   & low   & Ensure room is well lit when working\newline{}on a screen.  \\
-    \midrule
-    6     & Incorrect Task Prioritisation & med   & med   & Iteratively re-asses the work being\newline{}done and compare it to the mark\newline{}scheme. \\
-    \midrule
-    7     & Postural problems & med   & low   & Work with proper posture\newline{}and set up workstation properly.\newline{}And take frequent breaks \\
-    \bottomrule
-    \end{tabular}%
-  \label{tab:risksTable}%
-\end{table}%
-
+\begin{landscape}
+  \begin{table}[ht]
+    \centering
+    \caption{Risks Table}
+      \begin{tabular}{| c | c | c | c | c |}
+      \toprule
+      ID & Name & Likelihood & Impact & Control Mechanisms \\
+      \midrule
+      1     & Improper Time Management & med/low & high  & \multicolumn{1}{l|}{Follow the Gannt chart} \\
+      \midrule
+      2     & HDD/storage failure & low   & high  & All work will be backed\newline{} up to github \\
+      \midrule
+      3     & Illness/Injury & med   & med   & Should the need arise I\newline{}will apply for an extention\newline{}to the due date. \\
+      \midrule
+      4     & RSI (repetetive strain injury) & med   & low   & Work with proper posture\newline{}and set up workstation properly.\newline{}And take frequent breaks \\
+      \midrule
+      5     & Eye strain & med   & low   & Ensure room is well lit when working\newline{}on a screen.  \\
+      \midrule
+      6     & Incorrect Task Prioritisation & med   & med   & Iteratively re-asses the work being\newline{}done and compare it to the mark\newline{}scheme. \\
+      \midrule
+      7     & Postural problems & med   & low   & Work with proper posture\newline{}and set up workstation properly.\newline{}And take frequent breaks \\
+      \bottomrule
+      \end{tabular}%
+    \label{tab:risksTable}%
+  \end{table}%
+\end{landscape}
 
   (ID, name, likelihood, impact, control mechanisms / accept)
 
