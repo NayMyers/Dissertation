@@ -2,6 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: bunat.bst
+Case mismatch error between cite keys leCun1998 and LeCun1998
+---line 58 of file dissertation.aux
+ : \citation{leCun1998
+ :                    }
+I'm skipping whatever remains of this command
 Database file #1: bibliography.bib
 Repeated entry---line 209 of file bibliography.bib
  : @article{Mohanty2016
@@ -272,45 +277,45 @@ Warning--empty institution in JLIFADSmallHolders
 Warning--empty institution in Zagoruyko
 Warning--empty year in Zagoruyko
 Warning--empty year in Zagoruyko
-You've used 22 entries,
+You've used 25 entries,
             2742 wiz_defined-function locations,
-            689 strings with 8470 characters,
-and the built_in function-call counts, 9634 in all, are:
-= -- 911
-> -- 508
-< -- 9
-+ -- 191
-- -- 168
-* -- 748
-:= -- 1546
-add.period$ -- 81
-call.type$ -- 22
-change.case$ -- 151
-chr.to.int$ -- 21
-cite$ -- 49
-duplicate$ -- 427
-empty$ -- 757
-format.name$ -- 194
-if$ -- 1997
+            716 strings with 9159 characters,
+and the built_in function-call counts, 11377 in all, are:
+= -- 1070
+> -- 630
+< -- 10
++ -- 236
+- -- 210
+* -- 897
+:= -- 1845
+add.period$ -- 96
+call.type$ -- 25
+change.case$ -- 177
+chr.to.int$ -- 24
+cite$ -- 52
+duplicate$ -- 488
+empty$ -- 874
+format.name$ -- 239
+if$ -- 2344
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 129
-num.names$ -- 64
-pop$ -- 270
+missing$ -- 10
+newline$ -- 150
+num.names$ -- 76
+pop$ -- 307
 preamble$ -- 1
-purify$ -- 122
+purify$ -- 145
 quote$ -- 0
-skip$ -- 316
+skip$ -- 360
 stack$ -- 0
-substring$ -- 276
-swap$ -- 47
+substring$ -- 344
+swap$ -- 52
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 242
+type$ -- 275
 warning$ -- 21
-while$ -- 59
+while$ -- 72
 width$ -- 0
-write$ -- 294
-(There were 120 error messages)
+write$ -- 342
+(There were 121 error messages)

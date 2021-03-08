@@ -1044,6 +1044,10 @@ INPUT ./Introduction/introduction.tex
 INPUT ./Introduction/introduction.tex
 INPUT Introduction/introduction.tex
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
@@ -1069,15 +1073,11 @@ INPUT ./Images/InceptionLayers/LayerExamples.png
 INPUT Images/InceptionLayers/LayerExamples.png
 INPUT ./Images/InceptionLayers/LayerExamples.png
 INPUT ./Images/InceptionLayers/LayerExamples.png
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
-INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
 INPUT ./Methodology/methodology.tex
 INPUT ./Methodology/methodology.tex

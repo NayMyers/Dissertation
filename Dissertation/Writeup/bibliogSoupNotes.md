@@ -41,6 +41,11 @@ task 2015
 
 * Plant identification based on very deep convolutional neural networks (HEYAN ZHU et al)
   - justified that CNN's are more effective than using hand-crafted features
+
+ * Handwritten Digit Recognition: Applications of Neural Network Chips and Automatic Learning
+    - 9.298 binary images of isolated digits. 7,29 1 of which are used for training 2,007 used for testing.
+as the training set, while the remaining 2,007 are use
+
 # Note
   - I want the back-end to be modular in the sense that I am able to choose from multiple CNN's with different functions. For instance:
     - Crop identification

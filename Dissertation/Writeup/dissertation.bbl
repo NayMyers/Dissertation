@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -44,6 +44,23 @@ Sungbin Choi.
   SNUMedinfo at LifeCLEF plant identification task 2015}.
 \newblock Technical report.
 
+\bibitem[Cun \emph{et~al.}(1989)Cun, Guyon, Jackel, Henderson, Boser, Howard,
+  Denker, Hubbard and Graf]{Cun1989}
+Y.~Le Cun, I.~Guyon, L.~D. Jackel, D.~Henderson, B.~Boser, R.~E. Howard, J.~S.
+  Denker, W.~Hubbard and H.~P. Graf.
+\newblock 1989.
+\newblock {Handwritten Digit Recognition: Applications of Neural Network Chips
+  and Automatic Learning}.
+\newblock {\em IEEE Communications Magazine}, {\bf 27},~\penalty0 41--46.
+\newblock ISSN 01636804.
+\newblock (doi:10.1109/35.41400)
+
+\bibitem[{Cun Yann le}(1988)]{CunYannle1988}
+{Cun Yann le}.
+\newblock {A Theoretical Framework for Back-Propagation}, 1988.
+\newblock URL
+  \url{http://new.math.uiuc.edu/MathMLseminar/seminarPapers/LeCunBackprop1988.pdf}.
+
 \bibitem[He \emph{et~al.}()He, Zhang, Ren and Sun]{He}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.
 \newblock {Deep Residual Learning for Image Recognition}.
@@ -79,6 +96,14 @@ Gustav Larsson, Michael Maire and Gregory Shakhnarovich.
 \newblock may 2016.
 \newblock {FractalNet: Ultra-Deep Neural Networks without Residuals}.
 \newblock URL \url{http://arxiv.org/abs/1605.07648}.
+
+\bibitem[LeCun \emph{et~al.}(1998)LeCun, Bottou, Bengio and Haffner]{LeCun1998}
+Yann LeCun, L{\'{e}}on Bottou, Yoshua Bengio and Patrick Haffner.
+\newblock 1998.
+\newblock {Gradient-based learning applied to document recognition}.
+\newblock {\em Proceedings of the IEEE}, {\bf 86},~\penalty0 2278--2323.
+\newblock ISSN 00189219.
+\newblock (doi:10.1109/5.726791)
 
 \bibitem[Mohanty \emph{et~al.}(2016)Mohanty, Hughes and
   Salath{\'{e}}]{Mohanty2016}
