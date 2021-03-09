@@ -821,6 +821,7 @@ INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
 INPUT g:/LaTeX/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
@@ -1065,6 +1066,10 @@ INPUT ./images//InceptionModule.png
 INPUT images//InceptionModule.png
 INPUT ./images//InceptionModule.png
 INPUT ./images//InceptionModule.png
+INPUT ./images//Residual_Identity_Block.png
+INPUT images//Residual_Identity_Block.png
+INPUT ./images//Residual_Identity_Block.png
+INPUT ./images//Residual_Identity_Block.png
 INPUT ./Images/FractalNetArchitectureCopy.png
 INPUT Images/FractalNetArchitectureCopy.png
 INPUT ./Images/FractalNetArchitectureCopy.png

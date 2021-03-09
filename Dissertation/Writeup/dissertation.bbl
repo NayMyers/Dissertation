@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -115,6 +115,17 @@ Sharada~P. Mohanty, David~P. Hughes and Marcel Salath{\'{e}}.
 \newblock URL
   \url{http://journal.frontiersin.org/article/10.3389/fpls.2016.01419/full}.
 \newblock (doi:10.3389/fpls.2016.01419)
+
+\bibitem[Sermanet \emph{et~al.}(2013)Sermanet, Eigen, Zhang, Mathieu, Fergus
+  and LeCun]{Sermanet2013}
+Pierre Sermanet, David Eigen, Xiang Zhang, Michael Mathieu, Rob Fergus and Yann
+  LeCun.
+\newblock dec 2013.
+\newblock {OverFeat: Integrated Recognition, Localization and Detection using
+  Convolutional Networks}.
+\newblock {\em 2nd International Conference on Learning Representations, ICLR
+  2014 - Conference Track Proceedings}.
+\newblock URL \url{http://arxiv.org/abs/1312.6229}.
 
 \bibitem[Simonyan and Zisserman(2015)]{Simonyan2015}
 Karen Simonyan and Andrew Zisserman.

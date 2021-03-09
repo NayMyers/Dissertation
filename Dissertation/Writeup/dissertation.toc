@@ -8,34 +8,34 @@
 \contentsline {section}{\numberline {2.2}Literature Review}{2}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Disease Detection Usage Of CNNs}{2}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Existing CNN Architectures}{4}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Problem Definition}{8}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Proposed Solution}{8}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Aims and Objectives}{8}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Aims}{8}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Objectives}{8}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Risk Table}{9}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Overview}{11}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Methodology}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Project management methodology}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Evaluation Design}{14}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Requirements Elicitation}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Feature management}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Design Methods}{15}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testing methods}{15}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Version control}{15}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Evaluation methods}{16}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}User Interface}{16}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{16}{subsection.3.8.2}%
-\contentsline {section}{\numberline {3.9}Initial Designs}{17}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Employed Technologies}{19}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Requirements}{20}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Testing and Implementation details}{21}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{21}{section.3.13}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{22}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{23}{section.5.1}%
-\contentsline {chapter}{bibliography}{26}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{27}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{28}{appendix.a.B}%
+\contentsline {section}{\numberline {2.3}Problem Definition}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Proposed Solution}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Aims and Objectives}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Aims}{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Objectives}{9}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Risk Table}{10}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Overview}{12}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Methodology}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project management methodology}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Evaluation Design}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Requirements Elicitation}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Feature management}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Design Methods}{16}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testing methods}{16}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Version control}{16}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Evaluation methods}{17}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}User Interface}{17}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{17}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.9}Initial Designs}{18}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Employed Technologies}{20}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Requirements}{21}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Testing and Implementation details}{22}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{22}{section.3.13}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{23}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section One}{24}{section.5.1}%
+\contentsline {chapter}{bibliography}{27}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{28}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{29}{appendix.a.B}%

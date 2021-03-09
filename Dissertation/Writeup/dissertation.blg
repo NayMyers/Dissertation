@@ -277,45 +277,45 @@ Warning--empty institution in JLIFADSmallHolders
 Warning--empty institution in Zagoruyko
 Warning--empty year in Zagoruyko
 Warning--empty year in Zagoruyko
-You've used 25 entries,
+You've used 26 entries,
             2742 wiz_defined-function locations,
-            716 strings with 9159 characters,
-and the built_in function-call counts, 11377 in all, are:
-= -- 1070
-> -- 630
+            723 strings with 9563 characters,
+and the built_in function-call counts, 11958 in all, are:
+= -- 1118
+> -- 682
 < -- 10
-+ -- 236
-- -- 210
-* -- 897
-:= -- 1845
-add.period$ -- 96
-call.type$ -- 25
-change.case$ -- 177
-chr.to.int$ -- 24
-cite$ -- 52
-duplicate$ -- 488
-empty$ -- 874
-format.name$ -- 239
-if$ -- 2344
++ -- 255
+- -- 228
+* -- 949
+:= -- 1951
+add.period$ -- 101
+call.type$ -- 26
+change.case$ -- 187
+chr.to.int$ -- 25
+cite$ -- 53
+duplicate$ -- 509
+empty$ -- 905
+format.name$ -- 258
+if$ -- 2455
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 10
-newline$ -- 150
-num.names$ -- 76
-pop$ -- 307
+missing$ -- 11
+newline$ -- 157
+num.names$ -- 80
+pop$ -- 322
 preamble$ -- 1
-purify$ -- 145
+purify$ -- 154
 quote$ -- 0
-skip$ -- 360
+skip$ -- 373
 stack$ -- 0
-substring$ -- 344
-swap$ -- 52
+substring$ -- 350
+swap$ -- 54
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 275
+type$ -- 286
 warning$ -- 21
-while$ -- 72
+while$ -- 75
 width$ -- 0
-write$ -- 342
+write$ -- 357
 (There were 121 error messages)
