@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  10 MAR 2021 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  14 MAR 2021 06:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,90 +819,91 @@ l.63 \end{figure}
                   <./Images/Project_Management_Methodology.png>] [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.74 \section{Design Methods}
-                             pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
+l.70 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.74 \section{Design Methods}
-                              <./Images/ProjectFocus2.png> <./Images/PMMPieChart.png>]
-Overfull \hbox (31.49939pt too wide) in paragraph at lines 85--88
+l.70 
+      <./Images/ProjectFocus2.png> <./Images/PMMPieChart.png>]
+Overfull \hbox (31.49939pt too wide) in paragraph at lines 86--89
 \OT1/phv/m/n/10.95 be re-fined with the help of ex-ist-ing us-abil-ity re-search, to guide the us-age of font/colour/highlight
  []
 
 <Images/Git_Workflow_Diagram.png, id=483, 661.7523pt x 250.7769pt>
 File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
-Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 102.
+Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 103.
 (pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
 [17] [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.121     \item R
-                 ecall. Is the correct number of predictions for a class out... <./Images/Git_Workflow_Diagram.png>]
-<Images/Home_Page_Wireframe.png, id=496, 504.9264pt x 381.5856pt>
+l.119     \end{itemize}
+                        <./Images/Git_Workflow_Diagram.png>]
+<Images/Home_Page_Wireframe.png, id=493, 504.9264pt x 381.5856pt>
 File: Images/Home_Page_Wireframe.png Graphic file (type png)
 <use Images/Home_Page_Wireframe.png>
-Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 129.
+Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 130.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/Defect_Information_Wireframe.png, id=497, 504.9264pt x 381.5856pt>
+<Images/Defect_Information_Wireframe.png, id=494, 504.9264pt x 381.5856pt>
 File: Images/Defect_Information_Wireframe.png Graphic file (type png)
 <use Images/Defect_Information_Wireframe.png>
-Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 136.
+Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 137.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/System_Overview_v1.png, id=498, 367.1316pt x 307.1475pt>
+ [19]
+<Images/System_Overview_v1.png, id=506, 367.1316pt x 307.1475pt>
 File: Images/System_Overview_v1.png Graphic file (type png)
 <use Images/System_Overview_v1.png>
-Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 143.
+Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 144.
 (pdftex.def)             Requested size: 256.99036pt x 215.00177pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.147   \end{figure}
-                     <./Images/Home_Page_Wireframe.png>]
-<Images/Input_Output_UI.png, id=508, 334.3692pt x 298.2342pt>
+<Images/Input_Output_UI.png, id=507, 334.3692pt x 298.2342pt>
 File: Images/Input_Output_UI.png Graphic file (type png)
 <use Images/Input_Output_UI.png>
-Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 150.
+Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 151.
 (pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
-<Images/Data_Augmentation.png, id=509, 379.4175pt x 244.0317pt>
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.155     \end{figure}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.155     \end{figure}
+                       <./Images/Home_Page_Wireframe.png> <./Images/Defect_Information_Wireframe.png>]
+<Images/Data_Augmentation.png, id=515, 379.4175pt x 244.0317pt>
 File: Images/Data_Augmentation.png Graphic file (type png)
 <use Images/Data_Augmentation.png>
-Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 157.
+Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 158.
 (pdftex.def)             Requested size: 265.59042pt x 170.82101pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.161     \end{figure}
-                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
+l.163 ...{Employed Technologies \& Justifications}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.161     \end{figure}
-                       <./Images/Defect_Information_Wireframe.png> <./Images/System_Overview_v1.png>] [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
+l.163 ...{Employed Technologies \& Justifications}
+                                                   <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>] [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.173     \item T
-                 ensorflow \& KeraspdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.173     \item T
-                 ensorflow \& Keras <./Images/Input_Output_UI.png> <./Images/Data_Augmentation.png>]
-Overfull \hbox (19.69475pt too wide) in paragraph at lines 177--178
+l.186       \end{itemize}
+                          <./Images/Data_Augmentation.png>]
+Overfull \hbox (19.69475pt too wide) in paragraph at lines 190--191
 \OT1/phv/m/n/10.95 Barker, Richard]. This cre-ates sub-cat-e-gory of re-quirments with the head-ings Must/Should/Could/Won't
  []
 
-[22]) (./Results_Discussion/results.tex [23]
+[23]) (./Results_Discussion/results.tex [24] [25]
 Chapter 4.
-) (./Conclusion/conclusion.tex [24
+) (./Conclusion/conclusion.tex [26
 
 ]
 Chapter 5.
-) (./dissertation.bbl [25
+) (./dissertation.bbl [27
 
-] [26
+] [28
 
-] [27]) (./Appendix/appendix.tex [28]
+] [29]) (./Appendix/appendix.tex [30]
 Appendix A.
-[29
+[31
 
 ]
 Appendix B.
@@ -910,25 +911,25 @@ Appendix B.
 
 Package natbib Warning: There were undefined citations.
 
-[30
+[32
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: A191842B528AF434CE78F306EE59F5D2;2587.
+(rerunfilecheck)             Checksum: DA6BA4D02132E2756FF980595B91CB76;2608.
  ) 
 Here is how much of TeX's memory you used:
- 19073 strings out of 479303
- 354648 string characters out of 5868250
- 659966 words of memory out of 5000000
- 35675 multiletter control sequences out of 15000+600000
+ 19078 strings out of 479303
+ 354715 string characters out of 5868250
+ 659965 words of memory out of 5000000
+ 35677 multiletter control sequences out of 15000+600000
  427752 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,88p,2025b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dissertation.pdf (41 pages, 12193546 bytes).
+Output written on dissertation.pdf (43 pages, 12197367 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -66,10 +66,11 @@ Furthermore, agile is a worthwhile methodology to use and familiarise oneself wi
  (what method(s), used how, with what and how many participants?)
 
 \section{Requirements Elicitation}
-  How will requirements of the software be determined.
+  As the scope of the problem domain is narrow in terms of interaction points for the user. Requirment elicitation will be driven by determining features that will build towards the solving the problem at hand. If for instance the problem was providing some kind of E-commerce website, project management application or social media website, the number of different features that could be employed in any one of these domains is vast and therefore one would need to consult the target audience and elicit the kind of requirements they would like to have. On the contrary, this project is far narrower in terms of points of interaction for the user. Therefore requirements will be determined on the basis of whether or not they contribute towards providing information about crop defects to the user.
 
 \section{Feature management}
   To track the creation and completion of features, a Kanban board will be used. This will include columns for 'To do', 'Doing' and 'Done'.
+  To determine which features will be prioritised one will employ the MOSCOW method (more on this later).
 
 \section{Design Methods}
    \begin{itemize}
@@ -159,18 +160,30 @@ Firstly I have created a wireframe UI
         \label{fig:data_augmentation}
       \end{center}
     \end{figure}
-\section{Employed Technologies}
+\section{Employed Technologies \& Justifications}
   \begin{itemize}
     \item Vue.js
+    \begin{itemize}
+      \item Vue.js allows for rapid creation of usable websites thanks to its webpack framework, which handles most of the boilerplate needed to handle URL routing and overall structure. It is also considered easy to learn when compared to React and Angular \cite{StudiengangBachelor} which for this project is optimal. Although Vue is currently less popular than React and Angular its popularity is rising, which means its not entirely redundant to learn from an employability standpoint. Vue is a component based framework, meaning it creates a structure to allow the programmer to utilize component technologies to build the website. The component technologies are; custom elements, which allow the programmer to embed javascript code in to either existing HTML elemnts by inheriting from them, or creating entirely new ones. HTML templates, which allows for sections of HTML to be re-used throuought the application, for instance navigation bars. And Shadow DOM's, which allows for DOM elements to contain sub-trees of elements, this is to aid in encapsulating the scope of the contained scripting and styling, meaning individual elements can have their own layers of encapsulation within them.
+    \end{itemize}
     \item Bootstrap
+        \begin{itemize}
+          \item Bootstrap is a CSS framework that has predefined classes for styling HTML elements, this helps with the asthetics of the webpage. For a solo developer this can allow for more time to spent on making the functionality more robust instead of spending time on looks.
+        \end{itemize}
     \item MySql
     \begin{itemize}
       % \item TODO:// INCERT REASON AND REFERENCE HERE
       \item The SQL database will mainly be responsible for storing filepaths to images. This gives the ability to use an SQL statement to fetch certain groups of images for display or training.
       \item The database will also store recourse information.
     \end{itemize}
-    \item Jupyter Notebook
+    \item Jupyter Notebook / Google Colab
+      \begin{itemize}
+        \item This pthon environment allows for easy prototyping of code. In the case of Colab, it allows for the usage of google servers and GPUS which can be used to train neural networks. With the benefit of being able to then save the trained weights for usage elsewhere.
+      \end{itemize}
     \item Tensorflow \& Keras
+      \begin{itemize}
+        \item These pthon libraries allow for the creation of complex CNN architectures by abstracting away the underlying matrix/tensor multiplication of deep learning. Allowing for the programmer to declare relationships between CNN features such as convolutional layers, batch normalisation, dropout etc. Without having to construct their inner workings. It also allows for the creation of user defined layers, so adding in ones own bespoke functionality for a layer of the CNN is possible.
+      \end{itemize}
     \item numpy
   \end{itemize}
 \section{Requirements}
@@ -213,5 +226,9 @@ For assessing requirement priority one will employ the MOSCOW method [CITE Clegg
   \item Won't Have
 \end{itemize}
 \section{Testing and Implementation details}
+  \subsubsection{Data}
+    One of the most important parts when creating a CNN is the data it is trained on [CITE Halevy]. The more properly labled data the network sees, the better. The most comprehensive dataset available (and the one which will mostly be used) is the Plant Village dataset. it contains 54303 images of healthy and unhealthy leaf images, in 38 catagories divided by species and disease. This dataset also contains pre-segmented\footnote{meaning the background has been blacked out}[1] versions of all the images. This dataset was used in two seperate studies cited in the literature review.
+    \par
+    Other datasets that may be used to pre-train the network before are the CIFAR10, CIFAR100 \& ILSVRC datasets. These datasets are not specifically plant based, but may benefit the network to build initial feature maps. In \cite{Choi} the authors used networks pre-trained on generic data such as the datasets mentioned. Experiments will be conducted to determine if this benefits classification accuracy
 
 \section{Justification of Implementation Choices}
