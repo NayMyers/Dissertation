@@ -152,6 +152,9 @@ Warning--empty year in Choi
 Warning--empty institution in He
 Warning--empty year in He
 Warning--empty year in He
+Warning--empty institution in StudiengangBachelor
+Warning--empty year in StudiengangBachelor
+Warning--empty year in StudiengangBachelor
 Warning--empty institution in Krizhevsky
 Warning--empty journal in Larsson2016
 Warning--empty institution in Simonyan2015
@@ -277,45 +280,45 @@ Warning--empty institution in JLIFADSmallHolders
 Warning--empty institution in Zagoruyko
 Warning--empty year in Zagoruyko
 Warning--empty year in Zagoruyko
-You've used 26 entries,
+You've used 27 entries,
             2742 wiz_defined-function locations,
-            723 strings with 9563 characters,
-and the built_in function-call counts, 11958 in all, are:
-= -- 1118
-> -- 682
+            727 strings with 9816 characters,
+and the built_in function-call counts, 12452 in all, are:
+= -- 1158
+> -- 726
 < -- 10
-+ -- 255
-- -- 228
-* -- 949
-:= -- 1951
-add.period$ -- 101
-call.type$ -- 26
-change.case$ -- 187
-chr.to.int$ -- 25
-cite$ -- 53
-duplicate$ -- 509
-empty$ -- 905
-format.name$ -- 258
-if$ -- 2455
++ -- 271
+- -- 243
+* -- 996
+:= -- 2042
+add.period$ -- 104
+call.type$ -- 27
+change.case$ -- 197
+chr.to.int$ -- 26
+cite$ -- 57
+duplicate$ -- 525
+empty$ -- 929
+format.name$ -- 274
+if$ -- 2545
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 11
-newline$ -- 157
-num.names$ -- 80
-pop$ -- 322
+newline$ -- 162
+num.names$ -- 84
+pop$ -- 338
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 162
 quote$ -- 0
-skip$ -- 373
+skip$ -- 382
 stack$ -- 0
-substring$ -- 350
+substring$ -- 356
 swap$ -- 54
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 286
-warning$ -- 21
-while$ -- 75
+type$ -- 297
+warning$ -- 24
+while$ -- 78
 width$ -- 0
-write$ -- 357
+write$ -- 368
 (There were 121 error messages)

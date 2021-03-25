@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  14 MAR 2021 06:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  17 MAR 2021 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -885,13 +885,13 @@ l.163 ...{Employed Technologies \& Justifications}
                                                    <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>] [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.186       \end{itemize}
-                          <./Images/Data_Augmentation.png>]
+l.176       \item T
+                   he SQL database will mainly be responsible for storing fi... <./Images/Data_Augmentation.png>]
 Overfull \hbox (19.69475pt too wide) in paragraph at lines 190--191
 \OT1/phv/m/n/10.95 Barker, Richard]. This cre-ates sub-cat-e-gory of re-quirments with the head-ings Must/Should/Could/Won't
  []
 
-[23]) (./Results_Discussion/results.tex [24] [25]
+[23] [24]) (./Results_Discussion/results.tex [25]
 Chapter 4.
 ) (./Conclusion/conclusion.tex [26
 
@@ -918,18 +918,18 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: DA6BA4D02132E2756FF980595B91CB76;2608.
  ) 
 Here is how much of TeX's memory you used:
- 19078 strings out of 479303
- 354715 string characters out of 5868250
- 659965 words of memory out of 5000000
- 35677 multiletter control sequences out of 15000+600000
+ 19083 strings out of 479303
+ 354828 string characters out of 5868250
+ 660124 words of memory out of 5000000
+ 35681 multiletter control sequences out of 15000+600000
  427752 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,88p,2025b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dissertation.pdf (43 pages, 12197367 bytes).
+Output written on dissertation.pdf (43 pages, 12198463 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
- 133 named destinations out of 1000 (max. 500000)
+ 672 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 134 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 
