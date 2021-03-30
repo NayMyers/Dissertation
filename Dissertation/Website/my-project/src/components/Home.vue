@@ -63,7 +63,7 @@
 </style>
 
 <script>
-  const axios = require('Axios')
+  const axios = require('axios')
   export default {
     name: 'firstroute',
     data () {

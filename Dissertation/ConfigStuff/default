@@ -1,0 +1,18 @@
+server {
+    listen      8081;
+    server_name 138.68.177.4;
+    charset utf-8;
+    root    /var/www/html;
+    index   index.html;
+    #Always serve index.html for any request
+    location / {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+    error_log  /var/log/nginx/vue-app-error.log;
+    access_log /var/log/nginx/vue-app-access.log;
+}

@@ -30,9 +30,13 @@ class Model:
         input_array = np.array([image_array])
         return input_array
 
+    def determineClass(self, predictionArray):
+        return np.argmax(predictionArray,axis=1)
+        
     def infer(self, imageFilePath = None):
         image = self.preprocess(imageFilePath)
         return self.model.predict(image)
+
 
 model = Model(MODEL_FILE_PATH)
 # image = np.asarray(Image.open(IMAGE_PATH).convert('RGB')).astype(np.float32)
