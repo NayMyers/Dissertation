@@ -1,16 +1,19 @@
 <template>
    <div>
-     <h1>{{ Homepage }}</h1>
+     <h2> Choose File And Upload </h2>
       <input type="file" ref="fileChoose" name="fileInput" value="Select File" @change="onFileSelected" style="display: none">
       <button @click="$refs.fileChoose.click()"> Choose File </button>
       <div>
         <button @click="onUpload" type="button-basic" name="button">Upload</button>
         <button @click="testAPIRes" type="button" name="button">Test API res</button>
       </div>
-      <div id="preview">
+      <div v-if="showImagePrev" id="preview">
+        <h1> Image Preview </h1>
         <img v-if="imageUrl" :src="imageUrl">
       </div>
-     <!-- TODO:// Why isn't the image being sent. Only recieving none at endpoint. -->
+      <div id="results" v-if="showResults">
+        <h3> Res Display Test </h3>
+      </div>
    </div>
 </template>
 
@@ -71,6 +74,8 @@
       apiUrlBase: 'http://127.0.0.1:5000/',
       selectedFile: null,
       imageUrl: null,
+      showImagePrev: false,
+      showResults: false
     }
   },
   methods: {
@@ -81,6 +86,8 @@
       console.log(this.selectedFile)
       // for the image preview.
       this.imageUrl = URL.createObjectURL(this.selectedFile)
+      this.showImagePrev = true
+      this.showResults = false
     },
     onUpload(){
       const fd = new FormData();
@@ -96,6 +103,8 @@
       })
         .then(res =>{
           console.log(res)
+          this.showImagePrev = false
+          this.showResults = true
         })
         .catch((err) => {
           return new Error(err.message)
@@ -105,6 +114,7 @@
       axios.post('http://127.0.0.1:5000/hello_world/helloworld')
           .then(res =>{
             console.log(res)
+
         })
     }
   }
