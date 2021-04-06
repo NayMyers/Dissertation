@@ -1,20 +1,31 @@
 <template>
-   <div>
-     <h2> Choose File And Upload </h2>
-      <input type="file" ref="fileChoose" name="fileInput" value="Select File" @change="onFileSelected" style="display: none">
-      <button @click="$refs.fileChoose.click()"> Choose File </button>
-      <div>
-        <button @click="onUpload" type="button-basic" name="button">Upload</button>
-        <button @click="testAPIRes" type="button" name="button">Test API res</button>
+  <div>
+
+     <div id="upload" v-if="uploadMode">
+       <h2> Choose File And Upload </h2>
+        <input type="file" ref="fileChoose" name="fileInput" value="Select File" @change="onFileSelected" style="display: none">
+        <button @click="$refs.fileChoose.click()"> Choose File </button>
+        <div>
+          <button @click="onUpload" type="button-basic" name="button">Upload</button>
+          <button @click="testAPIRes" type="button" name="button">Test API res</button>
+        </div>
+        <div v-if="showImagePrev" id="preview">
+          <h1> Image Preview </h1>
+          <img v-if="imageUrl" :src="imageUrl">
+        </div>
       </div>
-      <div v-if="showImagePrev" id="preview">
-        <h1> Image Preview </h1>
-        <img v-if="imageUrl" :src="imageUrl">
-      </div>
-      <div id="results" v-if="showResults">
-        <h3> Res Display Test </h3>
-      </div>
-   </div>
+
+     <div id="results" v-if="showResults">
+       <h3> {{this.defectName}} </h3>
+       <button @click="goToUploadMode" type="button-basic" name="goToUpload">Upload Different Image</button>
+       <div id="resImagePreview">
+         <h1> Image Preview </h1>
+         <!-- <img :src="'0a5e9323-dbad-432d-ac58-d291718345d9___FREC_Scab 3417_1.JPG'"> -->
+         <img :src="getResImgUrl()">
+       </div>
+     </div>
+
+  </div>
 </template>
 
 <style>
@@ -74,8 +85,16 @@
       apiUrlBase: 'http://127.0.0.1:5000/',
       selectedFile: null,
       imageUrl: null,
+      resImageUrl: "'0a5e9323-dbad-432d-ac58-d291718345d9___FREC_Scab 3417_1.JPG'",
+      uploadMode: true,
       showImagePrev: false,
-      showResults: false
+      showResults: false,
+      defectName : "Unknown",
+      // images: {
+      //   // sample: require('src/assets/images/Crop_Images/0a5e9323-dbad-432d-ac58-d291718345d9___FREC_Scab 3417_1.JPG')
+      //   sample: require('src/components/0a5e9323-dbad-432d-ac58-d291718345d9___FREC_Scab 3417_1.jpg')
+      //
+      // }
     }
   },
   methods: {
@@ -88,6 +107,10 @@
       this.imageUrl = URL.createObjectURL(this.selectedFile)
       this.showImagePrev = true
       this.showResults = false
+    },
+    getResImgUrl(){
+      var images = require.context('../assets/images/', false, /\.jpg$/)
+      return images('./' + "0a5e9323-dbad-432d-ac58-d291718345d9___FREC_Scab 3417_1" + ".jpg")
     },
     onUpload(){
       const fd = new FormData();
@@ -104,11 +127,18 @@
         .then(res =>{
           console.log(res)
           this.showImagePrev = false
+          this.uploadMode = false
           this.showResults = true
+
+          this.defectName = res["data"]["className"]
         })
         .catch((err) => {
           return new Error(err.message)
         })
+    },
+    goToUploadMode(){
+      this.uploadMode=true
+      this.showResults=false
     },
     testAPIRes(){
       axios.post('http://127.0.0.1:5000/hello_world/helloworld')
