@@ -162,6 +162,33 @@ Firstly I have created a wireframe UI
       \end{center}
     \end{figure}
 \section{Employed Technologies \& Justifications}
+  \subsection{Software Structure}
+    \subsection{Back-End}
+      The design aims to seprate the functionality of the CNN and the User Interface (UI) through use of a Representational State Transfer (RESTFul) Aplication Interface (API). The central idea of this aproach is to allow a seperation of distinct components which allows for flexebility in managing updates and changes to each component. The 'backend' which in this context refers to the CNN and it's related functionality, such as processing it's input's and outputs; will both recieve input and serve it's output through the interface of the RESTFul API. each 'endpoint' or in other words internal class of the API will all inherit from the Resource interface which means it will get the main four HTTP protocol functions. POST, GET, PUT, DELETE. All interogations of the CNN will be conducted through these requests.
+      \par
+      A key feature of A RESTFul interface is the fact that no client information is stored
+      between requests, this aids in making the interface more scalable and iteroperable. Scalable in the sense that increasing clients does not increase the amount of information the backend will have to store and interoperable in the sense that any client, be it mobile appliation, CLI program or webpage can use the interface.
+      \par
+      For this project, to reduce hosting costs, defect images are stored locally to the webpage and are accessed via the local file system. With the API serving the name of the defect which gives the information nececarry for the webpage to retrieve the correct images. A way of making this service more useful is to have a seperate image server, running nginx, to serve the defect images; with this set-up the API returns a URL of the image server so the client can retrieve the images.
+
+    \begin{figure}[H]
+      \begin{center}
+        \includegraphics[scale=0.7]{Images/API_InheritenceV2}
+        \caption{Backend Class Diagram}
+        \label{fig:api_inheritence}
+      \end{center}
+    \end{figure}
+
+    \subsection{Front-End}
+      Using the Vue.js webpack framework means the front-end will be split in to components. A component acting much like an endpoint in an API. Each component will have it's own set of functions and data, with the purpose of seprerating functionality of the UI in to manageable subsets of functionality and styling with the objective being to decouple dependancies between compoonents as much as possible. This helps simplify the development process as it seperates the problem in to distinct parts and it helps with maintinence, allowing them to be tested and developed on in isolation.
+
+      UI components will be defined using Hypertext Markup language (HTML) and Cascading Style Sheets (CSS). Interativity will be scripted in Javascript. All three extremely common in web development. %With some of the earliest pages of the world wide web in 1990 being defined in HTML1.0 now developed to HTML4.0 (cite html4.0 spec).
+      The main functionality of the web-app will be uploading an image to be analysed by the CNN and recieving a prediciton of which defect is/isn't present. This will be conducted by a single component. Once a prediction has been made, the user can choose to see more information (consisting of images and recourse information) about the defect, which will be handled by a second component.
+
+    \subsection{CNN Model Creation & Integration}
+      Seperation of the sofware components allows for the easy interchange of CNN models. This means one can train a model in GoogleColab, utilizing their GPU run-time and save it in the .h5 format. Meaning that, changing the model is as simple as changing a single filepath on the API server. Additionally if one wishes to extend the number of defects (classes) the model is able to predict; a number of steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes. and the images for the new defect must be added to the image server, or in this case due to hosting limitations, added to the webservice filesystem. Making the process one that is as straightforward as updating two file paths and uploading images to a server.
+
+\subsection{Technologies}
   \begin{itemize}
     \item Vue.js
     \begin{itemize}

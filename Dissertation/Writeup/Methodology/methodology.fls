@@ -4,3 +4,5 @@ INPUT g:/LaTeX/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT g:/LaTeX/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT methodology.tex
 OUTPUT methodology.log
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

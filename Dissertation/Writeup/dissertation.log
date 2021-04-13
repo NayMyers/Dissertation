@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  17 MAR 2021 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  13 APR 2021 19:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,7 @@ LaTeX Info: Redefining \nameref on input line 46.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Images/unilogo.jpg, id=171, 602.25pt x 620.3175pt>
+<Images/unilogo.jpg, id=187, 602.25pt x 620.3175pt>
 File: Images/unilogo.jpg Graphic file (type jpg)
 <use Images/unilogo.jpg>
 Package pdftex.def Info: Images/unilogo.jpg  used on input line 7.
@@ -718,7 +718,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 25.
  [3]
-<images//InceptionModule.png, id=367, 379.4175pt x 216.81pt>
+<images//InceptionModule.png, id=389, 379.4175pt x 216.81pt>
 File: images//InceptionModule.png Graphic file (type png)
 <use images//InceptionModule.png>
 Package pdftex.def Info: images//InceptionModule.png  used on input line 36.
@@ -732,13 +732,13 @@ Package natbib Warning: Citation `leCun1998' on page 4 undefined on input line 4
                                                   
 l.43   \par
             <./images//InceptionModule.png>]
-<images//Residual_Identity_Block.png, id=392, 154.8987pt x 233.4321pt>
+<images//Residual_Identity_Block.png, id=414, 154.8987pt x 233.4321pt>
 File: images//Residual_Identity_Block.png Graphic file (type png)
 <use images//Residual_Identity_Block.png>
 Package pdftex.def Info: images//Residual_Identity_Block.png  used on input line 48.
 (pdftex.def)             Requested size: 140.84258pt x 212.25969pt.
  [5]
-<Images/FractalNetArchitectureCopy.png, id=407, 643.203pt x 614.295pt>
+<Images/FractalNetArchitectureCopy.png, id=429, 643.203pt x 614.295pt>
 File: Images/FractalNetArchitectureCopy.png Graphic file (type png)
 <use Images/FractalNetArchitectureCopy.png>
 Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input line 61.
@@ -767,7 +767,7 @@ Underfull \hbox (badness 1077) in paragraph at lines 70--71
                                                   
 l.73   \par
             <./Images/FractalNetArchitectureCopy.png>] [8]
-<Images/InceptionLayers/LayerExamples.png, id=434, 861.4584pt x 496.9767pt>
+<Images/InceptionLayers/LayerExamples.png, id=456, 861.4584pt x 496.9767pt>
 File: Images/InceptionLayers/LayerExamples.png Graphic file (type png)
 <use Images/InceptionLayers/LayerExamples.png>
 Package pdftex.def Info: Images/InceptionLayers/LayerExamples.png  used on input line 80.
@@ -794,12 +794,12 @@ l.154 \end{landscape}
 
 ]
 Chapter 3.
-<Images/Project_Management_Methodology.png, id=462, 391.2216pt x 401.5803pt>
+<Images/Project_Management_Methodology.png, id=484, 391.2216pt x 401.5803pt>
 File: Images/Project_Management_Methodology.png Graphic file (type png)
 <use Images/Project_Management_Methodology.png>
 Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 35.
 (pdftex.def)             Requested size: 293.41548pt x 301.18448pt.
-<Images/ProjectFocus2.png, id=463, 947.03813pt x 526.96875pt>
+<Images/ProjectFocus2.png, id=485, 947.03813pt x 526.96875pt>
 File: Images/ProjectFocus2.png Graphic file (type png)
 <use Images/ProjectFocus2.png>
 Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
@@ -807,7 +807,7 @@ Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
 [14
 
 ]
-<Images/PMMPieChart.png, id=470, 521.69907pt x 425.33907pt>
+<Images/PMMPieChart.png, id=492, 521.69907pt x 425.33907pt>
 File: Images/PMMPieChart.png Graphic file (type png)
 <use Images/PMMPieChart.png>
 Package pdftex.def Info: Images/PMMPieChart.png  used on input line 59.
@@ -829,7 +829,7 @@ Overfull \hbox (31.49939pt too wide) in paragraph at lines 86--89
 \OT1/phv/m/n/10.95 be re-fined with the help of ex-ist-ing us-abil-ity re-search, to guide the us-age of font/colour/highlight
  []
 
-<Images/Git_Workflow_Diagram.png, id=483, 661.7523pt x 250.7769pt>
+<Images/Git_Workflow_Diagram.png, id=505, 661.7523pt x 250.7769pt>
 File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
 Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 103.
@@ -837,73 +837,83 @@ Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 103
 [17] [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.119     \end{itemize}
+l.120     \end{itemize}
                         <./Images/Git_Workflow_Diagram.png>]
-<Images/Home_Page_Wireframe.png, id=493, 504.9264pt x 381.5856pt>
+<Images/Home_Page_Wireframe.png, id=515, 504.9264pt x 381.5856pt>
 File: Images/Home_Page_Wireframe.png Graphic file (type png)
 <use Images/Home_Page_Wireframe.png>
-Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 130.
+Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 131.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/Defect_Information_Wireframe.png, id=494, 504.9264pt x 381.5856pt>
+<Images/Defect_Information_Wireframe.png, id=516, 504.9264pt x 381.5856pt>
 File: Images/Defect_Information_Wireframe.png Graphic file (type png)
 <use Images/Defect_Information_Wireframe.png>
-Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 137.
+Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 138.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
  [19]
-<Images/System_Overview_v1.png, id=506, 367.1316pt x 307.1475pt>
+<Images/System_Overview_v1.png, id=528, 367.1316pt x 307.1475pt>
 File: Images/System_Overview_v1.png Graphic file (type png)
 <use Images/System_Overview_v1.png>
-Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 144.
+Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 145.
 (pdftex.def)             Requested size: 256.99036pt x 215.00177pt.
-<Images/Input_Output_UI.png, id=507, 334.3692pt x 298.2342pt>
+<Images/Input_Output_UI.png, id=529, 334.3692pt x 298.2342pt>
 File: Images/Input_Output_UI.png Graphic file (type png)
 <use Images/Input_Output_UI.png>
-Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 151.
+Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 152.
 (pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
  [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.155     \end{figure}
+l.156     \end{figure}
                       pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.155     \end{figure}
+l.156     \end{figure}
                        <./Images/Home_Page_Wireframe.png> <./Images/Defect_Information_Wireframe.png>]
-<Images/Data_Augmentation.png, id=515, 379.4175pt x 244.0317pt>
+<Images/Data_Augmentation.png, id=537, 379.4175pt x 244.0317pt>
 File: Images/Data_Augmentation.png Graphic file (type png)
 <use Images/Data_Augmentation.png>
-Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 158.
+Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 159.
 (pdftex.def)             Requested size: 265.59042pt x 170.82101pt.
  [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.163 ...{Employed Technologies \& Justifications}
+l.164 ...{Employed Technologies \& Justifications}
                                                   pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.163 ...{Employed Technologies \& Justifications}
-                                                   <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>] [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
+l.164 ...{Employed Technologies \& Justifications}
+                                                   <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>]
+<Images/API_InheritenceV2.png, id=544, 460.8417pt x 694.7556pt>
+File: Images/API_InheritenceV2.png Graphic file (type png)
+<use Images/API_InheritenceV2.png>
+Package pdftex.def Info: Images/API_InheritenceV2.png  used on input line 176.
+(pdftex.def)             Requested size: 322.58699pt x 486.32559pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.176       \item T
-                   he SQL database will mainly be responsible for storing fi... <./Images/Data_Augmentation.png>]
-Overfull \hbox (19.69475pt too wide) in paragraph at lines 190--191
+l.180     \end{figure}
+                       <./Images/Data_Augmentation.png>] [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.194     \end{itemize}
+                        <./Images/API_InheritenceV2.png>] [24]
+Overfull \hbox (19.69475pt too wide) in paragraph at lines 216--217
 \OT1/phv/m/n/10.95 Barker, Richard]. This cre-ates sub-cat-e-gory of re-quirments with the head-ings Must/Should/Could/Won't
  []
 
-[23] [24]) (./Results_Discussion/results.tex [25]
+[25]) (./Results_Discussion/results.tex [26] [27]
 Chapter 4.
-) (./Conclusion/conclusion.tex [26
+) (./Conclusion/conclusion.tex [28
 
 ]
 Chapter 5.
-) (./dissertation.bbl [27
+) (./dissertation.bbl [29
 
-] [28
+] [30
 
-] [29]) (./Appendix/appendix.tex [30]
+] [31]) (./Appendix/appendix.tex [32]
 Appendix A.
-[31
+[33
 
 ]
 Appendix B.
@@ -911,25 +921,25 @@ Appendix B.
 
 Package natbib Warning: There were undefined citations.
 
-[32
+[34
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: DA6BA4D02132E2756FF980595B91CB76;2608.
+(rerunfilecheck)             Checksum: 4AB2FA1C4DC741903C62A9A6A9A1AB73;2879.
  ) 
 Here is how much of TeX's memory you used:
- 19083 strings out of 479303
- 354828 string characters out of 5868250
- 660124 words of memory out of 5000000
- 35681 multiletter control sequences out of 15000+600000
+ 19103 strings out of 479303
+ 355250 string characters out of 5868250
+ 660175 words of memory out of 5000000
+ 35693 multiletter control sequences out of 15000+600000
  427752 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,88p,2025b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dissertation.pdf (43 pages, 12198463 bytes).
+Output written on dissertation.pdf (45 pages, 12283772 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
- 134 named destinations out of 1000 (max. 500000)
- 411 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 706 PDF objects out of 1000 (max. 8388607)
+ 612 compressed objects within 7 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 448 words of extra memory for PDF output out of 10000 (max. 10000000)
 
