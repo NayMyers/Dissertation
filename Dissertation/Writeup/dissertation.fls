@@ -1131,10 +1131,10 @@ INPUT ./Images/Data_Augmentation.png
 INPUT Images/Data_Augmentation.png
 INPUT ./Images/Data_Augmentation.png
 INPUT ./Images/Data_Augmentation.png
-INPUT ./Images/API_InheritenceV2.png
-INPUT Images/API_InheritenceV2.png
-INPUT ./Images/API_InheritenceV2.png
-INPUT ./Images/API_InheritenceV2.png
+INPUT ./Images/API_InheritenceV3.png
+INPUT Images/API_InheritenceV3.png
+INPUT ./Images/API_InheritenceV3.png
+INPUT ./Images/API_InheritenceV3.png
 INPUT ./Results_Discussion/results.tex
 INPUT ./Results_Discussion/results.tex
 INPUT ./Results_Discussion/results.tex

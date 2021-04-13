@@ -17,30 +17,32 @@
 \contentsline {section}{\numberline {2.7}Overview}{13}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Methodology}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Project management methodology}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Evaluation Design}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Requirements Elicitation}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Evaluation Design}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Requirements Elicitation}{17}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Feature management}{17}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Design Methods}{17}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Testing methods}{18}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Version control}{18}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Evaluation methods}{18}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}User Interface}{18}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{18}{subsection.3.8.2}%
-\contentsline {section}{\numberline {3.9}Initial Designs}{19}{section.3.9}%
+\contentsline {section}{\numberline {3.8}Evaluation methods}{19}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}User Interface}{19}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{19}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.9}Initial Designs}{20}{section.3.9}%
 \contentsline {section}{\numberline {3.10}Employed Technologies \& Justifications}{22}{section.3.10}%
 \contentsline {subsection}{\numberline {3.10.1}Software Structure}{22}{subsection.3.10.1}%
 \contentsline {subsection}{\numberline {3.10.2}Back-End}{22}{subsection.3.10.2}%
-\contentsline {subsection}{\numberline {3.10.3}Front-End}{23}{subsection.3.10.3}%
-\contentsline {subsection}{\numberline {3.10.4}Technologies}{23}{subsection.3.10.4}%
-\contentsline {section}{\numberline {3.11}Requirements}{25}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Testing and Implementation details}{26}{section.3.12}%
-\contentsline {subsubsection}{Data}{26}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{27}{section.3.13}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{28}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{29}{section.5.1}%
-\contentsline {chapter}{bibliography}{32}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{33}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{34}{appendix.a.B}%
+\contentsline {subsection}{\numberline {3.10.3}Front-End}{24}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}Hosting}{25}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation & Integration}{25}{subsection.3.10.5}%
+\contentsline {subsubsection}{CNN Data and Training}{26}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}Technologies}{26}{subsection.3.10.6}%
+\contentsline {section}{\numberline {3.11}Requirements}{27}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Testing and Implementation details}{29}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{29}{section.3.13}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{30}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section One}{31}{section.5.1}%
+\contentsline {chapter}{bibliography}{34}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{35}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{36}{appendix.a.B}%
