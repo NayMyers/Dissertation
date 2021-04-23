@@ -226,12 +226,6 @@ Firstly I have created a wireframe UI
         \begin{itemize}
           \item Bootstrap is a CSS framework that has predefined classes for styling HTML elements, this helps with the asthetics of the webpage. For a solo developer this can allow for more time to spent on making the functionality more robust instead of spending time on looks.
         \end{itemize}
-    \item MySql
-    \begin{itemize}
-      % \item TODO:// INCERT REASON AND REFERENCE HERE
-      \item The SQL database will mainly be responsible for storing filepaths to images. This gives the ability to use an SQL statement to fetch certain groups of images for display or training.
-      \item The database will also store recourse information.
-    \end{itemize}
     \item Jupyter Notebook / Google Colab
       \begin{itemize}
         \item This pthon environment allows for easy prototyping of code. In the case of Colab, it allows for the usage of google servers and GPUS which can be used to train neural networks. With the benefit of being able to then save the trained weights for usage elsewhere.
@@ -240,7 +234,14 @@ Firstly I have created a wireframe UI
       \begin{itemize}
         \item These pthon libraries allow for the creation of complex CNN architectures by abstracting away the underlying matrix/tensor multiplication of deep learning. Allowing for the programmer to declare relationships between CNN features such as convolutional layers, batch normalisation, dropout etc. Without having to construct their inner workings. It also allows for the creation of user defined layers, so adding in ones own bespoke functionality for a layer of the CNN is possible.
       \end{itemize}
-    \item numpy
+    \item NginX
+      \begin{itemize}
+        \item NginX is a web server. This software, installed on the virtual machines (VM's) hosting, front/back end and files. Handles incoming HTTP protocol requests on ports it is configured to listen to, and serves content accordingly. Additionally, if the need arises, NginX can be used as a load balancer. Taking incoming requests and distributing them amongst the back-end servers via a reverse-proxy. With the reverse-proxy aproach it is also possible to cache response data. Reducing load on the back-end.
+      \end{itemize}
+    \item Gunicorn
+      \begin{itemize}
+        \item Gunicorn is another technology used to host the application. This time it is used to interface with the Flask API. It is a Web Server Gateway Interface (WSGI) HTTP server. This gives an interface to the API to allow it to send data back and forth between the web server, NginX.
+      \end{itemize}
   \end{itemize}
 \section{Requirements}
 For assessing requirement priority one will employ the MOSCOW method [CITE Clegg, Dai; Barker, Richard]. This creates subcategory of requirments with the headings Must/Should/Could/Won't - have. The contents of the catagories can change during development in light of development progress. Items placed in the Won't-have category prevent the process of 'scope-creep'.
