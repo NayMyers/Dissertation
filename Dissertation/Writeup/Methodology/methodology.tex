@@ -63,16 +63,18 @@ Furthermore, agile is a worthwhile methodology to use and familiarise oneself wi
   \end{center}
 \end{figure}
 
-While creating the product one's goal will be to implement a Minimum Viable Product (MVP). Defined by a product that fulfils the 'must have' requirements before expanding it's features to include 'could have' features etc. Aditionally, once the MVP is acheived, design considerations such as ease of extensability and addition of new features will be more heavily focused on. Sometimes with major code refactor occuring at this point, as to acheive the MVP quickly it is sometimes nececarry to 'hard code' parts or implement features in a way that may not be conducive to easy maintinence or addition of new features.
+While creating the product one's goal will be to implement a Minimum Viable Product (MVP). Defined by a product that fulfils the 'must have' requirements before expanding it's features to include 'could have' features etc. Aditionally, once the MVP is acheived, design considerations such as ease of extensability and addition of new features will be more heavily focused on. Sometimes with major code refactor occuring at this point, as to acheive the MVP quickly it is sometimes nececarry to 'hard code' parts or implement features in a way that may not be conducive to easy maintinence or serving content dynamically.
 
 \section{Evaluation Design}
   This will be conducted by linking users to the website with a link to an online survey alongside a link to a google drive folder containing relevant test images. With the questionaire mostly consisting of System Usability Survey (SUS) questions. And some aditional bespoke questions regarding accuracy of prediction.
 \section{Requirements Elicitation}
   As the scope of the problem domain is narrow in terms of interaction points for the user. Requirment elicitation will be driven by determining features that will build towards the solving the problem at hand. If for instance the problem was providing some kind of E-commerce website, project management application or social media website, the number of different features that could be employed in any one of these domains is vast and therefore one would need to consult the target audience and elicit the kind of requirements they would like to have. On the contrary, this project is far narrower in terms of points of interaction for the user. Therefore requirements will be determined on the basis of whether or not they contribute towards providing information about crop defects to the user.
+  \par
+  This is not to say user feedback is not useful for this project it still a good way to be alterted to any usability issues. Such as bugs, difficulty understanding how to use the application (what icons mean, order to carry out steps etc) and difficulty seeing UI elements due to poor colour choice. And for other projects with a specific customer in mind can use customer feedback to determine for instance how the program should handle erronus data. Or is it imperative that this program exececutes quickly? Or will the client be handling sensitive data and need to have the security of the application in mind?
 
 \section{Feature management}
   To track the creation and completion of features, a Kanban board will be used. This will include columns for 'To do', 'Doing' and 'Done'.
-  To determine which features will be prioritised one will employ the MOSCOW method (more on this later).
+  To determine which features will be prioritised one will employ the MOSCOW method see Feature Management.
 
 \section{Design Methods}
    \begin{itemize}
@@ -172,7 +174,7 @@ Firstly I have created a wireframe UI
       A key feature of A RESTFul interface is the fact that no client information is stored
       between requests, this aids in making the interface more scalable and iteroperable. Scalable in the sense that increasing clients does not increase the amount of information the backend will have to store and interoperable in the sense that any client, be it mobile appliation, CLI program or webpage can use the interface.
       \par
-      For this project, to reduce hosting costs, defect images are stored locally to the webpage and are accessed via the local file system. With the API serving the name of the defect which gives the information nececarry for the webpage to retrieve the correct images. A way of making this service more useful is to have a seperate image server, running nginx, to serve the defect images; with this set-up the API returns a URL of the image server so the client can retrieve the images.
+      To increase orthogonality of the system, defect images are stored standalone on an image server. With the API serving the name of the defect which gives the information nececarry for the webpage to retrieve the correct images. This is because the directory structure of the image server is set up such that directory names are defect classes and all image names are numbers. Having the images stored on a seperate server rather than bundled with the front-end makes the service more useful. As it means any other interface can also choose to obtain the defect images (although image server endpoint information is not served by the API).
 
     \begin{figure}[H]
       \begin{center}
@@ -192,15 +194,22 @@ Firstly I have created a wireframe UI
       Responses from the API will come in JSON format. With the intention being that as much data processing, such as determining which class is predicted, image preprocessing, and determining of defect image URL's, defect names etc. is handled on the back-end, meaning that any client wishing to interact with the API does not have to implement these features themselves. Therefore all functionality implemented in the web app will concern the consumption of user input and display of API response.
 
     \subsection{Hosting}
-      To make the application accessible on the internet one will utilize virtual machines (VM's) running linux, hosted in the cloud. There will be two VM's, one to host the front-end, the other to host the back-end. In both cases nginx will be used to create HTTP servers that will handle all functionality regarding the HTTP protocol and the socket layer.
+      To make the application accessible on the internet one will utilize virtual machines (VM's) running linux, hosted in the cloud. There will be three VM's, one to host the front-end, one to host the back-end and the other to host the defect images. In all cases nginx will be used to create HTTP servers that will handle all functionality regarding the HTTP protocol and the socket layer.
       \par
       Aside from creating backups of work, version control allows production environments (in this case the VM's) to be easily updated with new features, simply by pulling the latest changes from the repo, installing any new dependencies and re-building the application.
 
 
-    \subsection{CNN Model Creation & Integration}
+    \subsection{CNN Model Creation \& Integration}
       Seperation of the sofware components allows for the easy interchange of CNN models. This means one can train a model in GoogleColab, utilizing their GPU run-time and save it in the .h5 format. Meaning that, changing the model is as simple as changing a single filepath on the API server. Additionally if one wishes to extend the number of defects (classes) the model is able to predict; a number of steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes. and the images for the new defect must be added to the image server, or in this case due to hosting limitations, added to the webservice filesystem. Making the process one that is as straightforward as updating two file paths and uploading images using secure file transfer protocol (SFTP) to a server.
       \par
       When training the CNN it isn't clear if 'fine-tuning'(see lit review) an existing CNN is going to be more effective than training a network from scratch. Therefore some experimentation will be nececarry. However, training large networks with millions of parameters can take days or weeks, even when utilizing high end GPU's. For this reason the CNN accuracy is unlikely to acheive state of the art performance in the timeframe available for the project. Fortunately, the application is designed in a way that allows easy swapping of the model when better performance is realised.
+      \par
+      \subsection{where to put this paragraph?}
+      The initial architecture one experimented with was the InceptionNetV3, the rationalle being that one already had a familiarity with the architecture and therefore could rationalise about what may need to change in order to get better performance on the target dataset if initial experiments were not satisfactory. One opted to use a model pre-trained on the ILSSVRC dataset and fine-tune it to suit the crop dataset. This resulted in the model taking around six hours to train over an epoch (using Google Colab GPU runtime) and also drastically overtiffing the training data. One reasoned that the vast number of weights could be to blame for both problems, firstly the more weights the greater the training time, secondly, more filters leads to the network making less generalisations and being able to store many bespoke feature maps to target subsets or perhaps even individual images. Hence when it comes to an unseen example it's feature maps are not generic enough to aid in identifying the unseen image. Therefore one decided to use a a smaller network, 'EfficentNetB0', a network available as a pre-trained\footnote{on the ILSSVRC dataset}[1] CNN through the Keras library. For comparison  the InceptionV3 architecture is 92mb and contains 23,851,784 parameters (weights) whereas the EfficientNetB1 is 29mb and contains 5,330,571 parameters (approx 1/3 the parameters). Fine-tuning this network proved very successfull, acheiving a 98.6\% accuracy. For this dataset, due to the fact all classes the network is classifiying for are relatively similar, less feature maps are needed to generalise about the forms present. To contrast, a network that must classify 100 different classes ranging from a baseball to a shark. with all objects present in different contexts, for instance a closeup of the baseball sat on a table, and a long range shot of it mid flight across the stadium, set against the background of spectators. And it becomes easy to see why so many filters would be nececarry. If we take the crop-example we see all images are closeups of leaves with a neutral background. Therefore it is possible to generalise about this smaller subset of possible images with fewer filters. In fact few parameters becomes a desirable quality of the network as it forces the network to generalise as it does not have the ability to 'memorise' all the individual training images.
+      \subsection{where to put this/call this}
+      Throughout iterative process of creating the application, the design of the software is affected by factors which have a cause and effect relationship with one another. Such as; designing the system to include a relational database such MySql, as one beleives there may be a need to handle a large amount of  relational data. Later in the project, one realizes they only need the application to be able to retrieve dispirate and simple data, so one drops the database, in favour of using the hierachical storage of the filesystem and structured data languages such as JSON or XML. Another hypothetical example being, one decides to use a novel, bleeding edge, front-end javascript library to aid in creating user-interactive graphing of data. After creating a substantial poriton of the UI functionality, and finding it working smoothly on a high-end desktop PC, one decides to test the application on a smartphone, only to be left with the problem of extremely slow responsiveness. One is then left with the realization, that the novel UI-library is far from optimized and one is now forced in to a bind. If requirments don't specifically request mobile functionality then it would be possible to carry on using the library, however, if one is to take this route, one should have stated in the requirments 'Won't have mobile device support'. However if requirments dictate that mobile support is a 'Must Have' two main possibilites arise, either the library is being used inefectually and time is needed for the developer to become proficcient at using it. Or the library is simply slow. If for whatever reason the library must be dropped from the project, aspects of the UI design will need to change, to better reflect the reduction in expected features; this being caused by the extra time taken to implement what was previously offered by the library. Either this, or extending the project deadline.
+      % Such as, adding more libraries to the project will have the knock on effect of increasing the amount of time spent    are one of many factors that feed-into one another such as usability, speed of excecution and speed of creation feed in to one-another.
+
 
     \subsubsection{CNN Data and Training}
       One of the most important parts when creating a CNN is the data it is trained on [CITE Halevy]. The more properly labled data the network sees, the better. The most comprehensive dataset available (and the one which will mostly be used) is the Plant Village dataset. it contains 54303 images of healthy and unhealthy leaf images, in 38 catagories divided by species and disease. This dataset also contains pre-segmented\footnote{meaning the background has been blacked out}[1] versions of all the images. This dataset was used in two seperate studies cited in the literature review.
@@ -239,14 +248,23 @@ For assessing requirement priority one will employ the MOSCOW method [CITE Clegg
   \item Must Have
   \begin{itemize}
     \item Ability for user to upload an image
+      \begin{itemize}
+        \item The user will be able to choose an image file from their local storage using a file explorer popup.
+      \end{itemize}
     \item CNN that is capable of classifying at least 2 different defects
       across 2 different plant species.
     \item An API that allows communication from the UI to the CNN
     \item API must be able to receive images.
-    \item API must return defect information.
+      \begin{itemize}
+        \item Accepted formats being .jpg \& .png
+      \end{itemize}
+    \item API must return defect information, which will be an array of probability values for each defect class
     \item API must return recourse information.
-    \item API must return relevant images to the detected defect.
-  	\item have a working REST API. The API will provide information regarding the likelihood of each kind of crop defect, when served an image via a link to a relational database. In addition to other metrics such as similar images and time to compute. The API will be robust enough to handle the receipt of erroneous requests.
+    \item Application must display images that show the predicted defect.
+      \begin{itemize}
+        \item These images may be stored either on a seperate server to the front-end. Perhaps in the API servers 'static folder'. Alternatively they will be bundled with the front end.
+      \end{itemize}
+  	\item The API will be robust enough to handle the receipt of erroneous requests.
   	\item A python backend that will handle image classification using a CNN.
   	\item A UI that will allow the user to upload an image to be analysed.
   	\item The UI will display information regarding the likelihood of each kind of possible defect.

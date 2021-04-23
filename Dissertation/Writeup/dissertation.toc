@@ -6,8 +6,9 @@
 \contentsline {chapter}{\numberline {2}Introduction}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Context}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Literature Review}{2}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Disease Detection Usage Of CNNs}{2}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Existing CNN Architectures}{4}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}General Software Development Practice}{2}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Disease Detection Usage Of CNNs}{3}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Existing CNN Architectures}{4}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Problem Definition}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Proposed Solution}{10}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Aims \& Objectives}{10}{section.2.5}%
@@ -32,17 +33,19 @@
 \contentsline {subsection}{\numberline {3.10.2}Back-End}{22}{subsection.3.10.2}%
 \contentsline {subsection}{\numberline {3.10.3}Front-End}{24}{subsection.3.10.3}%
 \contentsline {subsection}{\numberline {3.10.4}Hosting}{25}{subsection.3.10.4}%
-\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation & Integration}{25}{subsection.3.10.5}%
-\contentsline {subsubsection}{CNN Data and Training}{26}{subsection.3.10.5}%
-\contentsline {subsection}{\numberline {3.10.6}Technologies}{26}{subsection.3.10.6}%
-\contentsline {section}{\numberline {3.11}Requirements}{27}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Testing and Implementation details}{29}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{29}{section.3.13}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{30}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{31}{section.5.1}%
-\contentsline {chapter}{bibliography}{34}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{35}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{36}{appendix.a.B}%
+\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation \& Integration}{25}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}where to put this paragraph?}{26}{subsection.3.10.6}%
+\contentsline {subsection}{\numberline {3.10.7}where to put this/call this}{27}{subsection.3.10.7}%
+\contentsline {subsubsection}{CNN Data and Training}{27}{subsection.3.10.7}%
+\contentsline {subsection}{\numberline {3.10.8}Technologies}{28}{subsection.3.10.8}%
+\contentsline {section}{\numberline {3.11}Requirements}{29}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Testing and Implementation details}{30}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{30}{section.3.13}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{31}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section One}{32}{section.5.1}%
+\contentsline {chapter}{bibliography}{35}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{36}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{37}{appendix.a.B}%
