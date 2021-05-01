@@ -1,6 +1,16 @@
 \chapter{Conclusion}
 \label{conclusion}
+  \subsection{CNN}
+    The Performance of the CNN given the available hardware (Google Colab GPU Runtime) is good. With a 98.6\% classification accuracy on a held out validation set. With current cutting edge being 99.74\% on the same dataset (as covered in the literature review). The CNN is capable of identifying 38 unique classes of crop images. Unfortunately due to the lack of data, one was unable to include additional defects such as lack of water/nitrogen/sunlight etc. However the design of the system allows for the CNN model to be changed very easily. As simply as changing two files on the API server. This means that as model performance improves and classification range broadens, the system is able accomodate for this.
 
-\section{Section One}
+  \subsection{Architecture}
+    The seperation of responsibility between the API and Front-End has created two orthogonal systems that can be upgraded and interchanged easily. The front end need not know any details about the CNN(model) it is interacting with. The classes the model is able to identify are dynamically updated on the front-end and prediction data also remains consistent between model implementations. Recourse and prevention information are similarly easy to update and can be changed dynamically, simply by updating a JSON file on the back-end. Images the front-end display are also easily changed and are hosted on a seperate image server, further contributing to the systems orthogonality.
 
- a dissertation is a substantial document, it is convenient to break it up into smaller pieces. In this template we therefore give every chapter its own file. The chapters (and appendices) are gathered together in \texttt{dissertation.tex}, which is the master file describing the overall structure of the document. \texttt{dissertation.tex} starts with the line
+  \subsection{Development}
+    A major change made to the design of the application was the choice to drop the relational database in favor of using heirachical storage as it was noted that the application did not need to handle complex relational data. Initially the purpose was to have the database handle filepaths to images and recourse/defect information but this was easily handled with consistent directory naming on the image server and JSON files.
+    \par
+
+    \par
+    Some of the main issues that arose during development were during the move to production. This involved learning new technologies such as NginX and Gunicorn to deploy the project as the configuration can be obtuse upon first interaction. Some API code also did not work the same way as on the development server and so had to be modified to work in the production environment.
+    \par
+    Through the use of version control it has been straightforward to update the code on the production servers as it is simple as pulling the latest changes from the git repository. version control has been helpful throught the lifecycle thanks to the ability to branch the codebase (see version control).

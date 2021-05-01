@@ -8,44 +8,47 @@
 \contentsline {section}{\numberline {2.2}Literature Review}{2}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}General Software Development Practice}{2}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Disease Detection Usage Of CNNs}{3}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Existing CNN Architectures}{4}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Problem Definition}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Proposed Solution}{10}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Aims \& Objectives}{10}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Aims}{10}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Objectives}{10}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Risk Table}{11}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Overview}{13}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Methodology}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Project management methodology}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Evaluation Design}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Requirements Elicitation}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Feature management}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Design Methods}{17}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testing methods}{18}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Version control}{18}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Evaluation methods}{19}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}User Interface}{19}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{19}{subsection.3.8.2}%
-\contentsline {section}{\numberline {3.9}Initial Designs}{20}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Employed Technologies \& Justifications}{22}{section.3.10}%
-\contentsline {subsection}{\numberline {3.10.1}Software Structure}{22}{subsection.3.10.1}%
-\contentsline {subsection}{\numberline {3.10.2}Back-End}{22}{subsection.3.10.2}%
-\contentsline {subsection}{\numberline {3.10.3}Front-End}{24}{subsection.3.10.3}%
-\contentsline {subsection}{\numberline {3.10.4}Hosting}{25}{subsection.3.10.4}%
-\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation \& Integration}{25}{subsection.3.10.5}%
-\contentsline {subsection}{\numberline {3.10.6}where to put this paragraph?}{26}{subsection.3.10.6}%
-\contentsline {subsection}{\numberline {3.10.7}where to put this/call this}{27}{subsection.3.10.7}%
-\contentsline {subsubsection}{CNN Data and Training}{27}{subsection.3.10.7}%
-\contentsline {subsection}{\numberline {3.10.8}Technologies}{28}{subsection.3.10.8}%
-\contentsline {section}{\numberline {3.11}Requirements}{29}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Testing and Implementation details}{30}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{30}{section.3.13}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{31}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section One}{32}{section.5.1}%
-\contentsline {chapter}{bibliography}{35}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{36}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{37}{appendix.a.B}%
+\contentsline {subsection}{\numberline {2.2.3}Existing CNN Architectures}{5}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Problem Definition}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Proposed Solution}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Aims \& Objectives}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Aims}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Objectives}{11}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Risk Table}{12}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Overview}{14}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Methodology}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project management methodology}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Evaluation Design}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Requirements Elicitation}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Feature management}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Design Methods}{18}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testing methods}{19}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Version control}{19}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Evaluation methods}{20}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}User Interface}{20}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network (CNN)}{20}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.9}Initial Designs}{21}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Employed Technologies \& Justifications}{23}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Software Structure}{23}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Back-End}{23}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Front-End}{25}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}Hosting}{26}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation \& Integration}{26}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}where to put this paragraph?}{27}{subsection.3.10.6}%
+\contentsline {subsection}{\numberline {3.10.7}where to put this/call this}{28}{subsection.3.10.7}%
+\contentsline {subsection}{\numberline {3.10.8}where to put this/call this}{28}{subsection.3.10.8}%
+\contentsline {subsubsection}{CNN Data and Training}{32}{figure.3.20}%
+\contentsline {subsection}{\numberline {3.10.9}Technologies}{32}{subsection.3.10.9}%
+\contentsline {section}{\numberline {3.11}Requirements}{34}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Testing and Implementation details}{35}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Justification of Implementation Choices}{35}{section.3.13}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{36}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}CNN}{37}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Architecture}{37}{subsection.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Development}{37}{subsection.5.0.3}%
+\contentsline {chapter}{bibliography}{41}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{42}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{43}{appendix.a.B}%

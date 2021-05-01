@@ -36,15 +36,18 @@
 \BOOKMARK [2][-]{subsection.3.10.5}{CNN Model Creation \046 Integration}{section.3.10}% 36
 \BOOKMARK [2][-]{subsection.3.10.6}{where to put this paragraph?}{section.3.10}% 37
 \BOOKMARK [2][-]{subsection.3.10.7}{where to put this/call this}{section.3.10}% 38
-\BOOKMARK [2][-]{subsection.3.10.8}{Technologies}{section.3.10}% 39
-\BOOKMARK [1][-]{section.3.11}{Requirements}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.12}{Testing and Implementation details}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.13}{Justification of Implementation Choices}{chapter.3}% 42
-\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 43
-\BOOKMARK [1][-]{section.4.1}{Main Results}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.2}{Evaluation Results}{chapter.4}% 45
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 46
-\BOOKMARK [1][-]{section.5.1}{Section One}{chapter.5}% 47
-\BOOKMARK [0][-]{chapter*.8}{bibliography}{}% 48
-\BOOKMARK [0][-]{appendix.a.A}{Appendix Project Proposal}{}% 49
-\BOOKMARK [0][-]{appendix.a.B}{Appendix Ethics Checklist}{}% 50
+\BOOKMARK [2][-]{subsection.3.10.8}{where to put this/call this}{section.3.10}% 39
+\BOOKMARK [2][-]{subsection.3.10.9}{Technologies}{section.3.10}% 40
+\BOOKMARK [1][-]{section.3.11}{Requirements}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.12}{Testing and Implementation details}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.13}{Justification of Implementation Choices}{chapter.3}% 43
+\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 44
+\BOOKMARK [1][-]{section.4.1}{Main Results}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{Evaluation Results}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 47
+\BOOKMARK [1][-]{subsection.5.0.1}{CNN}{chapter.5}% 48
+\BOOKMARK [2][-]{subsection.5.0.2}{Architecture}{subsection.5.0.1}% 49
+\BOOKMARK [2][-]{subsection.5.0.3}{Development}{subsection.5.0.1}% 50
+\BOOKMARK [0][-]{chapter*.8}{bibliography}{}% 51
+\BOOKMARK [0][-]{appendix.a.A}{Appendix Project Proposal}{}% 52
+\BOOKMARK [0][-]{appendix.a.B}{Appendix Ethics Checklist}{}% 53
