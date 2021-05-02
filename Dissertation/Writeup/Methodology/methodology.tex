@@ -210,11 +210,11 @@ Firstly I have created a wireframe UI
       Throughout iterative process of creating the application, the design of the software is affected by factors which have a cause and effect relationship with one another. Following are some hypothetical scenarios that illustrate this point, such as; designing the system to include a relational database such MySql, as one beleives there may be a need to handle a large amount of  relational data. Later in the project, one realizes they only need the application to be able to retrieve dispirate and simple data, so one drops the database, in favour of using the hierachical storage of the filesystem and structured data languages such as JSON or XML. Another example being, one decides to use a novel, bleeding edge, front-end javascript library to aid in creating user-interactive graphing of data. After creating a substantial poriton of the UI functionality, and finding it working smoothly on a high-end desktop PC, one decides to test the application on a smartphone, only to be left with the problem of extremely slow responsiveness. One is then left with the realization, that the novel UI-library is far from optimized and one is now forced in to a bind. If requirments don't specifically request mobile functionality then it would be possible to carry on using the library, however, if one is to take this route, one should have stated in the requirments 'Won't have mobile device support'. However if requirments dictate that mobile support is a 'Must Have' or even 'Should-Have' two main possibilites arise, either the library is being used inefectually and time is needed for the developer to become proficcient at using it. Or the library is simply slow. If for whatever reason the library must be dropped from the project, aspects of the UI design will need to change, to better reflect the reduction in expected features; this being caused by the extra time taken to implement what was previously offered by the library. Either this, or extending the project deadline. A final example is a situation whereby an application stores and handles sensitive information about a user, for instance an online medical checkup. This can lead to large poritons of a codebase needing to be re-factored and documentation updated, if later in the development process the team discovers a security vunerability in a technology or library they are using. Modifications may involve updating class diagrams and system overview diagrams etc.
       % Such as, adding more libraries to the project will have the knock on effect of increasing the amount of time spent    are one of many factors that feed-into one another such as usability, speed of excecution and speed of creation feed in to one-another.
       \subsection{where to put this/call this}
-      an example to illustrate the process of refactoring. The first peice code was arrived at because the base case was to retrieve the most likely defect. The extended requirment was to find the top three most likely defects. This has resulted in two methods being created for each case as the base case was coded first and extended requirment added in later. Although this is still functional, it's unnececarry and the code can be simplified, by using the result produced by the newly created method, the base-case method and any calls to it can be deleted. (note the method is declared in Model class which has been ommitted for clarity) The final refactor of example one is entirely debateable as to whether or not it is an improvement. It is certainly more terse, which makes it arguably more difficult to read. The counterpoints to this being; one is using less memory to store the code, less keystrokes, and one is not allocating a computationally redundant variable at runtime. The final point being moreso noteable in the language of Python. Given it's interpreted nature, the interpreter will cause the machine to execute this operation (granted it's a fairly inexpensive one). If it were a compiled however, it is likely the compiler would ignore this redundancy and it would have no bearing on the run-time of the program.
+      an example to illustrate the process of refactoring. The first peice code was arrived at because the base case was to retrieve the most likely defect. The extended requirment was to find the top three most likely defects. This has resulted in two methods being created for each case as the base case was coded first and extended requirment added in later. Although this is still functional, it's unnececarry and the code can be simplified, by using the result produced by the newly created method, the base-case method and any calls to it can be deleted. (note the method is declared in Model class which has been ommitted for clarity) The final refactor of example one is entirely debateable as to whether or not it is an improvement. It is certainly more terse, which makes it arguably more difficult to read. The counterpoints to this being; one is using less memory to store the code, less keystrokes, and one is not allocating a computationally redundant variable at runtime. The final point being moreso noteable in the language of Python. Given it's interpreted nature, the interpreter will cause the machine to execute this operation (granted it's a fairly inexpensive one). If it were a compiled however, it is likely the compiler would ignore this redundancy and it would have no bearing on the run-time of the program. Finally, comments are either added or updated. 
 
       \begin{figure}[H]
         \begin{center}
-          \includegraphics[scale=0.5]{Images/Refactor/refactorA1}
+          \includegraphics[scale=0.55]{Images/Refactor/refactorA1}
           \caption{Example 1 Code Initial}
           \label{fig:refactorA1}
         \end{center}
@@ -222,7 +222,7 @@ Firstly I have created a wireframe UI
 
       \begin{figure}[H]
         \begin{center}
-          \includegraphics[scale=0.5]{Images/Refactor/refactorA2}
+          \includegraphics[scale=0.55]{Images/Refactor/refactorA2}
           \caption{Example 1 Code Refactor 1}
           \label{fig:refactorA2}
         \end{center}
@@ -230,7 +230,7 @@ Firstly I have created a wireframe UI
 
       \begin{figure}[H]
         \begin{center}
-          \includegraphics[scale=0.5]{Images/Refactor/refactorA3}
+          \includegraphics[scale=0.55]{Images/Refactor/refactorA3}
           \caption{Example 1 Code Refactor 3}
           \label{fig:refactorA3}
         \end{center}
@@ -238,16 +238,16 @@ Firstly I have created a wireframe UI
 
       \begin{figure}[H]
         \begin{center}
-          \includegraphics[scale=0.75]{Images/Refactor/refactorA4}
+          \includegraphics[scale=0.55]{Images/Refactor/refactorA4}
           \caption{Example 1 Refactor 4}
           \label{fig:refactorA3}
         \end{center}
       \end{figure}
 
-      Further examples of refactoring. In this example of refactoring we see how
+      In this example of refactoring we see how multiple redundant variable allocations can be condensed into a single line.
       \begin{figure}[H]
         \begin{center}
-          \includegraphics[scale=0.5]{Images/Refactor/refactorB1}
+          \includegraphics[scale=0.55]{Images/Refactor/refactorB1}
           \caption{Example 2 Code Initial}
           \label{fig:refactorA3}
         \end{center}
@@ -255,7 +255,7 @@ Firstly I have created a wireframe UI
 
       \begin{figure}[H]
         \begin{center}
-          \includegraphics[scale=0.5]{Images/Refactor/refactorB2}
+          \includegraphics[scale=0.55]{Images/Refactor/refactorB2}
           \caption{Example 2 Refactor}
           \label{fig:refactorA3}
         \end{center}
