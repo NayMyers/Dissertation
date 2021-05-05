@@ -70,7 +70,7 @@ While creating the product one's goal will be to implement a Minimum Viable Prod
 \section{Requirements Elicitation}
   As the scope of the problem domain is narrow in terms of interaction points for the user. Requirment elicitation will be driven by determining features that will build towards the solving the problem at hand. If for instance the problem was providing some kind of E-commerce website, project management application or social media website, the number of different features that could be employed in any one of these domains is vast and therefore one would need to consult the target audience and elicit the kind of requirements they would like to have. On the contrary, this project is far narrower in terms of points of interaction for the user. Therefore requirements will be determined on the basis of whether or not they contribute towards providing information about crop defects to the user.
   \par
-  This is not to say user feedback is not useful for this project, it still a good way to be alterted to any usability issues. Such as bugs, difficulty understanding how to use the application (what icons mean, order to carry out steps etc) and difficulty seeing UI elements due to poor colour choice. And for other projects with a specific customer in mind, can use customer feedback to determine for instance how the program should handle erronus data. Or is it imperative that this program exececutes quickly? Or will the client be handling sensitive data and need to have the security of the application in mind?
+  This is not to say user feedback is not useful for this project, it still a good way to be alterted to any usability issues. Such as bugs, difficulty understanding how to use the application (what icons mean, order to carry out steps etc) and difficulty seeing UI elements due to poor colour choice. Other projects with a more specific customer in mind, can use customer feedback to determine for instance how the program should handle erronus data. And whether or not it's imperative that the program exececutes quickly? Or will the client be handling sensitive data and the security of the application is a priority?
 
 \section{Feature management}
   To track the creation and completion of features, a Kanban board will be used. This will include columns for 'To do', 'Doing' and 'Done'.
@@ -86,7 +86,7 @@ While creating the product one's goal will be to implement a Minimum Viable Prod
      \begin{itemize}
        \item Wireframes will be uitilized to establish interface element placement i.e. layout.
        \item More detailed mockups will be created when the earlier wireframes are constructed as prototypes and the concept is proved acheivable.
-       \item A colour picker will be utilized to define the colour scheme.
+       \item A colour picker that takes predetermined, complementary, contrasting or otherwise, segments of the colour wheel, will be utilized to define the colour scheme.
        \item In later iterations of the design, once there is a functioning UI,
        usability will continue to be refined with the help of existing usability research,
        to guide the usage of font/colour/highlight on hover/font size etc.
@@ -94,7 +94,7 @@ While creating the product one's goal will be to implement a Minimum Viable Prod
      \end{itemize}
      \item Back-End
      \begin{itemize}
-       \item UML will be used to show the overall design of the system through structural diagrams. These will show the interfaces of the classes and how they will interact with one another.
+       \item diagraming, influenced by UML, will be used to show the overall design of the system through structural diagrams. These will show the interfaces of the classes and how they will interact with one another.
      \end{itemize}
    \end{itemize}
 
@@ -124,7 +124,7 @@ While creating the product one's goal will be to implement a Minimum Viable Prod
       \item The constraint here being if the network cannot be trained on the available hardware in under sixteen hours. Purely for practical considerations.
     \end{itemize}
     \item Accuracy of CNN predictions. (which will be most effective when there are equal numbers of samples belonging to each class) $Accuracy = \frac{Correct Predicitons}{Total Predictions}$ Else if the samples are sqewed, the network could be a faliure at detecting a specific under-represented class, yet still score high accuracy.
-    \item Precision. This is the number of correctly predicted images out of all predictions of that class. $Precision = \frac{Correctly Predicted for Class}{Total Predicted for Class}$ The network is precice for a class when the predictions it does make are correct. Precicion cannot be used in isolation due to the fact that the network can have a high precicion for a class but still fail to identify the majority of images for that class. Succeeding soley on the fact that the images it has classified are correct.
+    \item Precision. This is the number of correctly predicted images out of all predictions of that class. $Precision = \frac{Correctly Predicted for Class}{Total Predicted for Class}$ The network is precice for a class when the predictions it does make for the measured class are correct. Precicion cannot be used in isolation due to the fact that the network can have a high prediction for a class but still fail to identify the majority of images for that class. Succeeding soley on the fact that the images it has classified as the class being measured are correct.
     \item Recall. Is the correct number of predictions for a class out of the number present of that class. $Recall = \frac{Correct Predicted for Class}{No. Present For Class}$
     This metric can also not be used in isolation due to the fact it does not take in to account the number of false positives. i.e. The number of images incorectly classified as the class in question. For example, if an image dataset contained three classes A, B, C, and the classfiier labeled all images A. The recall for A would be 100 percent.
     \item F1 score. This metric tries to find the balance between precision and recall and can be expressed as $F1 = 2 \times \frac{1}{\frac{1}{precicion} + \frac{1}{recall}}$
@@ -174,7 +174,7 @@ Firstly I have created a wireframe UI
       A key feature of A RESTFul interface is the fact that no client information is stored
       between requests, this aids in making the interface more scalable and iteroperable. Scalable in the sense that increasing clients does not increase the amount of information the backend will have to store and interoperable in the sense that any client, be it mobile appliation, CLI program or webpage can use the interface.
       \par
-      To increase orthogonality of the system, defect images are stored standalone on an image server. With the API serving the name of the defect which gives the information nececarry for the webpage to retrieve the correct images. This is because the directory structure of the image server is set up such that directory names are defect classes and all image names are numbers. Having the images stored on a seperate server rather than bundled with the front-end makes the service more useful. As it means any other interface can also choose to obtain the defect images (although image server endpoint information is not served by the API).
+      To increase orthogonality of the system, defect images are stored standalone on an image server. With the API serving the name of the defect which gives the information nececarry for the webpage to retrieve the correct images. This is because the directory structure of the image server is set up such that directory names are defect classes and all image names are numbers. Having the images stored on a seperate server rather than bundled with the front-end makes the service more useful. As it means any other interface can also choose to obtain the defect images (although image server endpoint information is not currently served by the API).
 
     \begin{figure}[H]
       \begin{center}
@@ -191,7 +191,12 @@ Firstly I have created a wireframe UI
       \par
       The main functionality of the web-app will be uploading an image to be analysed by the CNN and recieving a prediciton of which defect is/isn't present. This will be conducted by a single component. Once a prediction has been made, the user can choose to see more information (consisting of images and recourse information) about the defect, which will be handled by a second component.
       \par
-      Responses from the API will come in JSON format. With the intention being that as much data processing, such as determining which class is predicted, image preprocessing, and determining of defect image URL's, defect names etc. is handled on the back-end, meaning that any client wishing to interact with the API does not have to implement these features themselves. Therefore all functionality implemented in the web app will concern the consumption of user input and display of API response.
+      Responses from the API will come in JSON format. JSON is a structured data language and stores data heirachically. This leads to dictonaries and lists of arbitrary depth in a tree structure. Much the same as XML or a filesystem.
+      \par
+      The application is made with the intention that as much data processing, such as determining which class is predicted, image preprocessing, and determining of defect image URL's, defect names etc. is handled on the back-end, meaning that any client wishing to interact with the API does not have to implement these features themselves. Therefore all functionality implemented in the web app will concern the consumption of user input and display of API response.
+      \par
+      This means the navigation drop-downs, defect images and recourse/prevention information are all served dynamically through the API and can be scaled more easily than if the information was stored on the frontend. Because the content is dynamic, any client consuming the information won't have to manually update their defect list or defect names if the CNN model changes. This is in-line with the don't repeat yourself (DRY) principle. Having two places where what is supposed to be the same information is stored is an immediate 'code smell' and can easily lead to bugs. This stands true for any function that is supposed to enact some kind of bisuness logic. For instance the government may have a policy as to which kind of string is a valid national insurance number (NIN). This could then lead to multiple implementations of a NIN checker, being written for multiple applications accross the governments software suite, one in javascript for a driving licence sign up web application, one in python for an internal police database management system etc. And all become defunkt if this peice of 'bisuness logic' changes. Therefore, this calls for the software to by written dynamically from metadata. And requries the creation of a higher level language compiler, to compile metadata into a different high level language such as Java, C++, Python etc. Or at least get the programmer most of the way to the solution by defining nececarry method names and declarations along with return types, error values etc.
+
 
     \subsection{Hosting}
       To make the application accessible on the internet one will utilize virtual machines (VM's) running linux, hosted in the cloud. There will be three VM's, one to host the front-end, one to host the back-end and the other to host the defect images. In all cases nginx will be used to create HTTP servers that will handle all functionality regarding the HTTP protocol and the socket layer.
@@ -200,7 +205,7 @@ Firstly I have created a wireframe UI
 
 
     \subsection{CNN Model Creation \& Integration}
-      Seperation of the sofware components allows for the easy interchange of CNN models. This means one can train a model in GoogleColab, utilizing their GPU run-time and save it in the .h5 format. Meaning that, changing the model is as simple as changing a single filepath on the API server. Additionally if one wishes to extend the number of defects (classes) the model is able to predict; a number of steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes. and the images for the new defect must be added to the image server, or in this case due to hosting limitations, added to the webservice filesystem. Making the process one that is as straightforward as updating two file paths and uploading images using secure file transfer protocol (SFTP) to a server.
+      Seperation of the sofware components allows for the easy interchange of CNN models. This means one can train a model in GoogleColab, utilizing their GPU run-time and save it in the .h5 format. Meaning that, changing the model is as simple as changing a single filepath on the API server. Additionally if one wishes to extend the number of defects (classes) the model is able to predict; a number of steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes. and the images for the new defect must be added to the image server. Making the process one that is as straightforward as updating two file paths and uploading images using secure file transfer protocol (SFTP).
       \par
       When training the CNN it isn't clear if 'fine-tuning'(see lit review) an existing CNN is going to be more effective than training a network from scratch. Therefore some experimentation will be nececarry. However, training large networks with millions of parameters can take days or weeks, even when utilizing high end GPU's. For this reason the CNN accuracy is unlikely to acheive state of the art performance in the timeframe available for the project. Fortunately, the application is designed in a way that allows easy swapping of the model when better performance is realised.
       \par
@@ -209,8 +214,8 @@ Firstly I have created a wireframe UI
       \subsection{where to put this/call this}
       Throughout iterative process of creating the application, the design of the software is affected by factors which have a cause and effect relationship with one another. Following are some hypothetical scenarios that illustrate this point, such as; designing the system to include a relational database such MySql, as one beleives there may be a need to handle a large amount of  relational data. Later in the project, one realizes they only need the application to be able to retrieve dispirate and simple data, so one drops the database, in favour of using the hierachical storage of the filesystem and structured data languages such as JSON or XML. Another example being, one decides to use a novel, bleeding edge, front-end javascript library to aid in creating user-interactive graphing of data. After creating a substantial poriton of the UI functionality, and finding it working smoothly on a high-end desktop PC, one decides to test the application on a smartphone, only to be left with the problem of extremely slow responsiveness. One is then left with the realization, that the novel UI-library is far from optimized and one is now forced in to a bind. If requirments don't specifically request mobile functionality then it would be possible to carry on using the library, however, if one is to take this route, one should have stated in the requirments 'Won't have mobile device support'. However if requirments dictate that mobile support is a 'Must Have' or even 'Should-Have' two main possibilites arise, either the library is being used inefectually and time is needed for the developer to become proficcient at using it. Or the library is simply slow. If for whatever reason the library must be dropped from the project, aspects of the UI design will need to change, to better reflect the reduction in expected features; this being caused by the extra time taken to implement what was previously offered by the library. Either this, or extending the project deadline. A final example is a situation whereby an application stores and handles sensitive information about a user, for instance an online medical checkup. This can lead to large poritons of a codebase needing to be re-factored and documentation updated, if later in the development process the team discovers a security vunerability in a technology or library they are using. Modifications may involve updating class diagrams and system overview diagrams etc.
       % Such as, adding more libraries to the project will have the knock on effect of increasing the amount of time spent    are one of many factors that feed-into one another such as usability, speed of excecution and speed of creation feed in to one-another.
-      \subsection{where to put this/call this}
-      an example to illustrate the process of refactoring. The first peice code was arrived at because the base case was to retrieve the most likely defect. The extended requirment was to find the top three most likely defects. This has resulted in two methods being created for each case as the base case was coded first and extended requirment added in later. Although this is still functional, it's unnececarry and the code can be simplified, by using the result produced by the newly created method, the base-case method and any calls to it can be deleted. (note the method is declared in Model class which has been ommitted for clarity) The final refactor of example one is entirely debateable as to whether or not it is an improvement. It is certainly more terse, which makes it arguably more difficult to read. The counterpoints to this being; one is using less memory to store the code, less keystrokes, and one is not allocating a computationally redundant variable at runtime. The final point being moreso noteable in the language of Python. Given it's interpreted nature, the interpreter will cause the machine to execute this operation (granted it's a fairly inexpensive one). If it were a compiled however, it is likely the compiler would ignore this redundancy and it would have no bearing on the run-time of the program. Finally, comments are either added or updated.
+      \subsection{Refactoring, It's Like Gardening (good title?)}
+      an example to illustrate the process of refactoring. The first peice code was arrived at because the base case was to retrieve the most likely defect. The extended requirment was to find the top three most likely defects. This has resulted in two methods being created for each case as the base case was coded first and extended requirment added in later. Although this is still functional, it's unnececarry and the code can be simplified, by using the result produced by the newly created method, the base-case method and any calls to it can be deleted. (note the method is declared in Model class which has been ommitted for clarity) Refactor example one,three, is entirely debateable as to whether or not it is an improvement. It is certainly more terse, which makes it arguably more difficult to read. The counterpoint to this being,  one is not allocating a computationally redundant variable at runtime. This being moreso noteable in the language of Python. Given it's interpreted nature, the interpreter will garunteed cause the machine to execute this operation (granted it's a fairly inexpensive one). If it were a compiled however, it is likely the compiler would ignore this redundancy and it would have no bearing on the run-time of the program. Finally, comments are either added or updated.
 
       \begin{figure}[H]
         \begin{center}
@@ -261,10 +266,12 @@ Firstly I have created a wireframe UI
         \end{center}
       \end{figure}
 
+      Given these examples it's easy to see why lines of code created is a rather ineffective way of determening programmer productivity.
+
     \subsubsection{CNN Data and Training}
       One of the most important parts when creating a CNN is the data it is trained on [CITE Halevy]. The more properly labled data the network sees, the better. The most comprehensive dataset available (and the one which will mostly be used) is the Plant Village dataset. it contains 54303 images of healthy and unhealthy leaf images, in 38 catagories divided by species and disease. This dataset also contains pre-segmented\footnote{meaning the background has been blacked out}[1] versions of all the images. This dataset was used in two seperate studies cited in the literature review.
       \par
-      Other datasets that may be used to pre-train the network before are the CIFAR10, CIFAR100 \& ILSVRC datasets. These datasets are not specifically plant based, but may benefit the network to build initial feature maps. In \cite{Choi} the authors used networks pre-trained on generic data such as the datasets mentioned. Experiments will be conducted to determine if this benefits classification accuracy
+      Other datasets that may be used to pre-train the network before are the CIFAR10, CIFAR100 \& ILSVRC datasets. These datasets are not specifically plant based, but may benefit the network to build initial feature maps. In \cite{Choi} the authors used networks pre-trained on generic data such as the datasets mentioned. Experiments will be conducted to determine if this benefits classification accuracy [comment](not yet...)
       \par
       One unfortunate aspect was the fact that one was unable to obtain a dataset that reflected plant defects other than diseases, such as nitrogen/water/heat deficiencies.
 
@@ -277,7 +284,7 @@ Firstly I have created a wireframe UI
     \end{itemize}
     \item Bootstrap
         \begin{itemize}
-          \item Bootstrap is a CSS framework that has predefined classes for styling HTML elements, this helps with the asthetics of the webpage. For a solo developer this can allow for more time to spent on making the functionality more robust instead of spending time on looks.
+          \item Bootstrap is a CSS framework that has predefined classes for styling HTML elements, this helps with the asthetics of the webpage. For a solo developer this can allow for more time to spent on making the functionality more robust instead of spending time on appearance.
         \end{itemize}
     \item Jupyter Notebook / Google Colab
       \begin{itemize}
@@ -289,7 +296,7 @@ Firstly I have created a wireframe UI
       \end{itemize}
     \item NginX
       \begin{itemize}
-        \item NginX is a web server. This software, installed on the virtual machines (VM's) hosting, front/back end and files. Handles incoming HTTP protocol requests on ports it is configured to listen to, and serves content accordingly. Additionally, if the need arises, NginX can be used as a load balancer. Taking incoming requests and distributing them amongst the back-end servers via a reverse-proxy. With the reverse-proxy aproach it is also possible to cache response data. Reducing load on the back-end.
+        \item NginX is a web server. This software, installed on the virtual machines (VM's) hosting, front/back end and files. Handles incoming HTTP protocol requests on ports it is configured to listen to, and serves content accordingly. Additionally, if the need arises, NginX can be used as a load balancer. Taking incoming requests and distributing them amongst the back-end servers via a reverse-proxy. With the reverse-proxy aproach it is also possible to cache response data. Reducing load on the back-end. It can also be used to create IP address white/black lists, and set file upload limits.
       \end{itemize}
     \item Gunicorn
       \begin{itemize}
@@ -343,13 +350,16 @@ For assessing requirement priority one will employ the MOSCOW method [CITE Clegg
   	\item Regularisation techniques to prvent the NN overfitting.
   \end{itemize}
   \item Could Have
+    \begin{itemize}
+      \item Mobile device support.
+    \end{itemize}
   \begin{itemize}
     \item Ability for users to add additional information about the crop
       to determine the defect.
   \end{itemize}
   \item Won't Have
 \end{itemize}
-\section{Testing and Implementation details}
+% \section{Testing and Implementation details}
 
 
-\section{Justification of Implementation Choices}
+% \section{Justification of Implementation Choices}

@@ -9,7 +9,7 @@
   \subsection{Development}
     A major change made to the design of the application was the choice to drop the relational database in favor of using heirachical storage as it was noted that the application did not need to handle complex relational data. Initially the purpose was to have the database handle filepaths to images and recourse/defect information but this was easily handled with consistent directory naming on the image server and JSON files.
     \par
-
+    A feature that has the code in place to deliver but no infomration to display is the recourse and prevention section. At this stage one was unable to obtain the information nececarry to populate these values. However, once the relevant information is obtained, only JSON files need be updated to properly fulfill this requirement.
     \par
     Some of the main issues that arose during development were during the move to production. This involved learning new technologies such as NginX and Gunicorn to deploy the project as the configuration can be obtuse upon first interaction. Some API code also did not work the same way as on the development server and so had to be modified to work in the production environment.
     \par
