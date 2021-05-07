@@ -32,21 +32,21 @@
 \contentsline {subsection}{\numberline {3.10.1}Software Structure}{24}{subsection.3.10.1}%
 \contentsline {subsection}{\numberline {3.10.2}Back-End}{24}{subsection.3.10.2}%
 \contentsline {subsection}{\numberline {3.10.3}Front-End}{25}{subsection.3.10.3}%
-\contentsline {subsection}{\numberline {3.10.4}Hosting}{26}{subsection.3.10.4}%
-\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation \& Integration}{26}{subsection.3.10.5}%
-\contentsline {subsection}{\numberline {3.10.6}where to put this paragraph?}{27}{subsection.3.10.6}%
-\contentsline {subsection}{\numberline {3.10.7}where to put this/call this}{28}{subsection.3.10.7}%
-\contentsline {subsection}{\numberline {3.10.8}where to put this/call this}{28}{subsection.3.10.8}%
+\contentsline {subsection}{\numberline {3.10.4}Hosting}{27}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}CNN Model Creation \& Integration}{27}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}Choosing The CNN Architecture}{27}{subsection.3.10.6}%
+\contentsline {subsection}{\numberline {3.10.7}Design \& Implementation Coupling}{28}{subsection.3.10.7}%
+\contentsline {subsection}{\numberline {3.10.8}Refactoring}{29}{subsection.3.10.8}%
 \contentsline {subsubsection}{CNN Data and Training}{32}{figure.3.20}%
-\contentsline {subsection}{\numberline {3.10.9}Technologies}{32}{subsection.3.10.9}%
+\contentsline {subsection}{\numberline {3.10.9}Technologies}{33}{subsection.3.10.9}%
 \contentsline {section}{\numberline {3.11}Requirements}{34}{section.3.11}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation Results}{36}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}CNN}{37}{subsection.5.0.1}%
-\contentsline {subsection}{\numberline {5.0.2}Architecture}{37}{subsection.5.0.2}%
-\contentsline {subsection}{\numberline {5.0.3}Development}{37}{subsection.5.0.3}%
-\contentsline {chapter}{bibliography}{41}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{42}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{43}{appendix.a.B}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation Results}{37}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{38}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}CNN}{38}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Architecture}{38}{subsection.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Development}{38}{subsection.5.0.3}%
+\contentsline {chapter}{bibliography}{42}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{43}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{44}{appendix.a.B}%

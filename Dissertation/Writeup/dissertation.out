@@ -34,9 +34,9 @@
 \BOOKMARK [2][-]{subsection.3.10.3}{Front-End}{section.3.10}% 34
 \BOOKMARK [2][-]{subsection.3.10.4}{Hosting}{section.3.10}% 35
 \BOOKMARK [2][-]{subsection.3.10.5}{CNN Model Creation \046 Integration}{section.3.10}% 36
-\BOOKMARK [2][-]{subsection.3.10.6}{where to put this paragraph?}{section.3.10}% 37
-\BOOKMARK [2][-]{subsection.3.10.7}{where to put this/call this}{section.3.10}% 38
-\BOOKMARK [2][-]{subsection.3.10.8}{where to put this/call this}{section.3.10}% 39
+\BOOKMARK [2][-]{subsection.3.10.6}{Choosing The CNN Architecture}{section.3.10}% 37
+\BOOKMARK [2][-]{subsection.3.10.7}{Design \046 Implementation Coupling}{section.3.10}% 38
+\BOOKMARK [2][-]{subsection.3.10.8}{Refactoring}{section.3.10}% 39
 \BOOKMARK [2][-]{subsection.3.10.9}{Technologies}{section.3.10}% 40
 \BOOKMARK [1][-]{section.3.11}{Requirements}{chapter.3}% 41
 \BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 42
