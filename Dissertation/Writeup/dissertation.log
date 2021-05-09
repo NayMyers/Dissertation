@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  7 MAY 2021 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  9 MAY 2021 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,7 +525,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen286
 \titlewidthfirst=\dimen287
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 46.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 48.
  (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -535,22 +535,22 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 ) (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
  (g:/LaTeX/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count311
@@ -604,7 +604,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 48.
 (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -614,9 +614,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
  (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write5
 \openout5 = `dissertation.out'.
@@ -654,7 +654,7 @@ LaTeX Info: Redefining \nameref on input line 46.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Images/unilogo.jpg, id=212, 602.25pt x 620.3175pt>
+<Images/unilogo.jpg, id=216, 602.25pt x 620.3175pt>
 File: Images/unilogo.jpg Graphic file (type jpg)
 <use Images/unilogo.jpg>
 Package pdftex.def Info: Images/unilogo.jpg  used on input line 7.
@@ -714,56 +714,95 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 32.
+(Font)              <9> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
+(Font)              <5> on input line 24.
  [4]
-<images//InceptionModule.png, id=432, 379.4175pt x 216.81pt>
+<images//InceptionModule.png, id=448, 379.4175pt x 216.81pt>
 File: images//InceptionModule.png Graphic file (type png)
 <use images//InceptionModule.png>
-Package pdftex.def Info: images//InceptionModule.png  used on input line 43.
+Package pdftex.def Info: images//InceptionModule.png  used on input line 42.
 (pdftex.def)             Requested size: 234.73524pt x 134.13629pt.
 
+Overfull \hbox (9.16507pt too wide) in paragraph at lines 46--47
+\OT1/phv/m/n/10.95 field of ma-chine vi-sion has been []Cun \OT1/phv/m/sl/10.95 et al.[] \OT1/phv/m/n/10.95 ([]1989[])
+ []
 
-Package natbib Warning: Citation `leCun1998' on page 5 undefined on input line 49.
+
+Overfull \hbox (0.8539pt too wide) in paragraph at lines 46--47
+\OT1/phv/m/n/10.95 on to to in-tro-duce 'Digit Recog-ni-tion Us-ing Con-
+ []
+
+
+Overfull \hbox (4.39113pt too wide) in paragraph at lines 46--47
+\OT1/phv/m/n/10.95 strained Au-to-matic Learn-ing' which al-lows some
+ []
 
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.50   \par
-            <./images//InceptionModule.png>]
-<images//Residual_Identity_Block.png, id=461, 154.8987pt x 233.4321pt>
+l.47     \par
+              <./images//InceptionModule.png>]
+
+Package natbib Warning: Citation `leCun1998' on page 6 undefined on input line 49.
+
+
+Overfull \hbox (30.999pt too wide) in paragraph at lines 49--50
+\OT1/phv/m/n/10.95 Large-Scale Vi-sual Recog-ni-tion Chal-lenge (ILSVRC))
+ []
+
+[6]
+Overfull \hbox (7.36943pt too wide) in paragraph at lines 51--52
+\OT1/phv/m/n/10.95 om-e-try Group) []Si-monyan and Zis-ser-man[] ([]2015[]).
+ []
+
+<images//Residual_Identity_Block.png, id=484, 154.8987pt x 233.4321pt>
 File: images//Residual_Identity_Block.png Graphic file (type png)
 <use images//Residual_Identity_Block.png>
-Package pdftex.def Info: images//Residual_Identity_Block.png  used on input line 55.
+Package pdftex.def Info: images//Residual_Identity_Block.png  used on input line 56.
 (pdftex.def)             Requested size: 140.84258pt x 212.25969pt.
- [6] [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+
+Overfull \hbox (23.96844pt too wide) in paragraph at lines 59--60
+\OT1/phv/m/n/10.95 ner of the ILSVRC 2015 clas-si-fi-caiton task. ResNets
+ []
+
+
+Overfull \hbox (13.10645pt too wide) in paragraph at lines 59--60
+\OT1/phv/m/n/10.95 in-tro-duce the con-cept of the skip/shortcut/residual
+ []
+
+
+Overfull \hbox (3.63524pt too wide) in paragraph at lines 59--60
+\OT1/phv/m/n/10.95 is per-for-mance no longer de-grad-ing with greater
+ []
+
+[7] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.63   \par
-            <./images//Residual_Identity_Block.png>]
-<Images/FractalNetArchitectureCopy.png, id=482, 643.203pt x 614.295pt>
+l.64   \subsubsection{FractalNet}
+                                  <./images//Residual_Identity_Block.png>]
+<Images/FractalNetArchitectureCopy.png, id=505, 643.203pt x 614.295pt>
 File: Images/FractalNetArchitectureCopy.png Graphic file (type png)
 <use Images/FractalNetArchitectureCopy.png>
-Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input line 68.
+Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input line 69.
 (pdftex.def)             Requested size: 234.73524pt x 224.183pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.80   \par
-            <./Images/FractalNetArchitectureCopy.png>] [9]
-<Images/InceptionLayers/LayerExamples.png, id=504, 861.4584pt x 496.9767pt>
+l.77     \par
+              <./Images/FractalNetArchitectureCopy.png>] [10]
+<Images/InceptionLayers/LayerExamples.png, id=526, 861.4584pt x 496.9767pt>
 File: Images/InceptionLayers/LayerExamples.png Graphic file (type png)
 <use Images/InceptionLayers/LayerExamples.png>
 Package pdftex.def Info: Images/InceptionLayers/LayerExamples.png  used on input line 87.
 (pdftex.def)             Requested size: 603.01677pt x 347.88132pt.
- [10
+ [11
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.92   \end{landscape}
-                       <./Images/InceptionLayers/LayerExamples.png>]
+l.92     \end{landscape}
+                         <./Images/InceptionLayers/LayerExamples.png>]
 ./Introduction/introduction.tex:98: Undefined control sequence.
 l.98 ...ly (09/02/2021) no easily found \fooetnote
                                                   [1]{(i.e. not present in t...
@@ -776,42 +815,42 @@ and I'll forget about whatever was undefined.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 111.
 (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [11
+) [12
 
-] [12] [13
+] [13] [14
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.160 \end{landscape}
-                     ]) (./Methodology/methodology.tex [14
+                     ]) (./Methodology/methodology.tex [15
 
 ]
 Chapter 3.
-[15
+[16
 
 ]
-<Images/Project_Management_Methodology.png, id=534, 391.2216pt x 401.5803pt>
+<Images/Project_Management_Methodology.png, id=556, 391.2216pt x 401.5803pt>
 File: Images/Project_Management_Methodology.png Graphic file (type png)
 <use Images/Project_Management_Methodology.png>
 Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 35.
 (pdftex.def)             Requested size: 293.41548pt x 301.18448pt.
-<Images/ProjectFocus2.png, id=535, 947.03813pt x 526.96875pt>
+<Images/ProjectFocus2.png, id=557, 947.03813pt x 526.96875pt>
 File: Images/ProjectFocus2.png Graphic file (type png)
 <use Images/ProjectFocus2.png>
 Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 44.
 (pdftex.def)             Requested size: 378.80853pt x 210.78375pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.54 U
       sing Kanban to track tasks makes sense for a single developer as appos... <./Images/Project_Management_Methodology.png>]
-<Images/PMMPieChart.png, id=542, 521.69907pt x 425.33907pt>
+<Images/PMMPieChart.png, id=570, 521.69907pt x 425.33907pt>
 File: Images/PMMPieChart.png Graphic file (type png)
 <use Images/PMMPieChart.png>
 Package pdftex.def Info: Images/PMMPieChart.png  used on input line 60.
 (pdftex.def)             Requested size: 208.67592pt x 170.1326pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.67 
@@ -819,163 +858,159 @@ l.67
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.67 
-      <./Images/ProjectFocus2.png> <./Images/PMMPieChart.png>] [18]
+      <./Images/ProjectFocus2.png> <./Images/PMMPieChart.png>] [19]
 Overfull \hbox (31.49939pt too wide) in paragraph at lines 90--93
 \OT1/phv/m/n/10.95 be re-fined with the help of ex-ist-ing us-abil-ity re-search, to guide the us-age of font/colour/highlight
  []
 
-<Images/Git_Workflow_Diagram.png, id=554, 661.7523pt x 250.7769pt>
-File: Images/Git_Workflow_Diagram.png Graphic file (type png)
-<use Images/Git_Workflow_Diagram.png>
-Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 108.
-(pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
-[19] [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.127     \item P
-                 recision. This is the number of correctly predicted images ... <./Images/Git_Workflow_Diagram.png>]
-<Images/Home_Page_Wireframe.png, id=565, 504.9264pt x 381.5856pt>
-File: Images/Home_Page_Wireframe.png Graphic file (type png)
-<use Images/Home_Page_Wireframe.png>
-Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 136.
-(pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/Defect_Information_Wireframe.png, id=566, 504.9264pt x 381.5856pt>
-File: Images/Defect_Information_Wireframe.png Graphic file (type png)
-<use Images/Defect_Information_Wireframe.png>
-Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 143.
-(pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
- [21]
-<Images/System_Overview_v1.png, id=578, 367.1316pt x 307.1475pt>
-File: Images/System_Overview_v1.png Graphic file (type png)
-<use Images/System_Overview_v1.png>
-Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 150.
-(pdftex.def)             Requested size: 256.99036pt x 215.00177pt.
-<Images/Input_Output_UI.png, id=579, 334.3692pt x 298.2342pt>
-File: Images/Input_Output_UI.png Graphic file (type png)
-<use Images/Input_Output_UI.png>
-Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 157.
-(pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.161     \end{figure}
-                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.161     \end{figure}
-                       <./Images/Home_Page_Wireframe.png> <./Images/Defect_Information_Wireframe.png>]
-<Images/Data_Augmentation.png, id=586, 379.4175pt x 244.0317pt>
-File: Images/Data_Augmentation.png Graphic file (type png)
-<use Images/Data_Augmentation.png>
-Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 164.
-(pdftex.def)             Requested size: 265.59042pt x 170.82101pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.169 ...{Employed Technologies \& Justifications}
-                                                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.169 ...{Employed Technologies \& Justifications}
-                                                   <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.178 
-       <./Images/Data_Augmentation.png>]
-<Images/API_InheritenceV3.png, id=599, 460.8417pt x 694.7556pt>
-File: Images/API_InheritenceV3.png Graphic file (type png)
-<use Images/API_InheritenceV3.png>
-Package pdftex.def Info: Images/API_InheritenceV3.png  used on input line 181.
-(pdftex.def)             Requested size: 322.58699pt x 486.32559pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.189       \par
-                 <./Images/API_InheritenceV3.png>] [26] [27] [28]
-<Images/Refactor/refactorA1.png, id=620, 804.00375pt x 542.025pt>
+[20]
+<Images/Refactor/refactorA1.png, id=588, 804.00375pt x 542.025pt>
 File: Images/Refactor/refactorA1.png Graphic file (type png)
 <use Images/Refactor/refactorA1.png>
-Package pdftex.def Info: Images/Refactor/refactorA1.png  used on input line 224.
+Package pdftex.def Info: Images/Refactor/refactorA1.png  used on input line 110.
 (pdftex.def)             Requested size: 442.20343pt x 298.11467pt.
- [29]
-<Images/Refactor/refactorA2.png, id=625, 807.015pt x 474.77374pt>
+ [21]
+<Images/Refactor/refactorA2.png, id=593, 807.015pt x 474.77374pt>
 File: Images/Refactor/refactorA2.png Graphic file (type png)
 <use Images/Refactor/refactorA2.png>
-Package pdftex.def Info: Images/Refactor/refactorA2.png  used on input line 232.
+Package pdftex.def Info: Images/Refactor/refactorA2.png  used on input line 118.
 (pdftex.def)             Requested size: 443.85962pt x 261.12636pt.
-<Images/Refactor/refactorA3.png, id=626, 525.965pt x 446.66875pt>
+<Images/Refactor/refactorA3.png, id=594, 525.965pt x 446.66875pt>
 File: Images/Refactor/refactorA3.png Graphic file (type png)
 <use Images/Refactor/refactorA3.png>
-Package pdftex.def Info: Images/Refactor/refactorA3.png  used on input line 240.
+Package pdftex.def Info: Images/Refactor/refactorA3.png  used on input line 126.
 (pdftex.def)             Requested size: 289.28163pt x 245.66856pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.245 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
+l.131 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.245 
+l.131 
        <./Images/Refactor/refactorA1.png> <./Images/Refactor/refactorA2.png>]
-<Images/Refactor/refactorA4.png, id=633, 860.21375pt x 550.055pt>
+<Images/Refactor/refactorA4.png, id=601, 860.21375pt x 550.055pt>
 File: Images/Refactor/refactorA4.png Graphic file (type png)
 <use Images/Refactor/refactorA4.png>
-Package pdftex.def Info: Images/Refactor/refactorA4.png  used on input line 248.
+Package pdftex.def Info: Images/Refactor/refactorA4.png  used on input line 134.
 (pdftex.def)             Requested size: 473.11902pt x 302.53117pt.
 
-Overfull \hbox (3.64853pt too wide) in paragraph at lines 248--249
+Overfull \hbox (3.64853pt too wide) in paragraph at lines 134--135
  [] 
  []
 
-<Images/Refactor/refactorB1.png, id=634, 483.8075pt x 232.87pt>
+<Images/Refactor/refactorB1.png, id=602, 483.8075pt x 232.87pt>
 File: Images/Refactor/refactorB1.png Graphic file (type png)
 <use Images/Refactor/refactorB1.png>
-Package pdftex.def Info: Images/Refactor/refactorB1.png  used on input line 257.
+Package pdftex.def Info: Images/Refactor/refactorB1.png  used on input line 143.
 (pdftex.def)             Requested size: 266.09494pt x 128.07889pt.
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.262 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
+l.148 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.262 
+l.148 
        <./Images/Refactor/refactorA3.png> <./Images/Refactor/refactorA4.png>]
-<Images/Refactor/refactorB2.png, id=641, 483.8075pt x 144.54pt>
+<Images/Refactor/refactorB2.png, id=609, 483.8075pt x 144.54pt>
 File: Images/Refactor/refactorB2.png Graphic file (type png)
 <use Images/Refactor/refactorB2.png>
-Package pdftex.def Info: Images/Refactor/refactorB2.png  used on input line 265.
+Package pdftex.def Info: Images/Refactor/refactorB2.png  used on input line 151.
 (pdftex.def)             Requested size: 266.09494pt x 79.49722pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.285       \item V
-                   ue.js allows for rapid creation of usable websites thanks...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
+l.166 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.285       \item V
-                   ue.js allows for rapid creation of usable websites thanks... <./Images/Refactor/refactorB1.png> <./Images/Refactor/refactorB2.png>] [33]
-Overfull \hbox (19.69475pt too wide) in paragraph at lines 314--315
-\OT1/phv/m/n/10.95 Barker, Richard]. This cre-ates sub-cat-e-gory of re-quirments with the head-ings Must/Should/Could/Won't
- []
-
-[34] [35]) (./Results_Discussion/results.tex [36]
+l.166 
+       <./Images/Refactor/refactorB1.png> <./Images/Refactor/refactorB2.png>]
+<Images/Git_Workflow_Diagram.png, id=616, 661.7523pt x 250.7769pt>
+File: Images/Git_Workflow_Diagram.png Graphic file (type png)
+<use Images/Git_Workflow_Diagram.png>
+Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 171.
+(pdftex.def)             Requested size: 463.22345pt x 175.54262pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.182 ...ction{Convolutional Neural Network (CNN)}
+                                                   <./Images/Git_Workflow_Diagram.png>]
+<Images/Home_Page_Wireframe.png, id=622, 504.9264pt x 381.5856pt>
+File: Images/Home_Page_Wireframe.png Graphic file (type png)
+<use Images/Home_Page_Wireframe.png>
+Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 199.
+(pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
+<Images/Defect_Information_Wireframe.png, id=623, 504.9264pt x 381.5856pt>
+File: Images/Defect_Information_Wireframe.png Graphic file (type png)
+<use Images/Defect_Information_Wireframe.png>
+Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 206.
+(pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
+ [26]
+<Images/System_Overview_v1.png, id=636, 367.1316pt x 307.1475pt>
+File: Images/System_Overview_v1.png Graphic file (type png)
+<use Images/System_Overview_v1.png>
+Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 213.
+(pdftex.def)             Requested size: 256.99036pt x 215.00177pt.
+<Images/Input_Output_UI.png, id=637, 334.3692pt x 298.2342pt>
+File: Images/Input_Output_UI.png Graphic file (type png)
+<use Images/Input_Output_UI.png>
+Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 220.
+(pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.224     \end{figure}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.224     \end{figure}
+                       <./Images/Home_Page_Wireframe.png> <./Images/Defect_Information_Wireframe.png>]
+<Images/Data_Augmentation.png, id=644, 379.4175pt x 244.0317pt>
+File: Images/Data_Augmentation.png Graphic file (type png)
+<use Images/Data_Augmentation.png>
+Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 227.
+(pdftex.def)             Requested size: 265.59042pt x 170.82101pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.232 ...{Employed Technologies \& Justifications}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.232 ...{Employed Technologies \& Justifications}
+                                                   <./Images/System_Overview_v1.png> <./Images/Input_Output_UI.png>] [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.241 
+       <./Images/Data_Augmentation.png>]
+<Images/API_InheritenceV3.png, id=656, 460.8417pt x 694.7556pt>
+File: Images/API_InheritenceV3.png Graphic file (type png)
+<use Images/API_InheritenceV3.png>
+Package pdftex.def Info: Images/API_InheritenceV3.png  used on input line 244.
+(pdftex.def)             Requested size: 322.58699pt x 486.32559pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.252       \par
+                 <./Images/API_InheritenceV3.png>] [31] [32] [33] [34] [35] [36]) (./Results_Discussion/results.tex [37]
 Chapter 4.
-) (./Conclusion/conclusion.tex [37
+[38
 
-]
+] [39]) (./Conclusion/conclusion.tex [40]
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
-[38
+) (./dissertation.bbl [41
 
-]) (./dissertation.bbl [39] [40
+] [42
 
-] [41]) (./Appendix/appendix.tex [42]
+] [43]) (./Appendix/appendix.tex [44]
 Appendix A.
-[43
+[45
 
 ]
 Appendix B.
@@ -983,25 +1018,25 @@ Appendix B.
 
 Package natbib Warning: There were undefined citations.
 
-[44
+[46
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: C1CF9CA7FBC96212CFDFE579FDC31569;3336.
+(rerunfilecheck)             Checksum: BA542F7ACD22F8482A57E2060442E61E;3417.
  ) 
 Here is how much of TeX's memory you used:
- 19188 strings out of 479303
- 357219 string characters out of 5868250
- 660472 words of memory out of 5000000
- 35748 multiletter control sequences out of 15000+600000
+ 19239 strings out of 479303
+ 358409 string characters out of 5868250
+ 661709 words of memory out of 5000000
+ 35789 multiletter control sequences out of 15000+600000
  427752 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,9n,88p,2455b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,9n,88p,2413b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dissertation.pdf (55 pages, 12768890 bytes).
+Output written on dissertation.pdf (57 pages, 12778166 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 692 compressed objects within 7 object streams
- 163 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 732 compressed objects within 8 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
 

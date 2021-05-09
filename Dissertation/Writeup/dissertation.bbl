@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -44,6 +44,12 @@ Sungbin Choi.
   SNUMedinfo at LifeCLEF plant identification task 2015}.
 \newblock Technical report.
 
+\bibitem[Clegg and Barker(1994)]{Clegg199410.5555/561543}
+Dai Clegg and Richard Barker.
+\newblock {\em Case Method Fast-Track: A Rad Approach}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., USA, 1994.
+\newblock ISBN 020162432X.
+
 \bibitem[Cun \emph{et~al.}(1989)Cun, Guyon, Jackel, Henderson, Boser, Howard,
   Denker, Hubbard and Graf]{Cun1989}
 Y.~Le Cun, I.~Guyon, L.~D. Jackel, D.~Henderson, B.~Boser, R.~E. Howard, J.~S.
@@ -61,11 +67,37 @@ Y.~Le Cun, I.~Guyon, L.~D. Jackel, D.~Henderson, B.~Boser, R.~E. Howard, J.~S.
 \newblock URL
   \url{http://new.math.uiuc.edu/MathMLseminar/seminarPapers/LeCunBackprop1988.pdf}.
 
+\bibitem[Gall(1977)]{Gall1977}
+John Gall.
+\newblock 1977.
+
+\bibitem[Halevy \emph{et~al.}(2009)Halevy, Norvig and Pereira]{Halevy2009}
+Alon Halevy, Peter Norvig and Fernando Pereira.
+\newblock 2009.
+\newblock {The unreasonable effectiveness of data}.
+\newblock {\em IEEE Intelligent Systems}, {\bf 24},~\penalty0 8--12.
+\newblock ISSN 15411672.
+\newblock (doi:10.1109/MIS.2009.36)
+
 \bibitem[He \emph{et~al.}()He, Zhang, Ren and Sun]{He}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.
 \newblock {Deep Residual Learning for Image Recognition}.
 \newblock Technical report.
 \newblock URL \url{http://image-net.org/challenges/LSVRC/2015/}.
+
+\bibitem[Highsmith and Cockburn(2001)]{Highsmith2001}
+Jim Highsmith and Alistair Cockburn.
+\newblock {Agile software development: The business of innovation}, sep 2001.
+\newblock ISSN 00189162.
+\newblock (doi:10.1109/2.947100).
+
+\bibitem[Hunt and Thomas(2000)]{hunt2000pragmatic}
+Andrew Hunt and David Thomas.
+\newblock {\em The Pragmatic programmer : from journeyman to master}.
+\newblock Addison-Wesley, Boston [etc.], 2000.
+\newblock ISBN 020161622X 9780201616224.
+\newblock URL
+  \url{http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X}.
 
 \bibitem[im~{Studiengang Bachelor} \emph{et~al.}()im~{Studiengang Bachelor},
   Pr{\"{u}}ferin, {Steeens Zweitgutachter}, {Behrmann geb Knoblauch} and
@@ -123,6 +155,13 @@ Sharada~P. Mohanty, David~P. Hughes and Marcel Salath{\'{e}}.
 \newblock URL
   \url{http://journal.frontiersin.org/article/10.3389/fpls.2016.01419/full}.
 \newblock (doi:10.3389/fpls.2016.01419)
+
+\bibitem[POLYA(1945)]{G.Polya1945}
+G.~POLYA.
+\newblock {\em How to Solve It: A New Aspect of Mathematical Method}.
+\newblock Princeton University Press, 1945.
+\newblock ISBN 9780691164076.
+\newblock URL \url{http://www.jstor.org/stable/j.ctvc773pk}.
 
 \bibitem[Sermanet \emph{et~al.}(2013)Sermanet, Eigen, Zhang, Mathieu, Fergus
   and LeCun]{Sermanet2013}

@@ -6,7 +6,7 @@ I will use a Feature Driven Agile method. Meaning the workflow will by cyclical 
 \begin{itemize}
   \item Requirements elicitation.
   \begin{itemize}
-    \item This involves determening the needs of the user and defining requirements to meet those ends.
+    \item This involves determening the needs of the user and defining requirements to meet those needs.
   \end{itemize}
   \item Feature design (UI).
   \begin{itemize}
@@ -53,7 +53,7 @@ For a lone developer Agile with Kanban is the PMM of choice for this project as 
 \par
 Using Kanban to track tasks makes sense for a single developer as appose to using feature driven development. As this allows for non-programming tasks to be tracked in the same way as programming tasks.
 \par
-Furthermore, agile is a worthwhile methodology to use and familiarise oneself with as it has become the new norm in industry. As shown by a study conducted by Hewlett Packard.
+Furthermore, agile is a worthwhile methodology to use and familiarise oneself with as it is becoming the new norm in industry. As shown by a study conducted by Hewlett Packard.
 
 \begin{figure}[H]
   \begin{center}
@@ -97,6 +97,69 @@ While creating the product one's goal will be to implement a Minimum Viable Prod
        \item diagraming, influenced by UML, will be used to show the overall design of the system through structural diagrams. These will show the interfaces of the classes and how they will interact with one another.
      \end{itemize}
    \end{itemize}
+
+ \section{Implementation}
+   \subsection{Design \& Implementation Coupling}
+   Throughout iterative process of creating the application, the design of the software is affected by factors which have a cause and effect relationship with one another. Following are some hypothetical scenarios that illustrate this point, such as; one decides to use a novel, bleeding edge, front-end javascript library to aid in creating user-interactive graphing of data. After creating a substantial poriton of the UI functionality, and finding it working smoothly on a high-end desktop PC, one decides to test the application on a smartphone, only to be left with the problem of extremely slow responsiveness. One is then left with the realization, that the novel UI-library is far from optimized and one is now forced in to a bind. If requirments don't specifically request mobile functionality then it would be possible to carry on using the library, however, if one is to take this route, one should have stated in the requirments 'Won't have mobile device support'. However if requirments dictate that mobile support is a 'Must Have' or even 'Should-Have' two main possibilites arise, either the library is being used inefectually and time is needed for the developer to become proficcient at using it. Or the library is simply slow. If for whatever reason the library must be dropped from the project, aspects of the UI design will need to change, to better reflect the reduction in expected features; this being caused by the extra time taken to implement what was previously offered by the library. Either this, or extending the project deadline. A final example is a situation whereby an application stores and handles sensitive information about a user, for instance an online medical checkup. This can lead to large poritons of a codebase needing to be re-factored and documentation updated, if later in the development process the team discovers a security vunerability in a technology or library they are using. Modifications may involve updating class diagrams and system overview diagrams etc.
+
+   \subsection{Refactoring}
+   an example to illustrate the process of refactoring. The first peice code was arrived at because the base case was to retrieve the most likely defect. The extended requirment was to find the top three most likely defects. This has resulted in two methods being created for each case as the base case was coded first and extended requirment added in later. Although this is still functional, it's unnececarry and the code can be simplified, by using the result produced by the newly created method, the base-case method and any calls to it can be deleted. (note the method is declared in Model class which has been ommitted for clarity) Refactor example one, three, is entirely debateable as to whether or not it is an improvement. It is certainly more terse, which makes it arguably more difficult to read. The counterpoint to this being,  one is not allocating a computationally redundant variable at runtime. This being moreso noteable in the language of Python. Given it's interpreted nature, the interpreter will garunteed cause the machine to execute this operation (granted it's a fairly inexpensive one). If it were a compiled however, it is likely the compiler would ignore this redundancy and it would have no bearing on the speed of the program. Finally, comments are either added or updated.
+
+   \begin{figure}[H]
+     \begin{center}
+       \includegraphics[scale=0.55]{Images/Refactor/refactorA1}
+       \caption{Example 1 : Initial}
+       \label{fig:refactorA1}
+     \end{center}
+   \end{figure}
+
+   \begin{figure}[H]
+     \begin{center}
+       \includegraphics[scale=0.55]{Images/Refactor/refactorA2}
+       \caption{Example 1 : Refactor 1}
+       \label{fig:refactorA2}
+     \end{center}
+   \end{figure}
+
+   \begin{figure}[H]
+     \begin{center}
+       \includegraphics[scale=0.55]{Images/Refactor/refactorA3}
+       \caption{Example 1 : Refactor 3}
+       \label{fig:refactorA3}
+     \end{center}
+   \end{figure}
+
+   \begin{figure}[H]
+     \begin{center}
+       \includegraphics[scale=0.55]{Images/Refactor/refactorA4}
+       \caption{Example 1 : Refactor 4}
+       \label{fig:refactorA4}
+     \end{center}
+   \end{figure}
+
+   In this example of refactoring we see how multiple redundant variable allocations can be condensed into a single line.
+   \begin{figure}[H]
+     \begin{center}
+       \includegraphics[scale=0.55]{Images/Refactor/refactorB1}
+       \caption{Example 2 : Initial}
+       \label{fig:refactorB1}
+     \end{center}
+   \end{figure}
+
+   \begin{figure}[H]
+     \begin{center}
+       \includegraphics[scale=0.55]{Images/Refactor/refactorB2}
+       \caption{Example 2 : Refactor}
+       \label{fig:refactorB2}
+     \end{center}
+   \end{figure}
+
+   Given these examples it's easy to see why lines of code created is a rather ineffective way (in isolation) of determening programmer productivity.
+
+ \subsection{CNN Model Creation \& Integration}
+   Seperation of the sofware components allows for the easy interchange of CNN models. This means one can train a model in GoogleColab, utilizing their GPU run-time and save it in the .h5 format. Meaning that, changing the model is as simple as changing a single filepath on the API server. Additionally if one wishes to extend the number of defects (classes) the model is able to predict; a number of steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes. and the images for the new defect must be added to the image server. Making the process one that is as straightforward as updating two file paths and uploading images using secure file transfer protocol (SFTP).
+   \par
+   When training the CNN it isn't clear if 'fine-tuning'(see lit review) an existing CNN is going to be more effective than training a network from scratch. Therefore some experimentation will be nececarry. However, training large networks with millions of parameters can take days or weeks, even when utilizing high end GPU's. For this reason the CNN accuracy is unlikely to acheive state of the art performance in the timeframe available for the project. Fortunately, the application is designed in a way that allows easy swapping of the model when better performance is realised.
 
 \section{Testing methods}
   Testing will be conducted iterativley as the functionality expands, with unit tests being introduced for some components depending on time constraints. Testing will consist of firstly confirming that when interfaces are interogated with sound data, the responses are consistent with requirments. And secondly stress testing the interfaces with extraneous data to ensure that apropriate error responses are given and the application does not simply crash. And if in the case of crashing, is able to automatically re-start.
@@ -168,7 +231,7 @@ Firstly I have created a wireframe UI
     \end{figure}
 \section{Employed Technologies \& Justifications}
   \subsection{Software Structure}
-    \subsection{Back-End}
+    \subsubsection{Back-End}
       The design aims to seprate the functionality of the CNN and the User Interface (UI) through use of a Representational State Transfer (RESTFul) Aplication Interface (API). The central idea of this aproach is to allow a seperation of distinct components which allows for flexebility in managing updates and changes to each component. The 'backend' which in this context refers to the CNN and it's related functionality, such as processing it's input's and outputs; will both recieve input and serve it's output through the interface of the RESTFul API. each 'endpoint' or in other words internal class of the API will all inherit from the Resource interface which means it will get the main four HTTP protocol functions. POST, GET, PUT, DELETE. All interogations of the CNN will be conducted through these requests.
       \par
       A key feature of A RESTFul interface is the fact that no client information is stored
@@ -184,7 +247,7 @@ Firstly I have created a wireframe UI
       \end{center}
     \end{figure}
 
-    \subsection{Front-End}
+    \subsubsection{Front-End}
       Using the Vue.js webpack framework means the front-end will be split in to components. A component acting much like an endpoint in an API. Each component will have it's own set of functions and data, with the purpose of seprerating functionality of the UI in to manageable subsets of functionality and styling with the objective being to decouple dependancies between compoonents as much as possible. This helps simplify the development process as it seperates the problem in to distinct parts and it helps with maintinence, allowing them to be tested and developed on in isolation.
       \par
       UI components will be defined using Hypertext Markup language (HTML) and Cascading Style Sheets (CSS). Interativity will be scripted in Javascript. All three extremely common in web development. %With some of the earliest pages of the world wide web in 1990 being defined in HTML1.0 now developed to HTML4.0 (cite html4.0 spec).
@@ -199,76 +262,16 @@ Firstly I have created a wireframe UI
 
 
     \subsection{Hosting}
-      To make the application accessible on the internet one will utilize virtual machines (VM's) running linux, hosted in the cloud. There will be three VM's, one to host the front-end, one to host the back-end and the other to host the defect images. In all cases nginx will be used to create HTTP servers that will handle all functionality regarding the HTTP protocol and the socket layer.
+      To make the application accessible on the internet one will utilize virtual machines (VM's) running linux, hosted in the cloud. There will be three VM's, one to host the front-end, back-end and the other to host the defect images. In all cases nginx will be used to create HTTP servers that will handle all functionality regarding the HTTP protocol and the socket layer.
       \par
       Aside from creating backups of work, version control allows production environments (in this case the VM's) to be easily updated with new features, simply by pulling the latest changes from the repo, installing any new dependencies and re-building the application.
 
-
-    \subsection{CNN Model Creation \& Integration}
-      Seperation of the sofware components allows for the easy interchange of CNN models. This means one can train a model in GoogleColab, utilizing their GPU run-time and save it in the .h5 format. Meaning that, changing the model is as simple as changing a single filepath on the API server. Additionally if one wishes to extend the number of defects (classes) the model is able to predict; a number of steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes. and the images for the new defect must be added to the image server. Making the process one that is as straightforward as updating two file paths and uploading images using secure file transfer protocol (SFTP).
-      \par
-      When training the CNN it isn't clear if 'fine-tuning'(see lit review) an existing CNN is going to be more effective than training a network from scratch. Therefore some experimentation will be nececarry. However, training large networks with millions of parameters can take days or weeks, even when utilizing high end GPU's. For this reason the CNN accuracy is unlikely to acheive state of the art performance in the timeframe available for the project. Fortunately, the application is designed in a way that allows easy swapping of the model when better performance is realised.
-      \par
       \subsection{Choosing The CNN Architecture}
-      The initial architecture one experimented with was the InceptionNetV3, the reason being that one already had a familiarity with the architecture and therefore could rationalise about what may need to change in order to get better performance on the target dataset if initial experiments were not satisfactory. One opted to use a model pre-trained on the ILSSVRC dataset and fine-tune it to suit the crop dataset. This resulted in the model taking around six hours to train over an epoch (using Google Colab GPU runtime) and also drastically overtiffing the training data. One reasoned that the vast number of weights could be to blame for both problems, firstly the more weights the greater the training time, secondly, more filters leads to the network making less generalisations and being able to store many bespoke feature maps to target subsets or perhaps even individual images. Hence when it comes to an unseen example it's feature maps are not generic enough to aid in identifying the unseen image. Therefore one decided to use a a smaller network, 'EfficentNetB0', a network available as a pre-trained\footnote{on the ILSSVRC dataset}[1] CNN through the Keras library. For comparison  the InceptionV3 architecture is 92mb and contains 23,851,784 parameters (weights) whereas the EfficientNetB1 is 29mb and contains 5,330,571 parameters (approx 1/3 the parameters). Fine-tuning this network proved very successfull, acheiving a 98.6\% accuracy. For this dataset, due to the fact all classes the network is classifiying for are relatively similar, less feature maps are needed to generalise about the forms present. To contrast, a network that must classify 100 different classes ranging from a baseball to a shark. with all objects present in different contexts, for instance a closeup of the baseball sat on a table, and a long range shot of it mid flight across the stadium, set against the background of spectators. And it becomes easy to see why so many filters would be nececarry. If we take the crop-example we see all images are closeups of leaves with a neutral background. Therefore it is possible to generalise about this smaller subset of possible images with fewer filters. In fact few parameters becomes a desirable quality of the network as it forces the network to generalise as it does not have the ability to 'memorise' all the individual training images.
+      The initial architecture one experimented with was the InceptionNetV3, the reason being that one already had a familiarity with the architecture and therefore could rationalise about what may need to change in order to get better performance on the target dataset if initial experiments were not satisfactory. One opted to use a model pre-trained on the ILSSVRC dataset and fine-tune it to suit the crop dataset. This resulted in the model taking around six hours to train over an epoch (using Google Colab GPU runtime) and also drastically overtiffing the training data. One reasoned that the vast number of weights could be to blame for both problems, firstly the more weights the greater the training time, secondly, more filters leads to the network making less generalisations and being able to store many bespoke feature maps to target subsets or perhaps even individual images. Hence when it comes to an unseen example it's feature maps are not generic enough to aid in identifying the unseen image. Therefore one decided to use a a smaller network, 'EfficentNetB0', a network available as a pre-trained\footnote{on the ILSSVRC dataset}[1] CNN through the Keras library. For comparison  the InceptionV3 architecture is 92mb and contains 23,851,784 parameters (weights) whereas the EfficientNetB1 is 29mb and contains 5,330,571 parameters (approx 1/3 the parameters). Fine-tuning this network proved very successfull, acheiving a 98.6\% accuracy. For this dataset, due to the fact all classes the network is classifiying for are relatively similar, less feature maps are needed to generalise about the forms present. To contrast, a network that must classify 100 different classes ranging from a baseball to a shark. with all objects present in different contexts, for instance a closeup of the baseball sat on a table, and a long range shot of it mid flight across the stadium. And it becomes easy to see why so many filters would be nececarry. If we take the crop-example we see all images are closeups of leaves with a neutral background. Therefore it is possible to generalise about this smaller subset of possible images with fewer filters. In fact few parameters becomes a desirable quality of the network as it forces the network to generalise as it does not have the ability to 'memorise' all the individual training images.
 
-      \subsection{Design \& Implementation Coupling}
-      Throughout iterative process of creating the application, the design of the software is affected by factors which have a cause and effect relationship with one another. Following are some hypothetical scenarios that illustrate this point, such as; one decides to use a novel, bleeding edge, front-end javascript library to aid in creating user-interactive graphing of data. After creating a substantial poriton of the UI functionality, and finding it working smoothly on a high-end desktop PC, one decides to test the application on a smartphone, only to be left with the problem of extremely slow responsiveness. One is then left with the realization, that the novel UI-library is far from optimized and one is now forced in to a bind. If requirments don't specifically request mobile functionality then it would be possible to carry on using the library, however, if one is to take this route, one should have stated in the requirments 'Won't have mobile device support'. However if requirments dictate that mobile support is a 'Must Have' or even 'Should-Have' two main possibilites arise, either the library is being used inefectually and time is needed for the developer to become proficcient at using it. Or the library is simply slow. If for whatever reason the library must be dropped from the project, aspects of the UI design will need to change, to better reflect the reduction in expected features; this being caused by the extra time taken to implement what was previously offered by the library. Either this, or extending the project deadline. A final example is a situation whereby an application stores and handles sensitive information about a user, for instance an online medical checkup. This can lead to large poritons of a codebase needing to be re-factored and documentation updated, if later in the development process the team discovers a security vunerability in a technology or library they are using. Modifications may involve updating class diagrams and system overview diagrams etc.
+
       %designing the system to include a relational database such MySql, as one beleives there may be a need to handle a large amount of  relational data. Later in the project, one realizes they only need the application to be able to retrieve dispirate and simple data, so one drops the database, in favour of using the hierachical storage of the filesystem and structured data languages such as JSON or XML. Another example being,
       % Such as, adding more libraries to the project will have the knock on effect of increasing the amount of time spent    are one of many factors that feed-into one another such as usability, speed of excecution and speed of creation feed in to one-another.
-      \subsection{Refactoring}
-      an example to illustrate the process of refactoring. The first peice code was arrived at because the base case was to retrieve the most likely defect. The extended requirment was to find the top three most likely defects. This has resulted in two methods being created for each case as the base case was coded first and extended requirment added in later. Although this is still functional, it's unnececarry and the code can be simplified, by using the result produced by the newly created method, the base-case method and any calls to it can be deleted. (note the method is declared in Model class which has been ommitted for clarity) Refactor example one,three, is entirely debateable as to whether or not it is an improvement. It is certainly more terse, which makes it arguably more difficult to read. The counterpoint to this being,  one is not allocating a computationally redundant variable at runtime. This being moreso noteable in the language of Python. Given it's interpreted nature, the interpreter will garunteed cause the machine to execute this operation (granted it's a fairly inexpensive one). If it were a compiled however, it is likely the compiler would ignore this redundancy and it would have no bearing on the speed of the program. Finally, comments are either added or updated.
-
-      \begin{figure}[H]
-        \begin{center}
-          \includegraphics[scale=0.55]{Images/Refactor/refactorA1}
-          \caption{Example 1 Code Initial}
-          \label{fig:refactorA1}
-        \end{center}
-      \end{figure}
-
-      \begin{figure}[H]
-        \begin{center}
-          \includegraphics[scale=0.55]{Images/Refactor/refactorA2}
-          \caption{Example 1 Code Refactor 1}
-          \label{fig:refactorA2}
-        \end{center}
-      \end{figure}
-
-      \begin{figure}[H]
-        \begin{center}
-          \includegraphics[scale=0.55]{Images/Refactor/refactorA3}
-          \caption{Example 1 Code Refactor 3}
-          \label{fig:refactorA3}
-        \end{center}
-      \end{figure}
-
-      \begin{figure}[H]
-        \begin{center}
-          \includegraphics[scale=0.55]{Images/Refactor/refactorA4}
-          \caption{Example 1 Refactor 4}
-          \label{fig:refactorA4}
-        \end{center}
-      \end{figure}
-
-      In this example of refactoring we see how multiple redundant variable allocations can be condensed into a single line.
-      \begin{figure}[H]
-        \begin{center}
-          \includegraphics[scale=0.55]{Images/Refactor/refactorB1}
-          \caption{Example 2 Code Initial}
-          \label{fig:refactorB1}
-        \end{center}
-      \end{figure}
-
-      \begin{figure}[H]
-        \begin{center}
-          \includegraphics[scale=0.55]{Images/Refactor/refactorB2}
-          \caption{Example 2 Refactor}
-          \label{fig:refactorB2}
-        \end{center}
-      \end{figure}
-
-      Given these examples it's easy to see why lines of code created is a rather ineffective way of determening programmer productivity.
 
     \subsubsection{CNN Data and Training}
       One of the most important parts when creating a CNN is the data it is trained on \cite{Halevy2009}. The more properly labled data the network sees, the better. The most comprehensive dataset available (and the one which will mostly be used) is the Plant Village dataset. it contains 54303 images of healthy and unhealthy leaf images, in 38 catagories divided by species and disease. This dataset also contains pre-segmented\footnote{meaning the background has been blacked out}[1] versions of all the images. This dataset was used in two seperate studies cited in the literature review.
@@ -278,7 +281,7 @@ Firstly I have created a wireframe UI
       One unfortunate aspect was the fact that one was unable to obtain a dataset that reflected plant defects other than diseases, such as nitrogen/water/heat deficiencies.
 
 
-\subsection{Technologies}
+\subsection{Technologies \& Libraries}
   \begin{itemize}
     \item Vue.js
     \begin{itemize}
@@ -308,17 +311,20 @@ Firstly I have created a wireframe UI
       \begin{itemize}
         \item This library provides a framework for creating RESTFul API's in Python and gives the Resource class to inherit from for each endpoint. Flask also provides a built in development server for testing the appliation on your local machine.
       \end{itemize}
-    \item
+    \item Numpy
+       \begin{itemize}
+         \item This Python library is essential when performing mathematical operations with Python, especially matrix multiplication, as in this case it is over 10,000 times faster than vanilla python. Other mathematical operations are also often orders of magnitude faster than vanilla. Aditionally it adds the ability to use 'proper' arrays and not lists which are extensible, this means less memory is needed.
+       \end{itemize}
+     \item Node \& Node Package Manager
+      \begin{itemize}
+        \item Node creates an environment for JavaScript to be run outside of the browser environment. This is especially useful during development as it allows the developer to create a local Node server to test the code. Node's package manager checks for any dependencies the code may have and automatically installs apropriate versions, ensuring that the project does not have incompatible versions of dependencies installed simultaneously. As this can easily be a source of frustration when trying to handle multiple dependencies. This also means that whenever a new dependency is added in development, the package manager will automatically add install it in production during the build process. 
+      \end{itemize}
   \end{itemize}
 \section{Requirements}
 For assessing requirement priority one will employ the MOSCOW method \cite{Clegg199410.5555/561543}. This creates subcategory of requirments with the headings Must/Should/Could/Won't - have. The contents of the catagories can change during development in light of development progress. Items placed in the Won't-have category prevent the process of 'scope-creep'.
 \begin{itemize}
   \item Must Have
   \begin{itemize}
-    \item Ability for user to upload an image
-      \begin{itemize}
-        \item The user will be able to choose an image file from their local storage using a file explorer popup.
-      \end{itemize}
     \item CNN that is capable of classifying at least 2 different defects
       across 2 different plant species.
     \item An API that allows communication from the UI to the CNN
@@ -335,6 +341,9 @@ For assessing requirement priority one will employ the MOSCOW method \cite{Clegg
   	\item The API will be robust enough to handle the receipt of erroneous requests.
   	\item A python backend that will handle image classification using a CNN.
   	\item A UI that will allow the user to upload an image to be analysed.
+    \begin{itemize}
+      \item The user will be able to choose an image file from their local storage using a file explorer popup.
+    \end{itemize}
   	\item The UI will display information regarding the likelihood of each kind of possible defect.
   	\item To display the relevant images that fit the description of the most likely defects.
   	\item To display recourse information to rectify the defect.
@@ -345,8 +354,6 @@ For assessing requirement priority one will employ the MOSCOW method \cite{Clegg
   \begin{itemize}
     \item A page to allow users to see a gallery of images sorted by
       defect type.
-    \item A page to allow users to see a gallery of images sorted by
-      crop type.
     \item The CNN should be able to classify at least 7 different defects across at least two different plant species.
     \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class.
   	\item Regularisation techniques to prvent the NN overfitting.

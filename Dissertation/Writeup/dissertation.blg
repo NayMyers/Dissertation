@@ -3,7 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: bunat.bst
 Case mismatch error between cite keys leCun1998 and LeCun1998
----line 59 of file dissertation.aux
+---line 69 of file dissertation.aux
  : \citation{leCun1998
  :                    }
 I'm skipping whatever remains of this command
@@ -23,6 +23,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 405 of file bibliography.bib
  : @inproceedings{Anthonys2009
  :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 563 of file bibliography.bib
+ : @misc{Highsmith2001
+ :                    ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in Statista:2021
 Warning--to sort, need author or key in ImarcGroup
@@ -149,6 +153,8 @@ Warning--to sort, need author or key in Yandex
 Warning--empty institution in Choi
 Warning--empty year in Choi
 Warning--empty year in Choi
+Warning--empty title in Gall1977
+Warning--empty publisher in Gall1977
 Warning--empty institution in He
 Warning--empty year in He
 Warning--empty year in He
@@ -280,45 +286,45 @@ Warning--empty institution in JLIFADSmallHolders
 Warning--empty institution in Zagoruyko
 Warning--empty year in Zagoruyko
 Warning--empty year in Zagoruyko
-You've used 27 entries,
+You've used 33 entries,
             2742 wiz_defined-function locations,
-            727 strings with 9816 characters,
-and the built_in function-call counts, 12452 in all, are:
-= -- 1158
-> -- 726
-< -- 10
-+ -- 271
-- -- 243
-* -- 996
-:= -- 2042
-add.period$ -- 104
-call.type$ -- 27
-change.case$ -- 197
-chr.to.int$ -- 26
-cite$ -- 57
-duplicate$ -- 525
-empty$ -- 929
-format.name$ -- 274
-if$ -- 2545
+            777 strings with 10765 characters,
+and the built_in function-call counts, 14828 in all, are:
+= -- 1383
+> -- 834
+< -- 15
++ -- 311
+- -- 276
+* -- 1153
+:= -- 2447
+add.period$ -- 130
+call.type$ -- 33
+change.case$ -- 228
+chr.to.int$ -- 32
+cite$ -- 65
+duplicate$ -- 644
+empty$ -- 1126
+format.name$ -- 319
+if$ -- 3037
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 162
-num.names$ -- 84
-pop$ -- 338
+missing$ -- 20
+newline$ -- 200
+num.names$ -- 108
+pop$ -- 407
 preamble$ -- 1
-purify$ -- 162
+purify$ -- 191
 quote$ -- 0
-skip$ -- 382
+skip$ -- 469
 stack$ -- 0
-substring$ -- 356
-swap$ -- 54
+substring$ -- 409
+swap$ -- 61
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 297
-warning$ -- 24
-while$ -- 78
+type$ -- 343
+warning$ -- 26
+while$ -- 98
 width$ -- 0
-write$ -- 368
-(There were 121 error messages)
+write$ -- 457
+(There were 122 error messages)
