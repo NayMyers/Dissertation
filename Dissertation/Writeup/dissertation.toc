@@ -6,82 +6,96 @@
 \contentsline {section}{\numberline {1.3}Aims \& Objectives}{1}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Aims}{1}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Objectives}{2}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Risk Table}{3}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Overview}{4}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Introduction}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Context}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Literature Review}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}General Software Development Practice}{5}{subsection.2.2.1}%
-\contentsline {subsubsection}{SOLID principles}{6}{subsection.2.2.1}%
-\contentsline {paragraph}{S - Single Responsibility}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{O - Open to Extention, Closed to Modification}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{L - Liskovs Substitution Principle}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{I - Interface Segregation}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{D - Dependency Inversion}{7}{subsection.2.2.1}%
-\contentsline {subsubsection}{Rules Of Thumb}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{Don't repeat yourself (DRY)}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{You Aren't Going To Need It}{7}{subsection.2.2.1}%
-\contentsline {paragraph}{Avoid Premature Optimization}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Disease Detection Using Machine Vision}{8}{subsection.2.2.2}%
-\contentsline {subsubsection}{Non CNN methods}{8}{subsection.2.2.2}%
-\contentsline {subsubsection}{CNN Methods}{8}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Existing CNN Architectures}{10}{subsection.2.2.3}%
-\contentsline {subsubsection}{LeNet5 \& Precursor}{10}{subsection.2.2.3}%
-\contentsline {subsubsection}{AlexNet}{10}{subsection.2.2.3}%
-\contentsline {subsubsection}{VGGNet}{11}{subsection.2.2.3}%
-\contentsline {subsubsection}{Resnets}{11}{figure.2.1}%
-\contentsline {subsubsection}{DenseNets}{12}{figure.2.1}%
-\contentsline {subsubsection}{InceptionNets}{12}{figure.2.1}%
-\contentsline {subsubsection}{FractalNet}{13}{figure.2.2}%
-\contentsline {subsubsection}{Additional CNN research}{13}{figure.2.3}%
-\contentsline {chapter}{\numberline {3}Methodology}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Project Management Methodology}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Workflow}{16}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Requirements Elicitation}{18}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Feature management}{18}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Evaluation Methods}{18}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Development Methodology}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Feature Design}{19}{subsection.3.2.1}%
-\contentsline {subsubsection}{UI}{19}{subsection.3.2.1}%
-\contentsline {subsubsection}{Backend}{19}{subsection.3.2.1}%
-\contentsline {subsubsection}{Design \& Implementation Coupling}{19}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Implementation}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Testing methods}{20}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Refactoring}{21}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}CNN Model Creation \& Integration}{24}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Version control}{24}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Evaluation methods}{25}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}User Interface}{25}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Convolutional Neural Network (CNN)}{25}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Initial Designs}{26}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Employed Technologies \& Justifications}{28}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Software Structure}{28}{subsection.3.5.1}%
-\contentsline {subsubsection}{Back-End}{28}{subsection.3.5.1}%
-\contentsline {subsubsection}{Front-End}{30}{figure.3.20}%
-\contentsline {subsection}{\numberline {3.5.2}Hosting}{31}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Choosing The CNN Architecture}{32}{subsection.3.5.3}%
-\contentsline {subsubsection}{CNN Data and Training}{32}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Technologies \& Libraries}{33}{subsection.3.5.4}%
-\contentsline {subsubsection}{Vue.js}{33}{subsection.3.5.4}%
-\contentsline {subsubsection}{Bootstrap}{33}{subsection.3.5.4}%
-\contentsline {subsubsection}{Jupyter Notebook / Google Colab}{34}{subsection.3.5.4}%
-\contentsline {subsubsection}{Tensorflow \& Keras}{34}{subsection.3.5.4}%
-\contentsline {subsubsection}{Nginx}{34}{subsection.3.5.4}%
-\contentsline {subsubsection}{Gunicorn}{34}{subsection.3.5.4}%
-\contentsline {subsubsection}{Flask/FLask-Restful}{34}{subsection.3.5.4}%
-\contentsline {subsubsection}{Numpy}{35}{subsection.3.5.4}%
-\contentsline {subsubsection}{Node \& Node Package Manager}{35}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Requirements}{35}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Main Results}{37}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}CNN}{37}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Architecture}{37}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Development}{38}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Evaluation Results}{38}{subsection.4.1.4}%
-\contentsline {subsubsection}{System Usability}{38}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Requirements Checklist}{39}{subsection.4.1.5}%
-\contentsline {chapter}{\numberline {5}Conclusion}{41}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Further Work}{41}{subsection.5.0.1}%
-\contentsline {chapter}{References}{45}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal}{46}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{47}{appendix.a.B}%
+\contentsline {section}{\numberline {1.4}Risk Table}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Overview}{2}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Introduction}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Context}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Literature Review}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}General Software Development Practice}{3}{subsection.2.2.1}%
+\contentsline {subsubsection}{SOLID principles}{4}{subsection.2.2.1}%
+\contentsline {paragraph}{S - Single Responsibility}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{O - Open to Extention, Closed to Modification}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{L - Liskovs Substitution Principle}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{I - Interface Segregation}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{D - Dependency Inversion}{5}{subsection.2.2.1}%
+\contentsline {subsubsection}{Rules Of Thumb}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{Don't repeat yourself (DRY)}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{You Aren't Going To Need It}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{Avoid Premature Optimization}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Disease Detection Using Machine Vision}{6}{subsection.2.2.2}%
+\contentsline {subsubsection}{Non CNN methods}{6}{subsection.2.2.2}%
+\contentsline {subsubsection}{CNN Methods}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Existing CNN Architectures}{8}{subsection.2.2.3}%
+\contentsline {subsubsection}{LeNet5 \& Precursor}{8}{subsection.2.2.3}%
+\contentsline {subsubsection}{AlexNet}{8}{subsection.2.2.3}%
+\contentsline {subsubsection}{VGGNet}{9}{subsection.2.2.3}%
+\contentsline {subsubsection}{Resnets}{9}{figure.2.1}%
+\contentsline {subsubsection}{DenseNets}{10}{figure.2.1}%
+\contentsline {subsubsection}{InceptionNets}{10}{figure.2.1}%
+\contentsline {subsubsection}{FractalNet}{11}{figure.2.2}%
+\contentsline {subsubsection}{Additional CNN research}{11}{figure.2.3}%
+\contentsline {chapter}{\numberline {3}Methodology}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project Management Methodology}{14}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Workflow}{14}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Requirements Elicitation}{16}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Feature management}{16}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Evaluation Methods}{16}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Development Methodology}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Feature Design}{17}{subsection.3.2.1}%
+\contentsline {subsubsection}{UI}{17}{subsection.3.2.1}%
+\contentsline {subsubsection}{Backend}{17}{subsection.3.2.1}%
+\contentsline {subsubsection}{Design \& Implementation Coupling}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Implementation}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Testing methods}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Refactoring}{19}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}CNN Model Creation \& Integration}{22}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Version control}{22}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Evaluation methods}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}User Interface}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Convolutional Neural Network (CNN)}{23}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Initial Designs}{24}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Employed Technologies \& Justifications}{26}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Software Structure}{26}{subsection.3.5.1}%
+\contentsline {subsubsection}{Back-End}{26}{subsection.3.5.1}%
+\contentsline {subsubsection}{Front-End}{28}{figure.3.20}%
+\contentsline {subsection}{\numberline {3.5.2}Hosting}{29}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Choosing The CNN Architecture}{30}{subsection.3.5.3}%
+\contentsline {subsubsection}{CNN Data and Training}{30}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Technologies \& Libraries}{31}{subsection.3.5.4}%
+\contentsline {subsubsection}{Vue.js}{31}{subsection.3.5.4}%
+\contentsline {subsubsection}{Bootstrap}{31}{subsection.3.5.4}%
+\contentsline {subsubsection}{Jupyter Notebook / Google Colab}{32}{subsection.3.5.4}%
+\contentsline {subsubsection}{Tensorflow \& Keras}{32}{subsection.3.5.4}%
+\contentsline {subsubsection}{Nginx}{32}{subsection.3.5.4}%
+\contentsline {subsubsection}{Gunicorn}{32}{subsection.3.5.4}%
+\contentsline {subsubsection}{Flask/FLask-Restful}{32}{subsection.3.5.4}%
+\contentsline {subsubsection}{Numpy}{33}{subsection.3.5.4}%
+\contentsline {subsubsection}{Node \& Node Package Manager}{33}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Requirements}{33}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Main Results}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}CNN Performance}{35}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Evaluation Results}{35}{subsection.4.1.2}%
+\contentsline {subsubsection}{System Usability}{35}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Requirements Checklist}{35}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Discussion}{37}{section.4.2}%
+\contentsline {subsubsection}{Missed/Partial Requirements}{37}{section.4.2}%
+\contentsline {paragraph}{Requirement 3b}{37}{section.4.2}%
+\contentsline {paragraph}{Requirement 1e}{37}{section.4.2}%
+\contentsline {subsubsection}{Architecture}{37}{section.4.2}%
+\contentsline {subsubsection}{Database}{38}{section.4.2}%
+\contentsline {subsubsection}{Move to Production}{38}{section.4.2}%
+\contentsline {subsubsection}{Version Control}{38}{section.4.2}%
+\contentsline {subsubsection}{Vue.js}{38}{section.4.2}%
+\contentsline {subsubsection}{Reliability}{38}{section.4.2}%
+\contentsline {subsubsection}{CNN}{39}{section.4.2}%
+\contentsline {paragraph}{Modularity}{39}{section.4.2}%
+\contentsline {paragraph}{Model Choice}{39}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{40}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Further Work}{40}{subsection.5.0.1}%
+\contentsline {chapter}{References}{44}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal \& Plan}{45}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{53}{appendix.a.B}%
+\contentsline {chapter}{Appendix \numberline {C}Additional Diagrams}{58}{appendix.a.C}%
+\contentsline {chapter}{Appendix \numberline {D}Questionaire}{61}{appendix.a.D}%
+\contentsline {chapter}{Appendix \numberline {E}Ethics Docs}{70}{appendix.a.E}%

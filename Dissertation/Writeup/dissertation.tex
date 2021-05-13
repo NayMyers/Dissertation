@@ -44,11 +44,8 @@
 \footskip = 15mm
 \usepackage{titlesec}
 
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
-\patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
-\makeatother
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
 
 \begin{document}
 \input{Title/title}
@@ -77,5 +74,6 @@
 \thispagestyle{fancy} %DO NOT REMOVE THIS LINE
 
 \input{Appendix/appendix}
+
 
 \end{document}

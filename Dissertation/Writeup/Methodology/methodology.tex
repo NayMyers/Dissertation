@@ -45,7 +45,7 @@
     % As the scope of the problem domain is narrow in terms of interaction points for the user. Requirment elicitation will be driven by determining features that will build towards the solving the problem at hand. If for instance the problem was providing some kind of E-commerce website, project management application or social media website, the number of different features that could be employed in any one of these domains is vast and therefore one would need to consult the target audience and elicit the kind of requirements they would like to have. On the contrary, this project is far narrower in terms of points of interaction for the user. Therefore requirements will be determined on the basis of whether or not they contribute towards providing information about crop defects to the user.
   \subsection{Feature management}
     To track the creation and completion of features, a Kanban board will be used. This will include columns for 'To do', 'Doing' and 'Done'.
-    To determine which features will be prioritised one will employ the MOSCOW method see Feature Management.
+    To determine which features will be prioritised one will employ the MOSCOW method (See Requirements).
 
 
   \subsection{Evaluation Methods}
@@ -56,7 +56,7 @@
     \subsubsection{UI}
       Wireframes will be uitilized to establish interface element placement i.e. layout. Then more mockups that align better with the possible implementation will be created superseding the original prototype wireframes. A colour picker that takes predetermined segments of the colour wheel, will be utilized to define the colour scheme. In later iterations of the design, once there is a functioning UI, usability will continue to be refined with the help of existing usability research, to guide the usage of font/colour/highlight on hover/font size etc. Additionally once a desktop friendly layout has been established, work will begin on optimizing a version for mobile.
     \subsubsection{Backend}
-      To better conceptualize the needs of the user. Use case diagrams and activity diagrams will be utilized. Then the main types of code to help with design are psuedocode which is written loosley in a programming style but does not excecute. Prototype code, which runs but is intented to be discarded. And tracer code, which is a kind of MVP but on the individual feature level.
+      To better conceptualize the needs of the user. Use case diagrams and activity diagrams will be utilized. Then the main types of code to help with design are psuedocode which is written loosley in a programming style but does not excecute. Prototype code, which runs but is intented to be discarded. And tracer code, this is a kind of MVP but on the individual feature level, which becomes the starting point for further development.
     \subsubsection{Design \& Implementation Coupling}
       An iterative aproach has been chosen because the design of the software is affected by factors of the implementation. Before implementing a feature it is not always clear how the solution will look and which possibilites will be simplest to meet the requirements. Therefore, an initial design will be created to guide the first steps of implementation, then as more information is learned and perhaps an easier to make design is realised, the new design can be checked against the requirments. If satisfactory, the new design can become canon and development on the updated design can continue.
       \par
@@ -133,13 +133,13 @@
    Given these examples it's easy to see why lines of code created is a rather ineffective way (in isolation) of determening programmer productivity.
 
  \subsection{CNN Model Creation \& Integration}
-  To create the CNN it is possible to perform modifications to an 'off the shelf' model included in the Keras library. The modifications involve changing the first and last layers to match the input image size and number of output classes  respectively.
+  To create the CNN it is possible to perform modifications to an 'off the shelf' model included in the Keras library. The modifications involve changing the first and last layers to match the input image size and number of output classes respectively, we see this aproach used in several of the papers cited in the literature review.
   \par
   A fast to train model will be essential due to the limitations of using Google Colab, which requires frequent user interaction to prevent from stopping compuation or entirely disconnecting the run-time. Therefore a model with low-number of parameters will be chosen.
   \par
-  The weights of the CNN will need to be saved after each epoch to ensure that if a disconnect occurs, less training progress will be lost. Once the model is finished training it will have it's class list extracted and be saved into a .h5 file to be loaded on the API. The JSON class list will also be added to the API.
+  The weights of the CNN will need to be saved after each epoch to ensure that if a disconnect occurs, less training progress will be lost. Once the model is finished training it will have it's class list extracted and the model weights will be saved into a .h5 file to be loaded on the API. The JSON class list will also be added to the API.
   \par
-  When training the CNN one will utilize a pre-trained (on the ILSVRC dataset) to further cut down training time, as this will mean the CNN already has a set of generic feature maps. The focus on reducing training time is based on the fact that training large networks with millions of parameters can take days or weeks, even when utilizing high end GPU's. as discovered in the literature.
+  When training the CNN one will utilize a pre-trained (on the ILSVRC dataset) to further cut down training time, as this will mean the CNN already has a set of generic feature maps. The focus on reducing training time is based on the fact that training large networks with millions of parameters can take days or weeks, even when utilizing high end GPU's.
   \par
   For the tradeoff in training time it is unlikely the model will acheive state of the art performance, but it is likely to achieve within a few percent. This has driven the requriement that the model must be easily replaced.
 
@@ -208,6 +208,7 @@ Firstly I have created a wireframe UI
         \label{fig:data_augmentation}
       \end{center}
     \end{figure}
+  See diagrams Apendix for additional diagrams.
 \section{Employed Technologies \& Justifications}
   \subsection{Software Structure}
     \subsubsection{Back-End}
@@ -231,7 +232,7 @@ Firstly I have created a wireframe UI
       \par
       UI components will be defined using Hypertext Markup language (HTML) and Cascading Style Sheets (CSS). Interativity will be scripted in Javascript. All three extremely common in web development. %With some of the earliest pages of the world wide web in 1990 being defined in HTML1.0 now developed to HTML4.0 (citep html4.0 spec).
       \par
-      The main functionality of the web-app will be uploading an image to be analysed by the CNN and recieving a prediciton of which defect is/isn't present. This will be conducted by a single component. Once a prediction has been made, the user can choose to see more information (consisting of images and recourse information) about the defect, which will be handled by a second component.
+      The main functionality of the web-app will be uploading an image to be analysed by the CNN and recieving a prediciton of which defect is/isn't present. This will be conducted by a single component. Once a prediction has been made, the user can choose to see more information (consisting of images and recourse information) about the defect, which will be handled by two further components.
       \par
       Responses from the API will come in JSON format. JSON is a structured data language and stores data heirachically. This leads to dictonaries and lists of arbitrary depth in a tree structure. Much the same as XML or a filesystem. JSON is a very common language when dealing with webservices and is considered the norm to be the response of an API.
       \par
@@ -239,7 +240,6 @@ Firstly I have created a wireframe UI
       \par
       This means the navigation drop-downs, defect images and recourse/prevention information are all served dynamically through the API and can be scaled more easily than if the information was stored on the frontend. Because the content is dynamic, any client consuming the information won't have to manually update their defect list or defect names if the CNN model changes. This is in-line with the don't repeat yourself (DRY) principle. Having two places where what is supposed to be the same information is stored is an immediate 'code smell' and can easily lead to bugs. This also stands true for methods which enact some kind of bisuness logic. For instance it would not be best practice to implement the algorithm which re-scales the image both on the front and back end, as the size the algorithm needs to re-scale to may change, or a better method for re-scaling the image may become apparent, this would cascade to changing two parts of the system.
       % This stands true for any function that is supposed to enact some kind of bisuness logic. For instance the government may have a policy as to which kind of string is a valid national insurance number (NIN). This could then lead to multiple implementations of a NIN checker, being written for multiple applications accross the governments software suite, one in javascript for a driving licence sign up web application, one in python for an internal police database management system etc. And all become defunkt if this peice of 'bisuness logic' changes. Therefore, this calls for the software to by written dynamically from metadata. And requries the creation of a higher level language compiler, to compile metadata into a different high level language such as Java, C++, Python etc. Or at least get the programmer most of the way to the solution by defining necessary method names and declarations along with return types, error values etc.
-
 
     \subsection{Hosting}
       To make the application accessible on the internet one will utilize virtual machines (VM's) running linux, hosted in the cloud. There will be three VM's, one to host the front-end, back-end and the other to host the defect images. In all cases nginx will be used to create HTTP servers that will handle all functionality regarding the HTTP protocol and the socket layer.
@@ -254,9 +254,9 @@ Firstly I have created a wireframe UI
       % Such as, adding more libraries to the project will have the knock on effect of increasing the amount of time spent    are one of many factors that feed-into one another such as usability, speed of excecution and speed of creation feed in to one-another.
 
     \subsubsection{CNN Data and Training}
-      One of the most important parts when creating a CNN is the data it is trained on \citep{Halevy2009}. The more properly labled data the network sees, the better. The most comprehensive dataset available (and the one which will mostly be used) is the Plant Village dataset. it contains 54303 images of healthy and unhealthy leaf images, in 38 categories divided by species and disease. This dataset also contains pre-segmented\footnote{meaning the background has been blacked out}[1] versions of all the images. This dataset was used in two seperate studies citepd in the literature review.
+      One of the most important parts when creating a CNN is the data it is trained on \citep{Halevy2009}. The more properly labled data the network sees, the better. The most comprehensive dataset available (and the one which will mostly be used) is the Plant Village dataset. it contains 54303 images of healthy and unhealthy leaf images, in 38 categories divided by species and disease. This dataset also contains pre-segmented\footnote{meaning the background has been blacked out}[1] versions of all the images. This dataset was used in two seperate studies cited in the literature review.
       \par
-      Other datasets that may be used to pre-train the network before are the CIFAR10, CIFAR100 \& ILSVRC datasets. These datasets are not specifically plant based, but may benefit the network to build initial feature maps. In \citep{Choi} the authors used networks pre-trained on generic data such as the datasets mentioned. Experiments will be conducted to determine if this benefits classification accuracy [comment](not yet...)
+      Other datasets that may be used to pre-train the network before are the CIFAR10, CIFAR100 \& ILSVRC datasets. These datasets are not specifically plant based, but may benefit the network to build initial feature maps. In \citep{Choi} the authors used networks pre-trained on generic data such as the datasets mentioned.
       \par
       One unfortunate aspect was the fact that one was unable to obtain a dataset that reflected plant defects other than diseases, such as nitrogen/water/heat deficiencies.
 
@@ -283,11 +283,10 @@ Firstly I have created a wireframe UI
 
 \section{Requirements}
 For assessing requirement priority one will employ the MOSCOW method \citep{Clegg199410.5555/561543}. This creates subcategory of requirments with the headings Must/Should/Could/Won't - have. The contents of the categories can change during development in light of development progress. Items placed in the Won't-have category prevent the process of 'scope-creep'.
-\begin{itemize}
+\begin{enumerate}
   \item Must Have
-  \begin{itemize}
-    \item CNN that is capable of classifying at least two different defects
-      across two different plant species.
+  \begin{enumerate}
+    \item CNN that is capable of classifying at least 2 different defects across 2 different plant species.
     \item An API that allows communication from the UI to the CNN
     \item API must be able to receive images.
       \begin{itemize}
@@ -297,7 +296,7 @@ For assessing requirement priority one will employ the MOSCOW method \citep{Cleg
     \item API must return recourse information.
     \item Application must display images that show the predicted defect.
       \begin{itemize}
-        \item These images may be stored either on a seperate server to the front-end. Perhaps in the API servers 'static folder'. Alternatively, they will be bundled with the front end.
+        \item These images may be stored either on a seperate server to the front-end. Perhaps in the API servers 'static folder'. Alternatively they will be bundled with the front end.
       \end{itemize}
   	\item The API will be robust enough to handle the receipt of erroneous requests.
   	\item A python backend that will handle image classification using a CNN.
@@ -310,26 +309,23 @@ For assessing requirement priority one will employ the MOSCOW method \citep{Cleg
   	\item To display recourse information to rectify the defect.
   	\item Collecting, cleaning and pre-processing the image data.
     \item Artificially grow the dataset by performing translations/rotations/adding noise to the images to make the training data more comprehensive.
-    \item CNN model should be straightforward to replace when better performance is realised.
-  \end{itemize}
+  \end{enumerate}
   \item Should Have
-  \begin{itemize}
+  \begin{enumerate}
     \item A page to allow users to see a gallery of images sorted by
       defect type.
     \item The CNN should be able to classify at least 7 different defects across at least two different plant species.
     \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class.
-  	\item Regularisation techniques to prevent the NN overfitting.
-  \end{itemize}
+  	\item Regularisation techniques to prvent the NN overfitting.
+  \end{enumerate}
   \item Could Have
-    \begin{itemize}
+  \begin{enumerate}
       \item Mobile device support.
-    \end{itemize}
-  \begin{itemize}
     \item Ability for users to add additional information about the crop
       to determine the defect.
-  \end{itemize}
+  \end{enumerate}
   \item Won't Have
-\end{itemize}
+\end{enumerate}
 % \section{Testing and Implementation details}
 
 

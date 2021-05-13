@@ -3,24 +3,9 @@
 \section{Main Results}
   % \subsection{Development Synopsis}
   %   The overall architecture of the sytem has remained largely unchanged throughout the development process. With the main exception being the decision to drop the relational database in favour of using only heirachical storage such as the filesystem and JSON files. This occured when it was established that only simple relations occured between the data and therefore adding an entire new set of dependencies and technology would be overly complex.
-  \subsection{CNN}
+  \subsection{CNN Performance}
     The Performance of the CNN given the available hardware (Google Colab GPU Runtime), is good. That is, with a 98.6\% classification accuracy on a held out validation set. With current cutting edge, being 99.74\% on the same dataset (as covered in the literature review). The CNN is capable of identifying 38 unique classes of crop images. Unfortunately due to the lack of data, one was unable to include additional defects such as lack of water/nitrogen/sunlight etc.
-    \par
-    separation of the sofware components allows for the easy interchange of CNN models. This means once the model is trained, changing the model, when better performance is realised, can be done by changing a single filepath on the API server. Although if one wishes to extend the number of defects (classes) the model is able to predict; three steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes, the model .h5 file needs updating. And lastly the images for the new defect must be added to the image server. Making the process straightforward as only two file paths need changing and images be uploaded using Secure File Transfer Protocol (SFTP).
 
-  \subsection{Architecture}
-    The separation of responsibility between the API and front-end has created two orthogonal systems that can be upgraded and interchanged easily. The front end does not need to know any details about the CNN(model) it is interacting with. The classes the model is able to identify are dynamically updated on the front-end and prediction data also remains consistent between model implementations. Recourse and prevention information are similarly easy to update and can be changed by updating a JSON file on the back-end. Images that the front-end display are also easily changed and are hosted on a seperate image server, further seperating the systems interdependence. A call for modularity and separation of responsibility was a key theme occuring in many works cited in the literature review.
-
-  \subsection{Development}
-    A major change made to the design of the application was the choice to drop the relational database in favor of using heirachical storage as it was noted that the application did not need to handle complex relational data. Initially the purpose was to have the database handle filepaths to images and recourse/defect information - this was easily handled with consistent directory naming on the image server and JSON files.
-    \par
-    A feature that has the code in place to deliver, but no infomration to display, is the recourse and prevention section. At this stage one was unable to obtain the information nececarry to populate these values. However, once the relevant information is obtained, only JSON files on the API side need be updated to properly fulfill this requirement.
-    \par
-    Some of the main issues that arose during development were during the move to production. This involved learning new technologies such as NginX and Gunicorn to deploy the project as the configuration can be obtuse upon first interaction. Some API code also did not work the same way as on the development server and so, had to be modified to work in the production environment.
-    \par
-    Through the use of version control it has been straightforward to update the code on the production servers simply by pulling the latest changes from the git repository. Version control has been helpful throughout the lifecycle thanks to the ability to branch the codebase (see version control).
-    \par
-    Upon reflection, using the Vue.js framework standalone may not have been the best choice for the sole reason that one did not find a way of caching page states. This has led to the inability to go back to the results display state of the Upload_Image page after navigating away from it. It is possible that using the additional Vuex library would have made this possible. Because the Upload_Image component is currently implemented with the results display state being arrived at by a series of function calls, there does not seem to be a vanilla Vue.js way to cache the page state to allow it to be navigated back to without starting at the initial state of the component.
     \subsection{Evaluation Results}
       \subsubsection{System Usability}
       Strongly agree = 5, Strongly disagree = 1. In the case of odd questions, agreeing is positive sentiment. For even questions agreeing is negative sentiment. The calculations are as follows. X is the sum of odd-numbered questions -5. Y is 25-sum of all even-numbered questions. The SUS score is $ (X+Y)*2.5 $ The mean average of all SUS scores is then calculated. With the best possible score being 100.
@@ -32,10 +17,11 @@
         \end{center}
       \end{figure}
       In this case the system scored 81.875 which is above the average of 68 \citep{Sauro2011}. However with the limited number of questionaire respondents (8) the evidence is not wholly conclusive.
+
   \subsection{Requirements Checklist}
-    \begin{itemize}
+    \begin{enumerate}
       \item Must Have
-      \begin{itemize}
+      \begin{enumerate}
         \item CNN that is capable of classifying at least 2 different defects across 2 different plant species.\checkmark
         \item An API that allows communication from the UI to the CNN \checkmark
         \item API must be able to receive images. \checkmark
@@ -59,22 +45,44 @@
       	\item To display recourse information to rectify the defect.\checkmark
       	\item Collecting, cleaning and pre-processing the image data. \checkmark
         \item Artificially grow the dataset by performing translations/rotations/adding noise to the images to make the training data more comprehensive.\checkmark
-      \end{itemize}
+      \end{enumerate}
       \item Should Have
-      \begin{itemize}
+      \begin{enumerate}
         \item A page to allow users to see a gallery of images sorted by
           defect type. \checkmark
         \item The CNN should be able to classify at least 7 different defects across at least two different plant species. \checkmark
         \item The CNN should acheive at least 80\% accuracy at classifying all different classes of defect in a held out test set that contains an equal number of each class. \checkmark
       	\item Regularisation techniques to prvent the NN overfitting. \checkmark
-      \end{itemize}
+      \end{enumerate}
       \item Could Have
-        \begin{itemize}
+      \begin{enumerate}
           \item Mobile device support. \checkmark
-        \end{itemize}
-      \begin{itemize}
         \item Ability for users to add additional information about the crop
           to determine the defect.
-      \end{itemize}
+      \end{enumerate}
       \item Won't Have
-    \end{itemize}
+    \end{enumerate}
+
+\section{Discussion}
+\subsubsection{Missed/Partial Requirements}
+  \paragraph{Requirement 3b}
+   (Ability for users to add additional information about the crop) was not implemented. A possible method would have been to ask the user via a drop-down menu which crop was to be analysed. This could have allowed the back-end to select a tailored CNN which classifies only the classes relevant to the selected crop. The reason for the absense of this implementation is the time nececarry to train the extra CNN's.
+  \paragraph{Requirement 1e}
+  (API must return recourse information). This requirment is only partially fulfilled, because at this stage one was unable to obtain the information nececarry to populate these values. However, once the relevant information is obtained, only JSON files on the API side need be updated to properly fulfill this requirement.
+\subsubsection{Architecture}
+  The separation of responsibility between the API and front-end has created two orthogonal systems that can be upgraded and interchanged easily. The front end does not need to know any details about the CNN(model) it is interacting with. The classes the model is able to identify are dynamically updated on the front-end and prediction data also remains consistent between model implementations. Recourse and prevention information are similarly easy to update and can be changed by updating a JSON file on the back-end. Images that the front-end display are also easily changed and are hosted on a seperate image server, further seperating the systems interdependence. A call for modularity and separation of responsibility was a key theme occuring in many works cited in the literature review.
+\subsubsection{Database}
+  A major change made to the design of the application was the choice to drop the relational database in favor of using heirachical storage as it was noted that the application did not need to handle complex relational data. Initially the purpose was to have the database handle filepaths to images and recourse/defect information - this was easily handled with consistent directory naming on the image server and JSON files.
+\subsubsection{Move to Production}
+  Some of the main issues that arose during development were during the move to production. This involved learning new technologies such as NginX and Gunicorn to deploy the project as the configuration can be obtuse upon first interaction. Some API code also did not work the same way as on the development server and so, had to be modified to work in the production environment.
+\subsubsection{Version Control}
+  Through the use of version control it has been straightforward to update the code on the production servers simply by pulling the latest changes from the git repository. Version control has been helpful throughout the lifecycle thanks to the ability to branch the codebase (see version control).
+\subsubsection{Vue.js}
+  Upon reflection, using the Vue.js framework standalone may not have been the best choice for the sole reason that one did not find a way of caching page states. This has led to the inability to go back to the results display state of the Upload\_Image page after navigating away from it. It is possible that using the additional Vuex library would have made this possible. Because the Upload\_Image component is currently implemented with the results display state being arrived at by a series of function calls, there does not seem to be a vanilla Vue.js way to cache the page state to allow it to be navigated back to without starting at the initial state of the component.
+\subsubsection{Reliability}
+  Since first deploying the system to production around the start of April 2021, it has been robust enough to handle all requests made of it without crashing for over a month. The only downtime the system has had is during updates to it's functionality. This is evidence that the configuration of all hosting technology and error handling in the code is good enough to operate in a production environment; albeit with low user traffic. Noteably the site is frequenlty served requests, from bots running common vulnerability checks, such as attempting to open a debugging shell. None of which seem to have been successful
+\subsubsection{CNN}
+  \paragraph{Modularity}
+  Making the CNN straightforward to change was chosen as a requirement given the limited ability to train a state of the art model. However, once a new model is trained and better performance is realised, changing the model, can be done by changing a single filepath on the API server. Although if one wishes to extend the number of defects (classes) the model is able to predict; three steps must take place. Firstly, the filepath to the JSON file defining all classes must be updated on the API to reflect the new set of classes, the model .h5 file needs updating. And lastly the images for the new defect must be added to the image server. Making the process, simply, changing two filepaths and uploading new images (using Secure File Transfer Protocol (SFTP)).
+  \paragraph{Model Choice}
+  The final model, EfiicientNetB0 was not originally covered in the literature and came about through comparing the number of parameters in the 'off the shelf' models in an attempt to reduce number of parameters and therefore training time. Fortunatley The model proved very quick to train, only taking around three hours. One's original intention was to create a fractalNet model, however this proved to be absorbing more time than orignially anticipated. As can be seen in appendix C, many diagrams to better conceptualize the model were created. Ultimately the decicion was made to use a pre-made architecture. 

@@ -2,11 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: bunat.bst
-Case mismatch error between cite keys leCun1998 and LeCun1998
----line 86 of file dissertation.aux
- : \citation{leCun1998
- :                    }
-I'm skipping whatever remains of this command
 Database file #1: bibliography.bib
 Repeated entry---line 209 of file bibliography.bib
  : @article{Mohanty2016
@@ -332,4 +327,4 @@ warning$ -- 27
 while$ -- 108
 width$ -- 0
 write$ -- 494
-(There were 122 error messages)
+(There were 121 error messages)

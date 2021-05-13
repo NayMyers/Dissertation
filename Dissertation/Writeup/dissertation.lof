@@ -1,28 +1,35 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Residual Identity Block}}{11}{figure.2.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Inception Module Example.}}{12}{figure.2.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces FractalNet Architecture.}}{13}{figure.2.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces InceptionNet Filter Activation Maps (Examples taken from OpenAI Microscope)}}{15}{figure.2.4}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Residual Identity Block}}{9}{figure.2.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Inception Module Example.}}{10}{figure.2.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces FractalNet Architecture.}}{11}{figure.2.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces InceptionNet Filter Activation Maps (Examples taken from OpenAI Microscope)}}{13}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces Development Lifecycle}}{17}{figure.3.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Project Focus Over Time}}{17}{figure.3.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Primary development method used in organization across projects (601 respondents) diagram created by Hewlett Packard}}{18}{figure.3.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Example 1 : Initial}}{21}{figure.3.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Example 1 : Refactor 1}}{22}{figure.3.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Example 1 : Refactor 3}}{22}{figure.3.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Example 1 : Refactor 4}}{23}{figure.3.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Example 2 : Initial}}{23}{figure.3.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Example 2 : Refactor}}{24}{figure.3.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Example Workflow To Highlight Branch Usage}}{25}{figure.3.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Homepage Wireframe}}{26}{figure.3.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Defect Information Wireframe}}{27}{figure.3.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces System Overview}}{27}{figure.3.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Input/Output overview}}{28}{figure.3.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Input/Data Augmentation Methods}}{28}{figure.3.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Backend Class Diagram}}{30}{figure.3.20}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Development Lifecycle}}{15}{figure.3.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Project Focus Over Time}}{15}{figure.3.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Primary development method used in organization across projects (601 respondents) diagram created by Hewlett Packard}}{16}{figure.3.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Example 1 : Initial}}{19}{figure.3.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Example 1 : Refactor 1}}{20}{figure.3.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Example 1 : Refactor 3}}{20}{figure.3.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Example 1 : Refactor 4}}{21}{figure.3.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Example 2 : Initial}}{21}{figure.3.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Example 2 : Refactor}}{22}{figure.3.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Example Workflow To Highlight Branch Usage}}{23}{figure.3.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Homepage Wireframe}}{24}{figure.3.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Defect Information Wireframe}}{25}{figure.3.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces System Overview}}{25}{figure.3.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Input/Output overview}}{26}{figure.3.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Input/Data Augmentation Methods}}{26}{figure.3.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Backend Class Diagram}}{28}{figure.3.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {21}{\ignorespaces SUS scores table}}{39}{figure.4.21}%
+\contentsline {figure}{\numberline {21}{\ignorespaces SUS scores table}}{35}{figure.4.21}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {22}{\ignorespaces FractalNet With Coloured Join Layers}}{58}{figure.a.C.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces FractalNet Expanded}}{59}{figure.a.C.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Frontend Overview}}{60}{figure.a.C.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces workflow}}{60}{figure.a.C.25}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
