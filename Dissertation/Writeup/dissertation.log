@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  13 MAY 2021 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.4)  13 MAY 2021 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,45 +664,45 @@ Package pdftex.def Info: Images/unilogo.jpg  used on input line 7.
 
 {g:/LaTeX/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Images/unilogo.jpg>] [1
 
-]) (./Abstract/abstract.tex [2
+]) (./Abstract/abstract.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+ [2
 
 ] [3
 
-] [4] [5
+] [4
 
-]) [6
+]) [5
 
-] (./dissertation.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
- [7
+] (./dissertation.toc [6
 
 ])
 \tf@toc=\write6
 \openout6 = `dissertation.toc'.
 
- [8] (./dissertation.lof)
+ [7] (./dissertation.lof)
 \tf@lof=\write7
 \openout7 = `dissertation.lof'.
 
- [9
+ [8
 
 ] (./dissertation.lot)
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
 
- [10
+ [9
 
 ] (./Background/background.tex
 Chapter 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 16.
 (g:/LaTeX/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
@@ -721,7 +721,7 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 46.
  [6] [7] [8]
-<images//Residual_Identity_Block.png, id=527, 154.8987pt x 233.4321pt>
+<images//Residual_Identity_Block.png, id=524, 154.8987pt x 233.4321pt>
 File: images//Residual_Identity_Block.png Graphic file (type png)
 <use images//Residual_Identity_Block.png>
 Package pdftex.def Info: images//Residual_Identity_Block.png  used on input line 71.
@@ -731,7 +731,7 @@ Package pdftex.def Info: images//Residual_Identity_Block.png  used on input line
                                                   
 l.78   \subsubsection{DenseNets}
                                  <./images//Residual_Identity_Block.png>]
-<images//InceptionModule.png, id=538, 379.4175pt x 216.81pt>
+<images//InceptionModule.png, id=536, 379.4175pt x 216.81pt>
 File: images//InceptionModule.png Graphic file (type png)
 <use images//InceptionModule.png>
 Package pdftex.def Info: images//InceptionModule.png  used on input line 86.
@@ -741,7 +741,7 @@ Package pdftex.def Info: images//InceptionModule.png  used on input line 86.
                                                   
 l.91   \subsubsection{FractalNet}
                                   <./images//InceptionModule.png>]
-<Images/FractalNetArchitectureCopy.png, id=549, 643.203pt x 614.295pt>
+<Images/FractalNetArchitectureCopy.png, id=547, 643.203pt x 614.295pt>
 File: Images/FractalNetArchitectureCopy.png Graphic file (type png)
 <use Images/FractalNetArchitectureCopy.png>
 Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input line 94.
@@ -751,7 +751,7 @@ Package pdftex.def Info: Images/FractalNetArchitectureCopy.png  used on input li
                                                   
 l.104     \par
                <./Images/FractalNetArchitectureCopy.png>] [12]
-<Images/InceptionLayers/LayerExamples.png, id=572, 861.4584pt x 496.9767pt>
+<Images/InceptionLayers/LayerExamples.png, id=570, 861.4584pt x 496.9767pt>
 File: Images/InceptionLayers/LayerExamples.png Graphic file (type png)
 <use Images/InceptionLayers/LayerExamples.png>
 Package pdftex.def Info: Images/InceptionLayers/LayerExamples.png  used on input line 112.
@@ -764,17 +764,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) h
 l.117     \end{landscape}
                           <./Images/InceptionLayers/LayerExamples.png>]) (./Methodology/methodology.tex
 Chapter 3.
-<Images/Project_Management_Methodology.png, id=578, 391.2216pt x 401.5803pt>
+<Images/Project_Management_Methodology.png, id=576, 391.2216pt x 401.5803pt>
 File: Images/Project_Management_Methodology.png Graphic file (type png)
 <use Images/Project_Management_Methodology.png>
 Package pdftex.def Info: Images/Project_Management_Methodology.png  used on input line 9.
 (pdftex.def)             Requested size: 293.41548pt x 301.18448pt.
-<Images/ProjectFocus2.png, id=579, 947.03813pt x 526.96875pt>
+<Images/ProjectFocus2.png, id=577, 947.03813pt x 526.96875pt>
 File: Images/ProjectFocus2.png Graphic file (type png)
 <use Images/ProjectFocus2.png>
 Package pdftex.def Info: Images/ProjectFocus2.png  used on input line 18.
 (pdftex.def)             Requested size: 378.80853pt x 210.78375pt.
-<Images/PMMPieChart.png, id=585, 521.69907pt x 425.33907pt>
+<Images/PMMPieChart.png, id=583, 521.69907pt x 425.33907pt>
 File: Images/PMMPieChart.png Graphic file (type png)
 <use Images/PMMPieChart.png>
 Package pdftex.def Info: Images/PMMPieChart.png  used on input line 34.
@@ -795,12 +795,12 @@ l.39
                                                   
 l.54 \section{Development Methodology}
                                        <./Images/PMMPieChart.png>] [17] [18]
-<Images/Refactor/refactorA1.png, id=614, 804.00375pt x 542.025pt>
+<Images/Refactor/refactorA1.png, id=612, 804.00375pt x 542.025pt>
 File: Images/Refactor/refactorA1.png Graphic file (type png)
 <use Images/Refactor/refactorA1.png>
 Package pdftex.def Info: Images/Refactor/refactorA1.png  used on input line 86.
 (pdftex.def)             Requested size: 442.20343pt x 298.11467pt.
-<Images/Refactor/refactorA2.png, id=615, 807.015pt x 474.77374pt>
+<Images/Refactor/refactorA2.png, id=613, 807.015pt x 474.77374pt>
 File: Images/Refactor/refactorA2.png Graphic file (type png)
 <use Images/Refactor/refactorA2.png>
 Package pdftex.def Info: Images/Refactor/refactorA2.png  used on input line 94.
@@ -810,12 +810,12 @@ Package pdftex.def Info: Images/Refactor/refactorA2.png  used on input line 94.
                                                   
 l.99 
       <./Images/Refactor/refactorA1.png>]
-<Images/Refactor/refactorA3.png, id=621, 525.965pt x 446.66875pt>
+<Images/Refactor/refactorA3.png, id=619, 525.965pt x 446.66875pt>
 File: Images/Refactor/refactorA3.png Graphic file (type png)
 <use Images/Refactor/refactorA3.png>
 Package pdftex.def Info: Images/Refactor/refactorA3.png  used on input line 102.
 (pdftex.def)             Requested size: 289.28163pt x 245.66856pt.
-<Images/Refactor/refactorA4.png, id=622, 860.21375pt x 550.055pt>
+<Images/Refactor/refactorA4.png, id=620, 860.21375pt x 550.055pt>
 File: Images/Refactor/refactorA4.png Graphic file (type png)
 <use Images/Refactor/refactorA4.png>
 Package pdftex.def Info: Images/Refactor/refactorA4.png  used on input line 110.
@@ -834,12 +834,12 @@ l.115
                                                   
 l.115 
        <./Images/Refactor/refactorA2.png> <./Images/Refactor/refactorA3.png>]
-<Images/Refactor/refactorB1.png, id=630, 483.8075pt x 232.87pt>
+<Images/Refactor/refactorB1.png, id=627, 483.8075pt x 232.87pt>
 File: Images/Refactor/refactorB1.png Graphic file (type png)
 <use Images/Refactor/refactorB1.png>
 Package pdftex.def Info: Images/Refactor/refactorB1.png  used on input line 119.
 (pdftex.def)             Requested size: 266.09494pt x 128.07889pt.
-<Images/Refactor/refactorB2.png, id=631, 483.8075pt x 144.54pt>
+<Images/Refactor/refactorB2.png, id=628, 483.8075pt x 144.54pt>
 File: Images/Refactor/refactorB2.png Graphic file (type png)
 <use Images/Refactor/refactorB2.png>
 Package pdftex.def Info: Images/Refactor/refactorB2.png  used on input line 127.
@@ -853,7 +853,7 @@ l.132
                                                   
 l.132 
        <./Images/Refactor/refactorA4.png> <./Images/Refactor/refactorB1.png>]
-<Images/Git_Workflow_Diagram.png, id=638, 661.7523pt x 250.7769pt>
+<Images/Git_Workflow_Diagram.png, id=636, 661.7523pt x 250.7769pt>
 File: Images/Git_Workflow_Diagram.png Graphic file (type png)
 <use Images/Git_Workflow_Diagram.png>
 Package pdftex.def Info: Images/Git_Workflow_Diagram.png  used on input line 150.
@@ -867,17 +867,17 @@ l.154     \end{figure}
                                                   
 l.170     \item R
                  ecall. Is the correct number of predictions for a class out... <./Images/Git_Workflow_Diagram.png>]
-<Images/Home_Page_Wireframe.png, id=652, 504.9264pt x 381.5856pt>
+<Images/Home_Page_Wireframe.png, id=650, 504.9264pt x 381.5856pt>
 File: Images/Home_Page_Wireframe.png Graphic file (type png)
 <use Images/Home_Page_Wireframe.png>
 Package pdftex.def Info: Images/Home_Page_Wireframe.png  used on input line 178.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/Defect_Information_Wireframe.png, id=653, 504.9264pt x 381.5856pt>
+<Images/Defect_Information_Wireframe.png, id=651, 504.9264pt x 381.5856pt>
 File: Images/Defect_Information_Wireframe.png Graphic file (type png)
 <use Images/Defect_Information_Wireframe.png>
 Package pdftex.def Info: Images/Defect_Information_Wireframe.png  used on input line 185.
 (pdftex.def)             Requested size: 353.44608pt x 267.1081pt.
-<Images/System_Overview_v1.png, id=654, 367.1316pt x 307.1475pt>
+<Images/System_Overview_v1.png, id=652, 367.1316pt x 307.1475pt>
 File: Images/System_Overview_v1.png Graphic file (type png)
 <use Images/System_Overview_v1.png>
 Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 192.
@@ -887,12 +887,12 @@ Package pdftex.def Info: Images/System_Overview_v1.png  used on input line 192.
                                                   
 l.196   \end{figure}
                      <./Images/Home_Page_Wireframe.png>]
-<Images/Input_Output_UI.png, id=664, 334.3692pt x 298.2342pt>
+<Images/Input_Output_UI.png, id=662, 334.3692pt x 298.2342pt>
 File: Images/Input_Output_UI.png Graphic file (type png)
 <use Images/Input_Output_UI.png>
 Package pdftex.def Info: Images/Input_Output_UI.png  used on input line 199.
 (pdftex.def)             Requested size: 234.05684pt x 208.76251pt.
-<Images/Data_Augmentation.png, id=665, 379.4175pt x 244.0317pt>
+<Images/Data_Augmentation.png, id=663, 379.4175pt x 244.0317pt>
 File: Images/Data_Augmentation.png Graphic file (type png)
 <use Images/Data_Augmentation.png>
 Package pdftex.def Info: Images/Data_Augmentation.png  used on input line 206.
@@ -914,7 +914,7 @@ l.216       \par
                                                   
 l.216       \par
                  <./Images/Input_Output_UI.png> <./Images/Data_Augmentation.png>]
-<Images/API_InheritenceV3.png, id=679, 460.8417pt x 694.7556pt>
+<Images/API_InheritenceV3.png, id=676, 460.8417pt x 694.7556pt>
 File: Images/API_InheritenceV3.png Graphic file (type png)
 <use Images/API_InheritenceV3.png>
 Package pdftex.def Info: Images/API_InheritenceV3.png  used on input line 224.
@@ -925,7 +925,7 @@ Package pdftex.def Info: Images/API_InheritenceV3.png  used on input line 224.
 l.234       \par
                  <./Images/API_InheritenceV3.png>] [29] [30] [31] [32] [33]) (./Results_Discussion/results.tex [34]
 Chapter 4.
-<Images/susScoresTable.png, id=755, 432.11438pt x 151.3153pt>
+<Images/susScoresTable.png, id=753, 432.11438pt x 151.3153pt>
 File: Images/susScoresTable.png Graphic file (type png)
 <use Images/susScoresTable.png>
 Package pdftex.def Info: Images/susScoresTable.png  used on input line 14.
@@ -951,7 +951,7 @@ Appendix A.
 
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=864, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=862, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf  used on input line 11.
@@ -969,7 +969,7 @@ pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclu
 
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=867, page=1, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=865, page=1, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 1>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page1 used on input line 11.
@@ -996,7 +996,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page1 used on input l
  [47 <./Project_Proposal_Form_Final.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=910, page=2, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=908, page=2, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 2>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page2 used on input line 11.
@@ -1012,7 +1012,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page2 used on input l
 [48 <./Project_Proposal_Form_Final.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=924, page=3, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=922, page=3, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 3>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page3 used on input line 11.
@@ -1028,7 +1028,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page3 used on input l
 [49 <./Project_Proposal_Form_Final.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=931, page=4, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=929, page=4, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 4>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page4 used on input line 11.
@@ -1044,7 +1044,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page4 used on input l
 [50 <./Project_Proposal_Form_Final.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=938, page=5, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=935, page=5, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 5>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page5 used on input line 11.
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page5 used on input l
 [51 <./Project_Proposal_Form_Final.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=944, page=6, 597.55246pt x 845.07718pt>
+<Project_Proposal_Form_Final.pdf, id=942, page=6, 597.55246pt x 845.07718pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 6>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page6 used on input line 11.
@@ -1076,7 +1076,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page6 used on input l
 [52 <./Project_Proposal_Form_Final.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Project_Proposal_Form_Final.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Project_Proposal_Form_Final.pdf, id=958, page=7, 845.07718pt x 597.55246pt>
+<Project_Proposal_Form_Final.pdf, id=956, page=7, 845.07718pt x 597.55246pt>
 File: Project_Proposal_Form_Final.pdf Graphic file (type pdf)
 <use Project_Proposal_Form_Final.pdf, page 7>
 Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page7 used on input line 11.
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: Project_Proposal_Form_Final.pdf , page7 used on input l
 (pdftex.def)             Requested size: 845.1138pt x 597.57834pt.
 [53 <./Project_Proposal_Form_Final.pdf>]
 Appendix B.
-<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=966, 597.23125pt x 845.1575pt>
+<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=964, 597.23125pt x 845.1575pt>
 File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Graphic file (type pdf)
 <use EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf>
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf  used on input line 15.
@@ -1100,7 +1100,7 @@ File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Gra
 <use EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf>
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=969, page=1, 597.23125pt x 845.1575pt>
+<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=967, page=1, 597.23125pt x 845.1575pt>
 File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Graphic file (type pdf)
 <use EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, page 1>
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page1 used on input line 15.
@@ -1125,7 +1125,7 @@ File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Gra
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page1 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [55 <./EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf>]
-<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=993, page=2, 597.23125pt x 845.1575pt>
+<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=991, page=2, 597.23125pt x 845.1575pt>
 File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Graphic file (type pdf)
 <use EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, page 2>
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page2 used on input line 15.
@@ -1139,7 +1139,7 @@ File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Gra
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page2 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [56 <./EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf>]
-<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=999, page=3, 597.23125pt x 845.1575pt>
+<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=996, page=3, 597.23125pt x 845.1575pt>
 File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Graphic file (type pdf)
 <use EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, page 3>
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page3 used on input line 15.
@@ -1153,7 +1153,7 @@ File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Gra
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page3 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [57 <./EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf>]
-<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=1004, page=4, 597.23125pt x 845.1575pt>
+<EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, id=1002, page=4, 597.23125pt x 845.1575pt>
 File: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf Graphic file (type pdf)
 <use EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf, page 4>
 Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf , page4 used on input line 15.
@@ -1168,17 +1168,17 @@ Package pdftex.def Info: EthicsChecklist_Faculty of Science & Technology_Approve
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [58 <./EthicsChecklist_Faculty of Science & Technology_Approved_Ryan Syme.pdf>]
 Appendix C.
-<Images/fractalColumnsCollapsedColoured.png, id=1009, 420.1296pt x 559.6107pt>
+<Images/fractalColumnsCollapsedColoured.png, id=1007, 420.1296pt x 559.6107pt>
 File: Images/fractalColumnsCollapsedColoured.png Graphic file (type png)
 <use Images/fractalColumnsCollapsedColoured.png>
 Package pdftex.def Info: Images/fractalColumnsCollapsedColoured.png  used on input line 21.
 (pdftex.def)             Requested size: 294.08871pt x 391.72481pt.
-<Images/fractalNetSingleBlocksUnscaled (1).png, id=1010, 487.8225pt x 731.8542pt>
+<Images/fractalNetSingleBlocksUnscaled (1).png, id=1008, 487.8225pt x 731.8542pt>
 File: Images/fractalNetSingleBlocksUnscaled (1).png Graphic file (type png)
 <use Images/fractalNetSingleBlocksUnscaled (1).png>
 Package pdftex.def Info: Images/fractalNetSingleBlocksUnscaled (1).png  used on input line 28.
 (pdftex.def)             Requested size: 341.47342pt x 512.29445pt.
-<Images/Front-End-Overview.png, id=1011, 316.3017pt x 358.2183pt>
+<Images/Front-End-Overview.png, id=1009, 316.3017pt x 358.2183pt>
 File: Images/Front-End-Overview.png Graphic file (type png)
 <use Images/Front-End-Overview.png>
 Package pdftex.def Info: Images/Front-End-Overview.png  used on input line 35.
@@ -1190,7 +1190,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.a.C.22}
                                                   
 l.39 \end{figure}
                   <./Images/fractalColumnsCollapsedColoured.png>]
-<Images/workflow.png, id=1017, 316.3017pt x 379.4175pt>
+<Images/workflow.png, id=1015, 316.3017pt x 379.4175pt>
 File: Images/workflow.png Graphic file (type png)
 <use Images/workflow.png>
 Package pdftex.def Info: Images/workflow.png  used on input line 42.
@@ -1209,7 +1209,7 @@ l.47 \chapter
 l.47 \chapter
              {Questionaire} <./Images/Front-End-Overview.png> <./Images/workflow.png>]
 Appendix D.
-<Questionaire.pdf, id=1029, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1027, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf>
 Package pdftex.def Info: Questionaire.pdf  used on input line 49.
@@ -1218,7 +1218,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf>
 Package pdftex.def Info: Questionaire.pdf  used on input line 49.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Questionaire.pdf, id=1032, page=1, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1030, page=1, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 1>
 Package pdftex.def Info: Questionaire.pdf , page1 used on input line 49.
@@ -1243,7 +1243,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page1 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [63 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1079, page=2, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1077, page=2, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 2>
 Package pdftex.def Info: Questionaire.pdf , page2 used on input line 49.
@@ -1257,7 +1257,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page2 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [64 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1088, page=3, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1086, page=3, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 3>
 Package pdftex.def Info: Questionaire.pdf , page3 used on input line 49.
@@ -1271,7 +1271,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page3 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [65 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1105, page=4, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1103, page=4, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 4>
 Package pdftex.def Info: Questionaire.pdf , page4 used on input line 49.
@@ -1285,7 +1285,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page4 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [66 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1126, page=5, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1124, page=5, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 5>
 Package pdftex.def Info: Questionaire.pdf , page5 used on input line 49.
@@ -1299,7 +1299,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page5 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [67 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1135, page=6, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1133, page=6, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 6>
 Package pdftex.def Info: Questionaire.pdf , page6 used on input line 49.
@@ -1313,7 +1313,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page6 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [68 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1153, page=7, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1150, page=7, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 7>
 Package pdftex.def Info: Questionaire.pdf , page7 used on input line 49.
@@ -1327,7 +1327,7 @@ File: Questionaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionaire.pdf , page7 used on input line 49.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [69 <./Questionaire.pdf>]
-<Questionaire.pdf, id=1166, page=8, 614.295pt x 794.97pt>
+<Questionaire.pdf, id=1164, page=8, 614.295pt x 794.97pt>
 File: Questionaire.pdf Graphic file (type pdf)
 <use Questionaire.pdf, page 8>
 Package pdftex.def Info: Questionaire.pdf , page8 used on input line 49.
@@ -1345,7 +1345,7 @@ Appendix E.
 
 
 pdfTeX warning: pdflatex.exe (file ./participantinformationsheetv2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<participantinformationsheetv2.pdf, id=1171, 597.55246pt x 845.07718pt>
+<participantinformationsheetv2.pdf, id=1169, 597.55246pt x 845.07718pt>
 File: participantinformationsheetv2.pdf Graphic file (type pdf)
 <use participantinformationsheetv2.pdf>
 Package pdftex.def Info: participantinformationsheetv2.pdf  used on input line 51.
@@ -1363,7 +1363,7 @@ pdfTeX warning: pdflatex.exe (file ./participantinformationsheetv2.pdf): PDF inc
 
 
 pdfTeX warning: pdflatex.exe (file ./participantinformationsheetv2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<participantinformationsheetv2.pdf, id=1174, page=1, 597.55246pt x 845.07718pt>
+<participantinformationsheetv2.pdf, id=1172, page=1, 597.55246pt x 845.07718pt>
 File: participantinformationsheetv2.pdf Graphic file (type pdf)
 <use participantinformationsheetv2.pdf, page 1>
 Package pdftex.def Info: participantinformationsheetv2.pdf , page1 used on input line 51.
@@ -1390,7 +1390,7 @@ Package pdftex.def Info: participantinformationsheetv2.pdf , page1 used on input
  [72 <./participantinformationsheetv2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./participantinformationsheetv2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<participantinformationsheetv2.pdf, id=1213, page=2, 597.55246pt x 845.07718pt>
+<participantinformationsheetv2.pdf, id=1211, page=2, 597.55246pt x 845.07718pt>
 File: participantinformationsheetv2.pdf Graphic file (type pdf)
 <use participantinformationsheetv2.pdf, page 2>
 Package pdftex.def Info: participantinformationsheetv2.pdf , page2 used on input line 51.
@@ -1409,17 +1409,17 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  19477 strings out of 479303
- 365354 string characters out of 5868250
+ 365359 string characters out of 5868250
  664104 words of memory out of 5000000
  35928 multiletter control sequences out of 15000+600000
  427752 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,88p,2413b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
 {g:/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><g:/LaTeX/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dissertation.pdf (84 pages, 13565771 bytes).
+Output written on dissertation.pdf (83 pages, 13565584 bytes).
 PDF statistics:
- 1330 PDF objects out of 1440 (max. 8388607)
- 1071 compressed objects within 11 object streams
+ 1328 PDF objects out of 1440 (max. 8388607)
+ 1070 compressed objects within 11 object streams
  259 named destinations out of 1000 (max. 500000)
  748 words of extra memory for PDF output out of 10000 (max. 10000000)
 
