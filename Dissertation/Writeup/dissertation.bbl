@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -107,6 +107,11 @@ im~{Studiengang Bachelor}, Betreuende Pr{\"{u}}ferin, Ulrike {Steeens
 \newblock {Bachelorarbeit eingereicht im Rahmen der Bachelorpr{\"{u}}fung}.
 \newblock Technical report.
 
+\bibitem[Jeff~Sauro(2011)]{Sauro2011}
+PHD Jeff~Sauro.
+\newblock Measuring usability with the system usability scale, 2011.
+\newblock URL \url{https://measuringu.com/sus/}.
+
 \bibitem[Khirade and Patil(2015)]{Khirade2015}
 Sachin~D. Khirade and A.~B. Patil.
 \newblock {Plant disease detection using image processing}.
@@ -114,6 +119,12 @@ Sachin~D. Khirade and A.~B. Patil.
   Communication, Control and Automation, ICCUBEA 2015}, pages 768--771.
   Institute of Electrical and Electronics Engineers Inc., jul 2015.
 \newblock ISBN 9781479968923.
+
+\bibitem[Knuth(1974)]{Knuth1974}
+Donald~E. Knuth.
+\newblock 1974.
+\newblock {Structured Programming with go to Statements}.
+\newblock page 208.
 
 \bibitem[Krizhevsky \emph{et~al.}(2012)Krizhevsky, Sutskever and
   Hinton]{Krizhevsky}
@@ -210,6 +221,11 @@ Smith J. Rosser A. Brown C. Schulte-Herbruggen B. Booth H. Sassen M. Mapendembe
 \newblock Technical report, 2013.
 \newblock URL
   \url{https://www.ifad.org/documents/38714170/39135645/smallholders_report.pdf/133e8903-0204-4e7d-a780-bca847933f2e}.
+
+\bibitem[Wickramarachchi(2020)]{mediumAnuradaNumpy}
+Anuradha Wickramarachchi.
+\newblock Advantages of using numpy over python lists, 2020.
+\newblock URL \url{https://medium.com/swlh/why-use-numpy-d06c573fbcda}.
 
 \bibitem[Wu \emph{et~al.}(2019)Wu, Shen and van~den Hengel]{Wu2019}
 Zifeng Wu, Chunhua Shen and Anton van~den Hengel.

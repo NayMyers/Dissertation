@@ -1,0 +1,10 @@
+PWD C:/Users/Ryan-Syme/Documents/Final_Year/Final_Year_Project/Individual_Project/Dissertation/Writeup/Introduction
+INPUT g:/LaTeX/texlive/2020/texmf.cnf
+INPUT g:/LaTeX/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT g:/LaTeX/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT introduction.tex
+OUTPUT introduction.log
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT g:/LaTeX/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT introduction.pdf
+INPUT g:/LaTeX/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map

@@ -1,52 +1,52 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Background and Lit Review}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Context}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Technological Aspects}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Introduction}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Context}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Literature Review}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.1}{General Software Development Practice}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.2}{Disease Detection Using Machine Vision}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.3}{Existing CNN Architectures}{section.2.2}% 11
-\BOOKMARK [1][-]{section.2.3}{Problem Definition}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.4}{Proposed Solution}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{Aims \046 Objectives}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.5.1}{Aims}{section.2.5}% 15
-\BOOKMARK [2][-]{subsection.2.5.2}{Objectives}{section.2.5}% 16
-\BOOKMARK [1][-]{section.2.6}{Risk Table}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.7}{Overview}{chapter.2}% 18
-\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 19
-\BOOKMARK [1][-]{section.3.1}{Project management methodology}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{Evaluation Design}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.3}{Requirements Elicitation}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.4}{Feature management}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.5}{Design Methods}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.6}{Implementation}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.6.1}{Design \046 Implementation Coupling}{section.3.6}% 26
-\BOOKMARK [2][-]{subsection.3.6.2}{Refactoring}{section.3.6}% 27
-\BOOKMARK [2][-]{subsection.3.6.3}{CNN Model Creation \046 Integration}{section.3.6}% 28
-\BOOKMARK [1][-]{section.3.7}{Testing methods}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.8}{Version control}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.9}{Evaluation methods}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.9.1}{User Interface}{section.3.9}% 32
-\BOOKMARK [2][-]{subsection.3.9.2}{Convolutional Neural Network \(CNN\)}{section.3.9}% 33
-\BOOKMARK [1][-]{section.3.10}{Initial Designs}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.11}{Employed Technologies \046 Justifications}{chapter.3}% 35
-\BOOKMARK [2][-]{subsection.3.11.1}{Software Structure}{section.3.11}% 36
-\BOOKMARK [2][-]{subsection.3.11.2}{Hosting}{section.3.11}% 37
-\BOOKMARK [2][-]{subsection.3.11.3}{Choosing The CNN Architecture}{section.3.11}% 38
-\BOOKMARK [2][-]{subsection.3.11.4}{Technologies \046 Libraries}{section.3.11}% 39
-\BOOKMARK [1][-]{section.3.12}{Requirements}{chapter.3}% 40
-\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 41
-\BOOKMARK [1][-]{section.4.1}{Main Results}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.1.1}{CNN}{section.4.1}% 43
-\BOOKMARK [2][-]{subsection.4.1.2}{Architecture}{section.4.1}% 44
-\BOOKMARK [2][-]{subsection.4.1.3}{Development}{section.4.1}% 45
-\BOOKMARK [2][-]{subsection.4.1.4}{Requirements Checklist}{section.4.1}% 46
+\BOOKMARK [0][-]{chapter.1}{Background}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Problem Definition}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Proposed Solution}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Aims \046 Objectives}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{Aims}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.2}{Objectives}{section.1.3}% 8
+\BOOKMARK [1][-]{section.1.4}{Risk Table}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Overview}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Introduction}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Context}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Literature Review}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{General Software Development Practice}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Disease Detection Using Machine Vision}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{Existing CNN Architectures}{section.2.2}% 16
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Project Management Methodology}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.1.1}{Workflow}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.2}{Requirements Elicitation}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.3}{Feature management}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.4}{Evaluation Methods}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{Development Methodology}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Feature Design}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Implementation}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{Testing methods}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.4}{Refactoring}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.5}{CNN Model Creation \046 Integration}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.6}{Version control}{section.3.2}% 29
+\BOOKMARK [1][-]{section.3.3}{Evaluation methods}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.1}{User Interface}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.2}{Convolutional Neural Network \(CNN\)}{section.3.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Initial Designs}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{Employed Technologies \046 Justifications}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.5.1}{Software Structure}{section.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.5.2}{Hosting}{section.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.5.3}{Choosing The CNN Architecture}{section.3.5}% 37
+\BOOKMARK [2][-]{subsection.3.5.4}{Technologies \046 Libraries}{section.3.5}% 38
+\BOOKMARK [1][-]{section.3.6}{Requirements}{chapter.3}% 39
+\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Main Results}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.1.1}{CNN}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.2}{Architecture}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.3}{Development}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.4}{System Usability}{section.4.1}% 45
+\BOOKMARK [2][-]{subsection.4.1.5}{Requirements Checklist}{section.4.1}% 46
 \BOOKMARK [1][-]{section.4.2}{Evaluation Results}{chapter.4}% 47
 \BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 48
 \BOOKMARK [1][-]{subsection.5.0.1}{Further Work}{chapter.5}% 49
-\BOOKMARK [0][-]{chapter*.8}{bibliography}{}% 50
+\BOOKMARK [0][-]{chapter*.8}{References}{}% 50
 \BOOKMARK [0][-]{appendix.a.A}{Appendix Project Proposal}{}% 51
 \BOOKMARK [0][-]{appendix.a.B}{Appendix Ethics Checklist}{}% 52

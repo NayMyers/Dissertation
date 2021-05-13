@@ -3,7 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: bunat.bst
 Case mismatch error between cite keys leCun1998 and LeCun1998
----line 69 of file dissertation.aux
+---line 79 of file dissertation.aux
  : \citation{leCun1998
  :                    }
 I'm skipping whatever remains of this command
@@ -28,6 +28,11 @@ Repeated entry---line 563 of file bibliography.bib
  : @misc{Highsmith2001
  :                    ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "mediumAnuradaNumpy" isn't style-file defined
+--line 581 of file bibliography.bib
+Warning--entry type for "Sauro2011" isn't style-file defined
+--line 595 of file bibliography.bib
+Warning--to sort, need author or key in Yandex
 Warning--to sort, need author or key in Statista:2021
 Warning--to sort, need author or key in ImarcGroup
 Warning--to sort, need author or key in Wikipedia
@@ -149,7 +154,6 @@ Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Sch
 while executing---line 1319 of file bunat.bst
 Too many commas in name 1 of "Walpole, M., Smith, J., Rosser, A., Brown, C., Schulte-Herbruggen, B., Booth, H., Sassen, M., Mapendembe, A., Fancourt, M., Bieri, M., Glaser, S., Corrigan, C., Narloch, U., Runsten, L., Jenkins, M., Gomera, M. and Hutton, J." for entry JLIFADSmallHolders
 while executing---line 1319 of file bunat.bst
-Warning--to sort, need author or key in Yandex
 Warning--empty institution in Choi
 Warning--empty year in Choi
 Warning--empty year in Choi
@@ -161,6 +165,7 @@ Warning--empty year in He
 Warning--empty institution in StudiengangBachelor
 Warning--empty year in StudiengangBachelor
 Warning--empty year in StudiengangBachelor
+Warning--empty journal in Knuth1974
 Warning--empty institution in Krizhevsky
 Warning--empty journal in Larsson2016
 Warning--empty institution in Simonyan2015
@@ -286,45 +291,45 @@ Warning--empty institution in JLIFADSmallHolders
 Warning--empty institution in Zagoruyko
 Warning--empty year in Zagoruyko
 Warning--empty year in Zagoruyko
-You've used 33 entries,
+You've used 36 entries,
             2742 wiz_defined-function locations,
-            777 strings with 10765 characters,
-and the built_in function-call counts, 14828 in all, are:
-= -- 1383
-> -- 834
-< -- 15
-+ -- 311
-- -- 276
-* -- 1153
-:= -- 2447
-add.period$ -- 130
-call.type$ -- 33
-change.case$ -- 228
-chr.to.int$ -- 32
-cite$ -- 65
-duplicate$ -- 644
-empty$ -- 1126
-format.name$ -- 319
-if$ -- 3037
+            795 strings with 11122 characters,
+and the built_in function-call counts, 15910 in all, are:
+= -- 1487
+> -- 864
+< -- 19
++ -- 323
+- -- 285
+* -- 1200
+:= -- 2614
+add.period$ -- 140
+call.type$ -- 36
+change.case$ -- 243
+chr.to.int$ -- 35
+cite$ -- 69
+duplicate$ -- 707
+empty$ -- 1233
+format.name$ -- 331
+if$ -- 3276
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 20
-newline$ -- 200
-num.names$ -- 108
-pop$ -- 407
+missing$ -- 21
+newline$ -- 216
+num.names$ -- 120
+pop$ -- 449
 preamble$ -- 1
-purify$ -- 191
+purify$ -- 203
 quote$ -- 0
-skip$ -- 469
+skip$ -- 524
 stack$ -- 0
-substring$ -- 409
-swap$ -- 61
-text.length$ -- 2
+substring$ -- 433
+swap$ -- 70
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 343
-warning$ -- 26
-while$ -- 98
+type$ -- 376
+warning$ -- 27
+while$ -- 108
 width$ -- 0
-write$ -- 457
+write$ -- 494
 (There were 122 error messages)

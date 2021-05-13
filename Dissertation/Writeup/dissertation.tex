@@ -5,7 +5,7 @@
 \usepackage[a4paper, top=20mm, left=25mm, right=20mm, bottom=25mm, bindingoffset=0mm]{geometry}
 \usepackage[titletoc, title,header]{appendix}
 \usepackage{pdfpages}
-\usepackage{natbib}
+\usepackage[round]{natbib}
 \usepackage{dirtytalk}
 \usepackage{pdflscape}
 \usepackage{longtable}
@@ -23,7 +23,7 @@
 \usepackage{lscape}
 \usepackage{dirtytalk}
 \usepackage{tikz}
-\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 
 %No indentation before paragraph
 \usepackage{parskip}
@@ -44,9 +44,13 @@
 \footskip = 15mm
 \usepackage{titlesec}
 
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
+\patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
+\makeatother
 
 \begin{document}
-
 \input{Title/title}
 
 \input{Abstract/abstract}
@@ -67,9 +71,9 @@
 \input{Results_Discussion/results}
 \input{Conclusion/conclusion}
 
-\renewcommand{\bibname}{REFERENCES}
+\renewcommand{\bibname}{References}
 \bibliography{bibliography}
-\addcontentsline{toc}{chapter}{bibliography}
+\addcontentsline{toc}{chapter}{References}
 \thispagestyle{fancy} %DO NOT REMOVE THIS LINE
 
 \input{Appendix/appendix}
