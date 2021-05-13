@@ -79,23 +79,25 @@
 \contentsline {subsubsection}{System Usability}{35}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Requirements Checklist}{35}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Discussion}{37}{section.4.2}%
-\contentsline {subsubsection}{Missed/Partial Requirements}{37}{section.4.2}%
-\contentsline {paragraph}{Requirement 3b}{37}{section.4.2}%
-\contentsline {paragraph}{Requirement 1e}{37}{section.4.2}%
 \contentsline {subsubsection}{Architecture}{37}{section.4.2}%
-\contentsline {subsubsection}{Database}{38}{section.4.2}%
-\contentsline {subsubsection}{Move to Production}{38}{section.4.2}%
+\contentsline {subsubsection}{Database}{37}{section.4.2}%
+\contentsline {subsubsection}{Move to Production}{37}{section.4.2}%
 \contentsline {subsubsection}{Version Control}{38}{section.4.2}%
 \contentsline {subsubsection}{Vue.js}{38}{section.4.2}%
 \contentsline {subsubsection}{Reliability}{38}{section.4.2}%
-\contentsline {subsubsection}{CNN}{39}{section.4.2}%
-\contentsline {paragraph}{Modularity}{39}{section.4.2}%
+\contentsline {subsubsection}{CNN}{38}{section.4.2}%
+\contentsline {paragraph}{Modularity}{38}{section.4.2}%
 \contentsline {paragraph}{Model Choice}{39}{section.4.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{40}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Further Work}{40}{subsection.5.0.1}%
-\contentsline {chapter}{References}{44}{chapter*.8}%
-\contentsline {chapter}{Appendix \numberline {A}Project Proposal \& Plan}{45}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{53}{appendix.a.B}%
-\contentsline {chapter}{Appendix \numberline {C}Additional Diagrams}{58}{appendix.a.C}%
-\contentsline {chapter}{Appendix \numberline {D}Questionaire}{61}{appendix.a.D}%
-\contentsline {chapter}{Appendix \numberline {E}Ethics Docs}{70}{appendix.a.E}%
+\contentsline {subsection}{\numberline {5.0.1}Challenges}{40}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Further Work}{40}{subsection.5.0.2}%
+\contentsline {subsubsection}{Missed/Partial Requirements}{40}{subsection.5.0.2}%
+\contentsline {paragraph}{Requirement 3b}{40}{subsection.5.0.2}%
+\contentsline {paragraph}{Requirement 1e}{40}{subsection.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Final Words}{41}{subsection.5.0.3}%
+\contentsline {chapter}{References}{45}{chapter*.8}%
+\contentsline {chapter}{Appendix \numberline {A}Project Proposal \& Plan}{46}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Ethics Checklist}{54}{appendix.a.B}%
+\contentsline {chapter}{Appendix \numberline {C}Additional Diagrams}{59}{appendix.a.C}%
+\contentsline {chapter}{Appendix \numberline {D}Questionaire}{62}{appendix.a.D}%
+\contentsline {chapter}{Appendix \numberline {E}Ethics Docs}{71}{appendix.a.E}%

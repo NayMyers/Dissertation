@@ -1,8 +1,22 @@
 \chapter{Conclusion}
 \label{conclusion}
-  \subsection{Further Work}
-    The design of the API lends itself to easily being extended to include more endpoints. This can enable the API in the future to handle requests to different models for different classification problems. One possible usage of this extensibility is that of automated pest/weed contol. 
+  \subsection{Challenges}
+    Almost all technologies, frameworks and libraries used the project were learned from scratch, even LaTeX, which requires it's own, albeit shallow, learning curve. Coupled with the fact one has never hosted a live production ready website before. Which has meant, much time, that isn't always evident, was spent reading documentation, existing code and online tutorials to peice together a picture of how to accomplish my objectives.
 
+  \subsection{Further Work}
+    \subsubsection{Missed/Partial Requirements}
+      \paragraph{Requirement 3b}
+       (Ability for users to add additional information about the crop) was not implemented. A possible method would have been to ask the user via a drop-down menu which crop was to be analysed. This could have allowed the back-end to select a tailored CNN which classifies only the classes relevant to the selected crop. The reason for the absense of this implementation is the time nececarry to train the extra CNN's.
+      \paragraph{Requirement 1e}
+        (API must return recourse information). This requirment is only partially fulfilled, because at this stage one was unable to obtain the information nececarry to populate these values. However, once the relevant information is obtained, only JSON files on the API side need be updated to properly fulfill this requirement.
+        Firstly
+
+    The design of the API lends itself to easily being extended to include more endpoints. This can enable the API in the future to handle requests to different models for different classification problems. One possible usage of this extensibility is adding endpoints to classify other plant and tree species. Other applications of machine vision that follow this theme is analysing arial photography to determine if re-wilding targets are being met.
+    \par
+    To take the idea of image recognition in farming further, it would be possible in the future, if not now, to utilize drone technology to destroy weeds and pests that threaten crop yeilds. This could be a major advantage for the ecology as it has potential to eliminate the usage of chemical based pesticides and weedkillers.
+
+  \subsection{Final Words}
+    One has met almost all requirements and objectives for the project and successfully managed one's time over the course of approximately three months, subsequently creating a first of it's kind platform, that is modular in design and created with a technology stack that lends itself to being easily extended, when more comprehensive datasets and new use cases emerge. 
     % Whereby the system would include using drones to destroy weeds in crop feilds automatically. Aditionally, a model may be trained to analyse aerial photographs of land, to determine if conservation/re-wilding targets are being met.
     % \par
     % A way of integrating the model API with even futher applications is using blockchain technlology. Currently there exists a service known as Chainlink (https://chain.link/). Which aims to be a middleware to bring external API feeds to existing blockchains. This could stand as a way of monetizing the usage of image classificaiton or other AI services, such as recurrant neural networks (RNN) for text sentiment analysis, music generation or image uplscaling etc.
