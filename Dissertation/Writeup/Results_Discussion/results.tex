@@ -21,24 +21,23 @@
     \par
     Through the use of version control it has been straightforward to update the code on the production servers as it is simple as pulling the latest changes from the git repository. version control has been helpful throught the lifecycle thanks to the ability to branch the codebase (see version control).
     \par
-    Upon reflection, using the Vue.js framework standalone may not have been the best choice for the sole reason that one did not find a way of caching page states. Which has led to the inability to go back to the results display state of the Upload_Image page after navigating away from it. It is possible that using the additional Vuex library would have made this possible. Because the Upload_Image component is currently implemented with the results display state being arrived at by a series of function calls, there doesn't seem to be a vanilla Vue.js way to cache the page state to allow it to be navigated back to without starting at the initial state of the component. 
-
-    \subsection{System Usability}
-    Strongly agree = 5, Strongly disagree = 1. In the case of odd questions, agreeing is positive sentiment. For even questions agreeing is negative sentiment. The calculations are as follows. X is the sum of odd-numbered questions -5. Y is 25-sum of all even-numbered questions. The SUS score is $ (X+Y)*2.5 $ The mean average of all SUS scores is then calculated. With the best possible score being 100.
-    \begin{figure}[H]
-      \begin{center}
-        \includegraphics[scale=0.7]{Images/susScoresTable}
-        \caption{SUS scores table}
-        \label{fig:sus_scores_table}
-      \end{center}
-    \end{figure}
-    In this case the system scored 81.875 which is above the average of 68 \citep{Sauro2011}. However with the limited number of questionaire respondents (8) the evidence is not wholly conclusive.
+    Upon reflection, using the Vue.js framework standalone may not have been the best choice for the sole reason that one did not find a way of caching page states. Which has led to the inability to go back to the results display state of the Upload_Image page after navigating away from it. It is possible that using the additional Vuex library would have made this possible. Because the Upload_Image component is currently implemented with the results display state being arrived at by a series of function calls, there doesn't seem to be a vanilla Vue.js way to cache the page state to allow it to be navigated back to without starting at the initial state of the component.
+    \subsection{Evaluation Results}
+      \subsubsection{System Usability}
+      Strongly agree = 5, Strongly disagree = 1. In the case of odd questions, agreeing is positive sentiment. For even questions agreeing is negative sentiment. The calculations are as follows. X is the sum of odd-numbered questions -5. Y is 25-sum of all even-numbered questions. The SUS score is $ (X+Y)*2.5 $ The mean average of all SUS scores is then calculated. With the best possible score being 100.
+      \begin{figure}[H]
+        \begin{center}
+          \includegraphics[scale=0.7]{Images/susScoresTable}
+          \caption{SUS scores table}
+          \label{fig:sus_scores_table}
+        \end{center}
+      \end{figure}
+      In this case the system scored 81.875 which is above the average of 68 \citep{Sauro2011}. However with the limited number of questionaire respondents (8) the evidence is not wholly conclusive.
   \subsection{Requirements Checklist}
     \begin{itemize}
       \item Must Have
       \begin{itemize}
-        \item CNN that is capable of classifying at least 2 different defects \checkmark The CNN is capable of classifying 38 crop classes.
-          across 2 different plant species.
+        \item CNN that is capable of classifying at least 2 different defects across 2 different plant species.\checkmark
         \item An API that allows communication from the UI to the CNN \checkmark
         \item API must be able to receive images. \checkmark
           \begin{itemize}
@@ -80,6 +79,3 @@
       \end{itemize}
       \item Won't Have
     \end{itemize}
-
-\section{Evaluation Results}
-  lorem ipsum

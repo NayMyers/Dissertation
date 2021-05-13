@@ -1,11 +1,11 @@
 \chapter{Background}
 \section{Problem Definition}
-  As it stands there are currently (09/02/2021) no easily found \footnote[1]{(i.e. not present in the first 3 pages of a google search for 'crop defect identification' and 'What's wrong with my crop')} web interfaces for interacting with a crop defect identification service.
+  As it stands there are currently (09/02/2021) No results present in the first 3 pages of a google search for 'crop defect identification' and 'What's wrong with my crop' that show web interfaces for interacting with a crop defect identification service.
   \par
-  Although there exists very capable publicly available image classification networks. \citep{Yandex} There is no bespoke application catering soley to crop defect identification, that has the benefit of providing recourse and prevention information to the user.
+  Although there exists very capable, publicly available image classification networks \citep{Yandex}. There is no bespoke application catering soley to crop defect identification, that has the benefit of providing recourse and prevention information to the user.
 
 \section{Proposed Solution}
-  To provide a web service that interacts with a convolutional neural network (CNN) backend to diagnose crop defects such as, nurturing problems e.g. lack of water/nitrogen/C02, too hot/cold. And external threats such as crop disease/pest infestation. The interface will be simple and intuitive as possible. The UI should minimise points of interaction and streamline the process of uploading a crop image to be analysed.
+  To provide a web service that interacts with a convolutional neural network (CNN) back-end\footnote{see Development Methodology} to diagnose crop defects such as, nurturing problems e.g. lack of water/nitrogen/C02, too hot/cold and external threats such as crop disease/pest infestation. The interface will be simple and intuitive as possible. The User Interface (UI) should minimise points of interaction and streamline the process of uploading a crop image to be analysed.
 	The web service will return information regarding the percentage likelihood of each kind of crop defect, including images that are of similar nature to the one analysed.
 
 \section{Aims \& Objectives}
@@ -19,7 +19,7 @@
   \subsection{Objectives}
     \begin{itemize}
       \item Provide a way for a user to upload an image to be analysed.
-      \item Display infomration regarding the likelihood of each kind of defect.
+      \item Display information regarding the likelihood of each kind of defect.
       \item Display recourse information alongside defect information.
       \item Have gallery of images filtered by crop and disease type.
     \end{itemize}
